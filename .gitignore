@@ -2,3 +2,6 @@ node_modules/
 dist/
 .playwright-mcp/
 .DS_Store
+
+# Packaged copy of design-repo/, regenerated on demand and never committed next to the live folder
+design-repo.zip
