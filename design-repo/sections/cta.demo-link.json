@@ -1,0 +1,107 @@
+{
+ "id": "cta.demo-link",
+ "title": "Product-demo link strip",
+ "semantic": {
+  "id": "cta.demo-link",
+  "category": "CTA"
+ },
+ "source": {
+  "id": "DemoCta:DemoCta:section@4",
+  "file": "src/components/DemoCta.jsx",
+  "tag": "section",
+  "lines": "2-16",
+  "tagLine": 4,
+  "tagLineSha1": "5e88a51adbfe0fdb",
+  "anchor": "export default function DemoCta",
+  "anchorLine": 2
+ },
+ "additionalSources": [],
+ "purpose": "One centred pill link that sends the visitor to the product demo.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions"
+  ],
+  "fields": {
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 12,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "single centred pill button"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 96.3,
+   "maxPx": 96.3,
+   "medianPx": 96.3,
+   "sample": {
+    "/": 96.3
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 102,
+   "maxPx": 102,
+   "medianPx": 102,
+   "sample": {
+    "/": 102
+   }
+  }
+ },
+ "evidence": [
+  "src/components/DemoCta.jsx:2-16",
+  "src/pages/Home.jsx:25"
+ ]
+}

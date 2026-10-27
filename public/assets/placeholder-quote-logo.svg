@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="43" viewBox="0 0 240 43" fill="none">
+  <rect x="1" y="1" width="41" height="41" rx="9" stroke="#111" stroke-width="2"/>
+  <path d="M12 30 L21.5 12 L31 30 Z" fill="#111"/>
+  <text x="56" y="30" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">Sample Co.</text>
+</svg>

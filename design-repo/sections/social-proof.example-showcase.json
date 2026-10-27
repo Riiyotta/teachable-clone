@@ -1,0 +1,172 @@
+{
+ "id": "social-proof.example-showcase",
+ "title": "Example-school showcase tabs",
+ "semantic": {
+  "id": "social-proof.example-showcase",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "ExamplesTabs:ExamplesTabs:section@29",
+  "file": "src/components/pages/examples/ExamplesTabs.jsx",
+  "tag": "section",
+  "lines": "27-39",
+  "tagLine": 29,
+  "tagLineSha1": "09d84a318fc90af5",
+  "anchor": "export default function ExamplesTabs",
+  "anchorLine": 27
+ },
+ "additionalSources": [],
+ "purpose": "Category pill tabs, each showing a grid of example-school cards (cover image, title, summary, creator avatar and name).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/examples"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 5,
+    "observedIn": 1,
+    "maxLines1440": 1,
+    "maxLines390": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 36,
+    "maxChars": 211,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 22,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 32,
+    "maxChars": 191,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 10,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    10,
+    10
+   ],
+   "actions": [
+    6,
+    6
+   ],
+   "media": [
+    10,
+    10
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "person.photo",
+     "photo.source-scene"
+    ],
+    "generatedRoles": [
+     "person.fictional-avatar",
+     "photo.generated-scene"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "person.fictional-avatar",
+  "photo.generated-scene"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.fade"
+  ],
+  "requiredPatterns": [
+   "tabs.fade"
+  ],
+  "reducedMotionFallback": {
+   "tabs.fade": "instant-swap"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "three-column card grid"
+  },
+  {
+   "range": "<=767",
+   "behavior": "one column"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 1458,
+   "maxPx": 1458,
+   "medianPx": 1458,
+   "sample": {
+    "/examples": 1458
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 2768.7,
+   "maxPx": 2768.7,
+   "medianPx": 2768.7,
+   "sample": {
+    "/examples": 2768.7
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/examples/ExamplesTabs.jsx:27-39",
+  "src/pages/Examples.jsx:12"
+ ]
+}

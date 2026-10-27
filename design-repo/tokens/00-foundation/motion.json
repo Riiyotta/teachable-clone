@@ -1,0 +1,71 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "motion.duration.accordion": {
+   "value": "300ms",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1024",
+   "match": "| M26 | FAQ | click |"
+  },
+  "motion.duration.carousel-delay": {
+   "value": "2000ms",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1021",
+   "match": "| M23 | Stories Swiper | autoplay | slide | 2000ms delay, 300ms speed"
+  },
+  "motion.duration.carousel-slide": {
+   "value": "300ms",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1022",
+   "match": "| M24 | Case-study Swiper | buttons/drag | slide | 300ms, loop |"
+  },
+  "motion.duration.dropdown": {
+   "value": "300ms",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1001",
+   "match": "| M3 | Nav dropdown chevron |"
+  },
+  "motion.duration.hero-tab": {
+   "value": "6s",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1010",
+   "match": "| M12 | Hero tabs | autoplay 6s/tab"
+  },
+  "motion.duration.marquee-promo": {
+   "value": "25s",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:999",
+   "match": "| M1 | Marquee items | CSS, infinite | translateX 0 → calc(−100% − 1rem) | 25s linear, paused on hover |"
+  },
+  "motion.duration.marquee-stats": {
+   "value": "60s",
+   "category": "motionDuration",
+   "cite": "BUILD_NOTES.md:276",
+   "match": "60s linear loop"
+  },
+  "motion.duration.micro": {
+   "value": "200ms",
+   "category": "motionDuration",
+   "cite": "CLONE_SPEC.md:1004",
+   "match": "| M6 | `.button_txt` | hover | scale 1.02 (sso 1.03) | 200ms ease |"
+  },
+  "motion.easing.css": {
+   "value": "ease",
+   "category": "motionEasing",
+   "cite": "tailwind.config.cjs:157",
+   "match": "css: 'ease'"
+  },
+  "motion.easing.linear": {
+   "value": "linear",
+   "category": "motionEasing",
+   "cite": "CLONE_SPEC.md:999",
+   "match": "| M1 | Marquee items |"
+  },
+  "motion.easing.power2-out": {
+   "value": "power2.out",
+   "category": "motionEasing",
+   "cite": "CLONE_SPEC.md:1013",
+   "match": "| M15 | Why card heading |"
+  }
+ }
+}

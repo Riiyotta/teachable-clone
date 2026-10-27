@@ -1,0 +1,33 @@
+{
+ "id": "component.logo-strip",
+ "kind": "component",
+ "title": "Logo strip marquee",
+ "purpose": "Bare looping row of logos used inside the dark split hero (customer logos).",
+ "source": {
+  "file": "src/components/sections/LogoMarquee.jsx",
+  "lines": "77-126",
+  "anchor": "export default function LogoMarquee",
+  "anchorLine": 77
+ },
+ "props": {
+  "rows": "list of logo rows",
+  "duration": "seconds",
+  "loop": [
+   "half",
+   "gap"
+  ]
+ },
+ "tokens": [],
+ "assetRoles": {
+  "logos": [
+   "customer.logo",
+   "partner.logo"
+  ]
+ },
+ "generatedAssetRoles": {
+  "logos": [
+   "customer.placeholder-logo",
+   "partner.placeholder-icon"
+  ]
+ }
+}

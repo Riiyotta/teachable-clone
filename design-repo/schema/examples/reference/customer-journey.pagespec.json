@@ -1,0 +1,392 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "reference",
+ "template": "T4",
+ "route": "/customer-journey",
+ "theme": "light",
+ "brand": {
+  "name": "Teachable"
+ },
+ "copyRole": "copy.neutral-placeholder",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Harvest ledger",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Willow falcon",
+      "href": "https://sso.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Map compass",
+      "href": "https://sso.teachable.com/",
+      "linkRole": "link.source-external"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.wordmark",
+      "ref": "/assets/68daba31282892b31e937809_teachable-logo-color.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.product",
+   "variant": "nav-top",
+   "content": {
+    "eyebrow": "Plan prism meadow summit",
+    "heading": "Juniper cobalt share fjord weigh refine rowan",
+    "lead": "Bundle canvas thread delta quarry ember orbit gather summit harvest ledger share willow signal refine atlas pebble canvas cedar compass marble ember orbit gather summit harvest sort share lantern",
+    "items": [
+     {
+      "text": "Nimbus canvas thread delta"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Ember orbit meadow",
+      "href": "#tiers-and-perks",
+      "linkRole": "link.site-route"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.source-scene",
+      "ref": "/assets/6983a59119d93770e2e10364_2674bac7db10d7d5fa0d9a4f5c672888_London-1.webp"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.why-statement",
+   "variant": "gold",
+   "content": {
+    "heading": "Summit harvest sort harbor lantern signal",
+    "lead": "Beacon rowan nimbus canvas cedar compass sketch ember shape cinder notice steer cobalt harbor lantern falcon beacon measure nimbus tidy map trace quarry ember shape gather sprout juniper ledger tidal willow signal beacon measure bundle grove cedar compass marble field orbit gather notice harvest ledger share willow falcon beacon atlas pebble grove cedar delta sketch ember shape cinder notice steer cobalt share lantern signal basil measure bundle tidy thread"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.steps",
+   "variant": "tiers",
+   "content": {
+    "heading": "Measure nimbus grove map compass",
+    "items": [
+     {
+      "title": "Plan shape",
+      "text": "Gather summit harvest cobalt tidal lantern falcon basil rowan bundle canvas cedar delta"
+     },
+     {
+      "title": "Marble ember",
+      "text": "Prism cinder notice steer ledger share willow signal basil rowan nimbus tidy map"
+     },
+     {
+      "title": "Compass quarry",
+      "text": "Ember orbit cinder summit steer sort share willow signal refine atlas pebble grove"
+     },
+     {
+      "title": "Cedar trace",
+      "text": "Marble plan prism meadow summit harvest ledger share lantern falcon beacon atlas nimbus"
+     },
+     {
+      "title": "Grove map",
+      "text": "Trace sketch field orbit cinder summit juniper ledger harbor fjord signal beacon atlas"
+     },
+     {
+      "title": "Bundle tidy",
+      "text": "Map compass sketch field shape gather sprout steer sort share willow falcon beacon"
+     },
+     {
+      "title": "Atlas nimbus",
+      "text": "Canvas map delta sketch field prism gather sprout juniper sort harbor lantern weigh"
+     },
+     {
+      "title": "Beacon measure",
+      "text": "Nimbus canvas thread trace quarry plan shape meadow sprout juniper sort share lantern"
+     },
+     {
+      "title": "Falcon basil",
+      "text": "Rowan pebble grove map compass marble plan orbit meadow sprout steer sort harbor"
+     },
+     {
+      "title": "Willow falcon",
+      "text": "Refine measure pebble canvas map trace marble plan orbit meadow summit juniper ledger"
+     },
+     {
+      "title": "Share willow",
+      "text": "Signal refine measure bundle canvas cedar trace marble plan shape cinder notice steer"
+     },
+     {
+      "title": "Sort share",
+      "text": "Willow falcon basil atlas pebble canvas cedar delta quarry ember prism meadow notice"
+     },
+     {
+      "title": "Harvest sort",
+      "text": "Share lantern weigh basil rowan bundle tidy cedar trace sketch plan orbit cinder"
+     },
+     {
+      "title": "Notice harvest",
+      "text": "Sort harbor willow weigh beacon rowan pebble grove cedar compass quarry plan prism"
+     },
+     {
+      "title": "Gather sprout",
+      "text": "Harvest ledger tidal fjord signal basil atlas nimbus tidy cedar trace marble ember"
+     },
+     {
+      "title": "Prism meadow",
+      "text": "Summit harvest ledger harbor lantern falcon beacon measure nimbus grove thread delta sketch"
+     },
+     {
+      "title": "Field prism",
+      "text": "Gather notice harvest cobalt share willow falcon refine rowan pebble grove map compass"
+     },
+     {
+      "title": "Sketch field",
+      "text": "Prism cinder summit steer sort share willow weigh beacon measure bundle grove cedar"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Trace marble",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Field shape",
+      "href": "#",
+      "linkRole": "link.site-route"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pulse.loop",
+    "reducedMotionFallback": "static-no-pulse"
+   }
+  },
+  {
+   "section": "faq.accordion",
+   "variant": "flush-top",
+   "content": {
+    "heading": "Gather notice juniper cobalt",
+    "items": [
+     {
+      "title": "Harbor fjord falcon beacon measure bundle tidy cedar delta marble plan",
+      "text": "Meadow sprout juniper cobalt share fjord signal basil rowan nimbus canvas thread trace quarry field shape meadow summit harvest cobalt share willow signal basil measure pebble grove map trace quarry plan shape meadow sprout harvest cobalt share willow falcon refine measure pebble"
+     },
+     {
+      "title": "Grove map delta quarry field shape gather notice harvest sort share",
+      "text": "Falcon beacon measure nimbus grove map compass sketch plan shape cinder summit steer cobalt harbor fjord signal basil atlas bundle tidy thread delta quarry field orbit gather sprout juniper cobalt harbor lantern falcon beacon atlas pebble canvas thread compass quarry field prism"
+     },
+     {
+      "title": "Cinder sprout harvest cobalt tidal willow weigh basil rowan bundle",
+      "text": "Compass sketch field prism cinder sprout harvest cobalt harbor fjord weigh refine atlas nimbus grove cedar compass sketch plan shape gather sprout harvest ledger share fjord signal basil atlas pebble tidy thread delta quarry ember orbit gather notice steer sort harbor willow"
+     },
+     {
+      "title": "Signal beacon measure pebble canvas thread compass quarry ember prism",
+      "text": "Steer sort share willow weigh refine measure bundle tidy cedar delta marble field orbit cinder notice juniper ledger share fjord signal refine atlas nimbus tidy thread compass marble plan shape cinder notice harvest cobalt share willow signal beacon atlas bundle canvas map"
+     },
+     {
+      "title": "Trace quarry plan orbit cinder sprout steer cobalt tidal willow falcon",
+      "text": "Atlas bundle grove map trace marble field orbit cinder sprout steer cobalt harbor willow weigh beacon rowan bundle grove thread delta marble plan shape gather sprout harvest cobalt share lantern signal refine rowan nimbus grove cedar trace quarry field orbit gather summit"
+     },
+     {
+      "title": "Juniper cobalt tidal fjord signal basil measure bundle grove map",
+      "text": "Field shape cinder sprout harvest sort tidal lantern falcon basil atlas nimbus tidy map delta sketch field orbit meadow notice harvest cobalt harbor willow signal beacon measure bundle tidy cedar trace sketch field prism gather notice harvest cobalt tidal fjord weigh beacon"
+     },
+     {
+      "title": "Rowan pebble canvas map delta quarry plan orbit meadow summit juniper",
+      "text": "Tidal willow signal basil atlas pebble grove thread compass quarry plan shape cinder sprout steer sort harbor fjord weigh refine rowan bundle grove cedar trace marble ember orbit gather notice steer ledger harbor fjord signal beacon atlas nimbus canvas map delta quarry"
+     },
+     {
+      "title": "Ember orbit cinder sprout juniper sort tidal willow weigh beacon atlas",
+      "text": "Grove thread trace sketch field orbit gather sprout steer ledger harbor lantern signal refine atlas pebble grove map delta sketch field shape cinder notice harvest sort harbor fjord weigh beacon atlas nimbus canvas thread delta sketch ember shape meadow notice juniper sort"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Tidal willow weigh",
+      "href": "mailto:support@teachable.com",
+      "linkRole": "link.source-external"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.expand",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "black-plain",
+   "content": {
+    "heading": "Refine measure bundle grove map",
+    "lead": "Trace sketch plan orbit meadow sprout juniper sort harbor lantern weigh refine rowan bundle canvas cedar delta quarry plan shape meadow summit harvest ledger tidal fjord signal",
+    "actions": [
+     {
+      "label": "Map delta marble",
+      "href": "#tiers-and-perks",
+      "linkRole": "link.site-route"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Orbit",
+      "text": "Cinder summit juniper cobalt harbor fjord falcon basil rowan bundle canvas map trace marble plan prism cinder notice harvest cobalt tidal willow weigh basil rowan nimbus grove map delta quarry field orbit meadow sprout juniper sort tidal lantern weigh refine rowan nimbus grove map compass marble field shape gather notice juniper cobalt harbor willow falcon refine measure bundle canvas map delta marble ember orbit cinder notice steer ledger tidal"
+     },
+     {
+      "title": "Fjord",
+      "text": "Signal basil measure nimbus grove cedar trace marble ember orbit gather notice harvest sort tidal willow signal beacon rowan bundle tidy thread trace marble ember shape gather notice harvest ledger tidal willow signal basil atlas pebble tidy map trace quarry field orbit cinder notice steer cobalt tidal willow falcon basil atlas nimbus tidy thread compass sketch field shape meadow sprout steer sort share fjord weigh refine measure pebble grove"
+     },
+     {
+      "title": "Map",
+      "text": "Compass marble plan prism cinder summit juniper cobalt tidal fjord signal refine atlas pebble canvas thread delta marble field shape meadow summit steer cobalt harbor willow weigh basil rowan pebble canvas map trace marble plan orbit meadow summit harvest ledger harbor fjord weigh refine rowan nimbus tidy thread compass marble plan orbit meadow notice harvest sort harbor willow weigh basil atlas nimbus grove cedar trace quarry field shape meadow"
+     },
+     {
+      "title": "Sprout",
+      "text": "Steer ledger tidal willow weigh beacon atlas pebble canvas thread compass quarry field orbit gather sprout harvest cobalt harbor willow falcon beacon measure pebble canvas cedar trace marble field shape gather notice harvest cobalt tidal willow signal beacon atlas pebble grove map trace sketch plan shape gather notice steer ledger share fjord weigh refine rowan pebble canvas map trace marble plan prism cinder sprout steer ledger tidal fjord signal"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Basil rowan nimbus",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Grove cedar",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Sketch ember prism",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Meadow notice",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Ledger tidal",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Falcon beacon",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Pebble tidy map",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Trace marble ember",
+      "href": "https://support.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Prism meadow",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Willow signal",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Rowan pebble grove",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Thread compass",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Plan prism cinder",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Sprout harvest",
+      "href": "#",
+      "linkRole": "link.site-route"
+     },
+     {
+      "label": "Harbor fjord weigh",
+      "href": "https://contatoseguro.com.br/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Basil measure",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     },
+     {
+      "label": "Canvas thread",
+      "href": "https://www.teachable.com/",
+      "linkRole": "link.source-external"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "certification.mark",
+      "ref": "/assets/6953d5310fcdb2da81b8b4d5_soc2-badge-teachable.svg"
+     },
+     {
+      "assetRole": "brand.wordmark",
+      "ref": "/assets/689f12f21a516225c689ca1d_teachable-logo-light.svg"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

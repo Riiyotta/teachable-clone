@@ -1,0 +1,16 @@
+{
+ "id": "primitive.arrow-list",
+ "kind": "primitive",
+ "title": "Arrow bullet list",
+ "purpose": "Column of rows each starting with an arrow glyph.",
+ "source": {
+  "file": "src/index.css",
+  "lines": "423-428",
+  "anchor": ".list-arrows {",
+  "anchorLine": 423
+ },
+ "props": {
+  "items": "short lines"
+ },
+ "tokens": []
+}

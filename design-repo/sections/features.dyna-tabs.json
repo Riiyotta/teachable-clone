@@ -1,0 +1,169 @@
+{
+ "id": "features.dyna-tabs",
+ "title": "Autoplay tab slider",
+ "semantic": {
+  "id": "features.dyna-tabs",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "DynaSlider:DynaSlider:section@177",
+  "file": "src/components/pages/memberships/DynaSlider.jsx",
+  "tag": "section",
+  "lines": "18-266",
+  "tagLine": 177,
+  "tagLineSha1": "b6eb8f804cd59e66",
+  "anchor": "export default function DynaSlider",
+  "anchorLine": 18
+ },
+ "additionalSources": [],
+ "purpose": "Heading plus tabbed slides that autoplay with a progress bar, pause/play and prev/next.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/memberships"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 30,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 27,
+    "maxChars": 141,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 4
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 30,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 26,
+    "maxChars": 139,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 17,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    2,
+    2
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    2,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.autoplay-progress"
+  ],
+  "requiredPatterns": [
+   "tabs.autoplay-progress"
+  ],
+  "reducedMotionFallback": {
+   "tabs.autoplay-progress": "manual-tabs-no-autoplay"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "tabs beside media"
+  },
+  {
+   "range": "<=767",
+   "behavior": "media height 40rem"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 927.9,
+   "maxPx": 927.9,
+   "medianPx": 927.9,
+   "sample": {
+    "/memberships": 927.9
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 1010.2,
+   "maxPx": 1010.2,
+   "medianPx": 1010.2,
+   "sample": {
+    "/memberships": 1010.2
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/memberships/DynaSlider.jsx:18-266",
+  "src/pages/Memberships.jsx:44"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "primitive.eyebrow",
+ "kind": "primitive",
+ "title": "Eyebrow label",
+ "purpose": "Small uppercase label above a heading (the source passes a leading dash).",
+ "source": {
+  "file": "src/components/shared/SectionTag.jsx",
+  "lines": "5-11",
+  "anchor": "export default function SectionTag",
+  "anchorLine": 5
+ },
+ "props": {
+  "text": "short uppercase label"
+ },
+ "tokens": [
+  "font.size.regular",
+  "font.weight.600"
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "id": "features.image-grid",
+ "title": "Image + feature grid",
+ "semantic": {
+  "id": "features.image-grid",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "ImageFeatureGrid:ImageFeatureGrid:section@9",
+  "file": "src/components/pages/enterprise/ImageFeatureGrid.jsx",
+  "tag": "section",
+  "lines": "7-36",
+  "tagLine": 9,
+  "tagLineSha1": "df3b966c9e171334",
+  "anchor": "export default function ImageFeatureGrid",
+  "anchorLine": 7
+ },
+ "additionalSources": [],
+ "purpose": "Heading and intro, a wide image and a four-item feature grid.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/enterprise"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 34,
+    "observedIn": 1,
+    "maxLines1440": 1,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 13,
+    "maxChars": 66,
+    "observedIn": 1,
+    "maxLines1440": 1,
+    "maxLines390": 2
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 23,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 126,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 16,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "four columns under the image"
+  },
+  {
+   "range": "<=767",
+   "behavior": "stacked"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 1537.8,
+   "maxPx": 1537.8,
+   "medianPx": 1537.8,
+   "sample": {
+    "/enterprise": 1537.8
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 1108.2,
+   "maxPx": 1108.2,
+   "medianPx": 1108.2,
+   "sample": {
+    "/enterprise": 1108.2
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/enterprise/ImageFeatureGrid.jsx:7-36",
+  "src/pages/Enterprise.jsx:29"
+ ]
+}

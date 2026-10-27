@@ -1,0 +1,47 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "radius.frame": {
+   "value": "1.5rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:131",
+   "match": "'1.5rem'"
+  },
+  "radius.full": {
+   "value": "9999px",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:133",
+   "match": "'9999px'"
+  },
+  "radius.label": {
+   "value": ".4rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:132",
+   "match": "'.4rem'"
+  },
+  "radius.lg": {
+   "value": "1rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:129",
+   "match": "'1rem'"
+  },
+  "radius.md": {
+   "value": ".6rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:128",
+   "match": "'.6rem'"
+  },
+  "radius.panel": {
+   "value": ".3rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:130",
+   "match": "'.3rem'"
+  },
+  "radius.sm": {
+   "value": ".25rem",
+   "category": "radius",
+   "cite": "tailwind.config.cjs:127",
+   "match": "'.25rem'"
+  }
+ }
+}

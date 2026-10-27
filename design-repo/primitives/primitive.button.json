@@ -1,0 +1,39 @@
+{
+ "id": "primitive.button",
+ "kind": "primitive",
+ "title": "Pill button",
+ "purpose": "Rounded pill link/button; only the label scales on hover.",
+ "source": {
+  "file": "src/index.css",
+  "lines": "281-293",
+  "anchor": ".btn {",
+  "anchorLine": 281
+ },
+ "props": {
+  "variant": [
+   "start",
+   "secondary",
+   "primary",
+   "primary-light",
+   "primary-dark",
+   "dark",
+   "nav-outline",
+   "arrow"
+  ],
+  "label": "text (<= the action budget of the section)",
+  "href": "link"
+ },
+ "tokens": [
+  "button.start.surface",
+  "button.secondary.surface",
+  "button.dark.surface",
+  "button.border",
+  "button.radius",
+  "motion.duration.micro",
+  "motion.easing.css"
+ ],
+ "motion": {
+  "hover": "label scale 1.02 (start 1.03), 200ms ease; dark and nav-outline variants have no hover",
+  "cite": "CLONE_SPEC.md:1004"
+ }
+}

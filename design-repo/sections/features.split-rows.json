@@ -1,0 +1,198 @@
+{
+ "id": "features.split-rows",
+ "title": "Feature split rows",
+ "semantic": {
+  "id": "features.split-rows",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "FeatureSplit:FeatureSplit:section@15",
+  "file": "src/components/sections/FeatureSplit.jsx",
+  "tag": "section",
+  "lines": "11-73",
+  "tagLine": 15,
+  "tagLineSha1": "8026eeebbd71b84e",
+  "anchor": "export default function FeatureSplit",
+  "anchorLine": 11
+ },
+ "additionalSources": [],
+ "purpose": "Section heading and intro followed by rows pairing an image with titled feature text and an optional button.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "grey": {
+   "description": "grey band, rows alternate starting left",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/coaching",
+    "/digital-downloads",
+    "/online-courses"
+   ]
+  },
+  "white": {
+   "description": "white band, two columns down to 480",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/digital-downloads",
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 64,
+    "observedIn": 6,
+    "maxLines1440": 2,
+    "maxLines390": 4
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 30,
+    "maxChars": 164,
+    "observedIn": 3,
+    "maxLines1440": 2,
+    "maxLines390": 4
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 30,
+    "observedIn": 6
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 52,
+    "maxChars": 318,
+    "observedIn": 6
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 14,
+    "observedIn": 6
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    4
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "photo.source-scene",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "photo.generated-scene",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {
+   "surface": {
+    "allowed": [
+     "color.surface.subtle",
+     "color.surface.page"
+    ],
+    "evidence": "src/components/sections/FeatureSplit.jsx:15"
+   }
+  },
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 3,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=480",
+   "behavior": "two columns (white skin keeps them to 480)"
+  },
+  {
+   "range": "<=479",
+   "behavior": "image first, single column"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 6,
+   "minPx": 978.8,
+   "maxPx": 1703.9,
+   "medianPx": 1085.0,
+   "sample": {
+    "/online-courses": 1125.5,
+    "/coaching": 1703.9,
+    "/digital-downloads": 1044.6
+   }
+  },
+  "390": {
+   "nodes": 6,
+   "minPx": 1004,
+   "maxPx": 1926.8,
+   "medianPx": 1125.1,
+   "sample": {
+    "/online-courses": 1340.4,
+    "/coaching": 1926.8,
+    "/digital-downloads": 1070.3
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/FeatureSplit.jsx:11-73",
+  "src/pages/OnlineCourses.jsx:35",
+  "src/pages/Coaching.jsx:37",
+  "src/pages/DigitalDownloads.jsx:32"
+ ]
+}

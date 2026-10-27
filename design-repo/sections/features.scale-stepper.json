@@ -1,0 +1,175 @@
+{
+ "id": "features.scale-stepper",
+ "title": "Pinned three-step slider",
+ "semantic": {
+  "id": "features.scale-stepper",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "Scale:ScaleSlider:div@163",
+  "file": "src/components/scale/ScaleSlider.jsx",
+  "tag": "div",
+  "lines": "23-225",
+  "tagLine": 163,
+  "tagLineSha1": "ecf8de12ae723187",
+  "anchor": "export default function ScaleSlider",
+  "anchorLine": 23
+ },
+ "additionalSources": [
+  {
+   "id": "Scale:ScaleMobile:section@77#mobile",
+   "file": "src/components/scale/ScaleMobile.jsx",
+   "tag": "section",
+   "lines": "39-125",
+   "tagLine": 77,
+   "tagLineSha1": "6690a7079268782f",
+   "anchor": "export default function ScaleMobile",
+   "anchorLine": 39
+  }
+ ],
+ "purpose": "Pinned section that steps through three global-reach messages with a progress bar, floating flags and a rotating language word.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 39,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 38,
+    "maxChars": 211,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 26,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 135,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    3
+   ],
+   "media": [
+    9,
+    9
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "icon.source"
+    ],
+    "generatedRoles": [
+     "icon.generic"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "icon.generic"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "scroll.pinned-scrub",
+   "reveal.on-scroll",
+   "float.continuous",
+   "text.swap-loop"
+  ],
+  "requiredPatterns": [
+   "scroll.pinned-scrub"
+  ],
+  "reducedMotionFallback": {
+   "scroll.pinned-scrub": "unpinned-static-stack",
+   "reveal.on-scroll": "final-state",
+   "float.continuous": "static",
+   "text.swap-loop": "first-item-static"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "pinned for 400vh (3600px at 1440)"
+  },
+  {
+   "range": "<=767",
+   "behavior": "replaced by a stacked mobile section (1097px at 390) with flags sliding in"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 3600,
+   "maxPx": 3600,
+   "medianPx": 3600,
+   "sample": {
+    "/": 3600
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 1096.8,
+   "maxPx": 1096.8,
+   "medianPx": 1096.8,
+   "sample": {
+    "/": 1096.8
+   }
+  }
+ },
+ "evidence": [
+  "src/components/scale/ScaleSlider.jsx:23-225",
+  "src/components/scale/ScaleMobile.jsx:39-125",
+  "src/pages/Home.jsx:30"
+ ]
+}

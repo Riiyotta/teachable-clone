@@ -1,0 +1,25 @@
+{
+ "id": "component.pill-tabs",
+ "kind": "component",
+ "title": "Pill tabs",
+ "purpose": "Row of pill tabs; pane fades out 100ms then in 300ms; arrow keys move between tabs.",
+ "source": {
+  "file": "src/components/sections/PillTabs.jsx",
+  "lines": "47-77",
+  "anchor": "export default function PillTabs",
+  "anchorLine": 47
+ },
+ "props": {
+  "tabs": "label + pane",
+  "size": [
+   "pricing",
+   "examples",
+   "compact",
+   "apps"
+  ],
+  "defaultIndex": "integer"
+ },
+ "tokens": [
+  "radius.pill"
+ ]
+}

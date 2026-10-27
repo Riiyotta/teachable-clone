@@ -1,0 +1,145 @@
+{
+ "id": "features.tools-grid",
+ "title": "Tools grid",
+ "semantic": {
+  "id": "features.tools-grid",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "ToolsGrid:ToolsGrid:section@173",
+  "file": "src/components/pages/online-courses/ToolsGrid.jsx",
+  "tag": "section",
+  "lines": "99-220",
+  "tagLine": 173,
+  "tagLineSha1": "bc43bcef833c5eae",
+  "anchor": "export default function ToolsGrid",
+  "anchorLine": 99
+ },
+ "additionalSources": [],
+ "purpose": "Four columns (create / host / manage / sell) each listing tool names, joined by animated connector lines.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "bullets",
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "bullets",
+   "heading",
+   "items",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 27,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 26,
+    "maxChars": 147,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 4
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 6,
+    "observedIn": 1
+   },
+   "bullets[]": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 23,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ],
+   "bullets": [
+    50,
+    50
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "reveal.on-scroll"
+  ],
+  "requiredPatterns": [
+   "reveal.on-scroll"
+  ],
+  "reducedMotionFallback": {
+   "reveal.on-scroll": "final-state"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "four columns with connectors"
+  },
+  {
+   "range": "<=479",
+   "behavior": "vertical connectors"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 1246.1,
+   "maxPx": 1246.1,
+   "medianPx": 1246.1,
+   "sample": {
+    "/online-courses": 1246.1
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 3472.3,
+   "maxPx": 3472.3,
+   "medianPx": 3472.3,
+   "sample": {
+    "/online-courses": 3472.3
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/online-courses/ToolsGrid.jsx:99-220",
+  "src/pages/OnlineCourses.jsx:71"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "version": "1.0.0",
+ "themes": [
+  "light"
+ ],
+ "categories": [
+  "breakpoint",
+  "color",
+  "elevation",
+  "fontFamily",
+  "fontSize",
+  "fontWeight",
+  "gradient",
+  "lineHeight",
+  "motionDuration",
+  "motionEasing",
+  "radius",
+  "rootFontSize",
+  "size",
+  "spacing",
+  "zIndex"
+ ],
+ "rawValueRestrictions": {
+  "color": "no raw hex/rgb/hsl colour anywhere in a PageSpec; reference a color.* token",
+  "gradient": "gradients only through gradient.* tokens on the sections that own them",
+  "spacing": "no raw px/rem/vw lengths; spacing is owned by section contracts",
+  "fontFamily": "only font.family.* tokens (display = heading face, text = body face); no other font",
+  "fontSize": "type sizes are owned by section contracts and switch per breakpoint (see responsive values)",
+  "radius": "radius.* tokens only"
+ },
+ "unsupportedFonts": [
+  "Hotmart Sans",
+  "Georgia",
+  "Arial",
+  "monospace"
+ ],
+ "unsupportedFontsEvidence": [
+  "CLONE_SPEC.md:48",
+  "tailwind.config.cjs:81"
+ ],
+ "unsupportedFontsNote": "Georgia/Arial/monospace exist only as fallbacks or one counter digit style; a generated page may not choose them directly.",
+ "styleProps": {
+  "surface": {
+   "categories": [
+    "color"
+   ],
+   "allowedBySection": {
+    "features.split-rows": [
+     "color.surface.subtle",
+     "color.surface.page"
+    ],
+    "features.why-statement": [
+     "color.surface.brand",
+     "color.surface.gold"
+    ],
+    "features.card-list": [
+     "color.surface.subtle",
+     "color.surface.warm",
+     "color.surface.page"
+    ],
+    "cta.product-band": [
+     "color.surface.cta-blue",
+     "color.surface.cta-red",
+     "color.surface.inverse"
+    ]
+   },
+   "note": "The only per-instance token override a PageSpec node can carry: the section's background surface, restricted to the surfaces that section really renders."
+  }
+ },
+ "overrides": "PageSpec nodes carry no other style/token overrides; typography, spacing, radius and elevation are owned by the section contracts.",
+ "enforcedBy": {
+  "schema/semantic_validate.py": [
+   "TOKEN_UNKNOWN",
+   "TOKEN_RAW_COLOR",
+   "TOKEN_ARBITRARY_SPACING",
+   "TOKEN_UNSUPPORTED_FONT",
+   "TOKEN_INVALID_COMBINATION",
+   "STYLE_PROP_UNKNOWN",
+   "THEME_UNSUPPORTED"
+  ],
+  "extraction/verify_all.py": [
+   "TOKENS"
+  ]
+ }
+}

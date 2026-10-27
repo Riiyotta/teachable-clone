@@ -1,0 +1,47 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "breakpoint.md": {
+   "value": "991px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:11",
+   "match": "max: '991px'",
+   "query": "max-width: 991px"
+  },
+  "breakpoint.nav": {
+   "value": "1145px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:10",
+   "match": "max: '1145px'",
+   "query": "max-width: 1145px"
+  },
+  "breakpoint.pricing": {
+   "value": "1320px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:9",
+   "match": "max: '1320px'",
+   "query": "max-width: 1320px"
+  },
+  "breakpoint.sm": {
+   "value": "767px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:12",
+   "match": "max: '767px'",
+   "query": "max-width: 767px"
+  },
+  "breakpoint.xs": {
+   "value": "479px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:13",
+   "match": "max: '479px'",
+   "query": "max-width: 479px"
+  },
+  "breakpoint.xxs": {
+   "value": "359px",
+   "category": "breakpoint",
+   "cite": "tailwind.config.cjs:14",
+   "match": "max: '359px'",
+   "query": "max-width: 359px"
+  }
+ }
+}

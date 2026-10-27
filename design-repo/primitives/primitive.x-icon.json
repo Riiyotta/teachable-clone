@@ -1,0 +1,16 @@
+{
+ "id": "primitive.x-icon",
+ "kind": "primitive",
+ "title": "Cross mark",
+ "purpose": "Stroke cross icon used in comparison cells.",
+ "source": {
+  "file": "src/components/shared/XIcon.jsx",
+  "lines": "4-12",
+  "anchor": "export default function XIcon",
+  "anchorLine": 4
+ },
+ "props": {},
+ "tokens": [
+  "color.grey.mid"
+ ]
+}

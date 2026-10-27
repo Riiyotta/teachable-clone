@@ -1,0 +1,191 @@
+{
+ "note": "Every route the clone serves, each mapped exactly once. '/' + the 17 slugs of src/routes.js PAGE_SLUGS, all mounted by src/App.jsx (none falls back to ComingSoon).",
+ "evidence": [
+  "src/routes.js:2",
+  "src/App.jsx:50",
+  "src/routes.js:13-16"
+ ],
+ "noCatchAll": "src/App.jsx declares no '*' route: an unknown path renders the layout shell with an empty main. No 404 template is modelled.",
+ "routes": [
+  {
+   "path": "/",
+   "template": "T0",
+   "pageFile": "src/pages/Home.jsx",
+   "shell": {
+    "promoMarquee": true,
+    "nav": "sticky"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/pricing",
+   "template": "T5",
+   "pageFile": "src/pages/Pricing.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/online-courses",
+   "template": "T1",
+   "pageFile": "src/pages/OnlineCourses.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/coaching",
+   "template": "T1",
+   "pageFile": "src/pages/Coaching.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/digital-downloads",
+   "template": "T1",
+   "pageFile": "src/pages/DigitalDownloads.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/memberships",
+   "template": "T1",
+   "pageFile": "src/pages/Memberships.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/payments",
+   "template": "T7",
+   "pageFile": "src/pages/Payments.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/enterprise",
+   "template": "T6",
+   "pageFile": "src/pages/Enterprise.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/ai-hub",
+   "template": "T2",
+   "pageFile": "src/pages/AIHub.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/app-hub",
+   "template": "T3",
+   "pageFile": "src/pages/AppHub.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/analytics-and-reporting",
+   "template": "T2",
+   "pageFile": "src/pages/AnalyticsAndReporting.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/customer-journey",
+   "template": "T4",
+   "pageFile": "src/pages/CustomerJourney.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/mobile-app",
+   "template": "T2",
+   "pageFile": "src/pages/MobileApp.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/sales-and-marketing",
+   "template": "T2",
+   "pageFile": "src/pages/SalesAndMarketing.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/site-builder",
+   "template": "T2",
+   "pageFile": "src/pages/SiteBuilder.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/student-experience",
+   "template": "T2",
+   "pageFile": "src/pages/StudentExperience.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/watch-demo",
+   "template": "T8",
+   "pageFile": "src/pages/WatchDemo.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  },
+  {
+   "path": "/examples",
+   "template": "T9",
+   "pageFile": "src/pages/Examples.jsx",
+   "shell": {
+    "promoMarquee": false,
+    "nav": "fixed"
+   },
+   "theme": "light"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "id": "features.app-directory",
+ "title": "App directory tabs",
+ "semantic": {
+  "id": "features.app-directory",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "AppDirectory:AppDirectory:section@39",
+  "file": "src/components/pages/app-hub/AppDirectory.jsx",
+  "tag": "section",
+  "lines": "37-52",
+  "tagLine": 39,
+  "tagLineSha1": "f35d565da921517f",
+  "anchor": "export default function AppDirectory",
+  "anchorLine": 37
+ },
+ "additionalSources": [],
+ "purpose": "Pill tabs by category; each tab shows an intro and a grid of third-party app cards (logo, name, text, optional link) and a footnote.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/app-hub"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 15,
+    "observedIn": 1,
+    "maxLines1440": 1,
+    "maxLines390": 1
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 27,
+    "maxChars": 165,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 4
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 14,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 75,
+    "maxChars": 483,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 19,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    6,
+    6
+   ],
+   "actions": [
+    7,
+    7
+   ],
+   "media": [
+    5,
+    5
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "partner.logo"
+    ],
+    "generatedRoles": [
+     "partner.placeholder-icon"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "partner.placeholder-icon"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.fade"
+  ],
+  "requiredPatterns": [
+   "tabs.fade"
+  ],
+  "reducedMotionFallback": {
+   "tabs.fade": "instant-swap"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "multi-column app grid"
+  },
+  {
+   "range": "<=767",
+   "behavior": "one column"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 1351.7,
+   "maxPx": 1351.7,
+   "medianPx": 1351.7,
+   "sample": {
+    "/app-hub": 1351.7
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 2094.9,
+   "maxPx": 2094.9,
+   "medianPx": 2094.9,
+   "sample": {
+    "/app-hub": 2094.9
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/app-hub/AppDirectory.jsx:37-52",
+  "src/pages/AppHub.jsx:25"
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "space.gutter": {
+   "value": "2rem",
+   "category": "spacing",
+   "cite": "src/index.css:56",
+   "match": "--global-padding: 2rem",
+   "responsive": {
+    "<=479": {
+     "value": "1.5rem",
+     "cite": "src/index.css:136",
+     "match": "--global-padding: 1.5rem"
+    }
+   }
+  },
+  "space.hero-top": {
+   "value": "12rem",
+   "category": "spacing",
+   "cite": "src/index.css:62",
+   "match": "--hero-top: 12rem",
+   "responsive": {
+    "<=991": {
+     "value": "9rem",
+     "cite": "src/index.css:87",
+     "match": "--hero-top: 9rem"
+    },
+    "<=767": {
+     "value": "8rem",
+     "cite": "src/index.css:112",
+     "match": "--hero-top: 8rem"
+    },
+    "<=479": {
+     "value": "7rem",
+     "cite": "src/index.css:138",
+     "match": "--hero-top: 7rem"
+    }
+   }
+  },
+  "space.medium": {
+   "value": "2rem",
+   "category": "spacing",
+   "cite": "src/index.css:60",
+   "match": "--spacing-medium: 2rem",
+   "responsive": {
+    "<=991": {
+     "value": "1.5rem",
+     "cite": "src/index.css:86",
+     "match": "--spacing-medium: 1.5rem"
+    },
+    "<=767": {
+     "value": "1.25rem",
+     "cite": "src/index.css:111",
+     "match": "--spacing-medium: 1.25rem"
+    },
+    "<=479": {
+     "value": "2rem",
+     "cite": "src/index.css:137",
+     "match": "--spacing-medium: 2rem"
+    }
+   }
+  },
+  "space.section.large": {
+   "value": "8rem",
+   "category": "spacing",
+   "cite": "src/index.css:57",
+   "match": "--section-large: 8rem",
+   "responsive": {
+    "<=991": {
+     "value": "5rem",
+     "cite": "src/index.css:85",
+     "match": "--section-large: 5rem"
+    },
+    "<=767": {
+     "value": "3rem",
+     "cite": "src/index.css:109",
+     "match": "--section-large: 3rem"
+    }
+   }
+  },
+  "space.section.medium": {
+   "value": "5rem",
+   "category": "spacing",
+   "cite": "src/index.css:64",
+   "match": "--section-medium: 5rem",
+   "responsive": {
+    "<=991": {
+     "value": "4rem",
+     "cite": "src/index.css:88",
+     "match": "--section-medium: 4rem"
+    },
+    "<=767": {
+     "value": "3rem",
+     "cite": "src/index.css:113",
+     "match": "--section-medium: 3rem"
+    },
+    "<=479": {
+     "value": "5rem",
+     "cite": "src/index.css:139",
+     "match": "--section-medium: 5rem"
+    }
+   }
+  },
+  "space.section.small": {
+   "value": "2rem",
+   "category": "spacing",
+   "cite": "src/index.css:58",
+   "match": "--section-small: 2rem",
+   "responsive": {
+    "<=767": {
+     "value": "1.5rem",
+     "cite": "src/index.css:110",
+     "match": "--section-small: 1.5rem"
+    }
+   }
+  }
+ }
+}

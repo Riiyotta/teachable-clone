@@ -1,0 +1,344 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T3",
+ "route": "/directory-harvest",
+ "theme": "light",
+ "brand": {
+  "name": "Brackenford Guild"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Share fjord",
+      "href": "https://brackenford.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://brackenford.example/pebble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove cedar",
+      "href": "https://brackenford.example/delta",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry field",
+      "href": "https://brackenford.example/orbit",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:meadow-sprout-juniper",
+      "alt": "Cobalt"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.feature",
+   "variant": "flush-login",
+   "content": {
+    "eyebrow": "Harbor fjord signal",
+    "heading": "Beacon rowan nimbus grove thread delta marble",
+    "lead": "Field shape meadow summit steer sort harbor fjord",
+    "items": [
+     {
+      "text": "Weigh basil measure pebble"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Tidy thread trace",
+      "href": "https://brackenford.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan shape gather",
+      "href": "https://brackenford.example/notice",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:harvest-sort-tidal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.app-directory",
+   "variant": "default",
+   "content": {
+    "heading": "Willow",
+    "lead": "Falcon beacon atlas bundle tidy thread compass sketch",
+    "items": [
+     {
+      "title": "Ember",
+      "text": "Orbit meadow summit juniper sort tidal fjord signal"
+     },
+     {
+      "title": "Beacon",
+      "text": "Measure nimbus tidy thread compass quarry ember prism"
+     },
+     {
+      "title": "Cinder",
+      "text": "Notice juniper sort harbor willow signal beacon rowan"
+     },
+     {
+      "title": "Bundle",
+      "text": "Tidy thread delta sketch ember orbit cinder summit"
+     },
+     {
+      "title": "Steer",
+      "text": "Sort share willow signal basil measure nimbus canvas"
+     },
+     {
+      "title": "Map",
+      "text": "Compass sketch field shape cinder summit steer cobalt"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Tidal fjord",
+      "href": "https://brackenford.example/weigh",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Refine atlas",
+      "href": "https://brackenford.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas thread",
+      "href": "https://brackenford.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble field",
+      "href": "https://brackenford.example/prism",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Meadow notice",
+      "href": "https://brackenford.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cobalt tidal",
+      "href": "https://brackenford.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Weigh beacon",
+      "href": "https://brackenford.example/measure",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:nimbus-tidy-thread"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:compass-sketch-ember"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:shape-meadow-sprout"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:harvest-ledger-share"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:fjord-falcon-beacon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.fade",
+    "reducedMotionFallback": "instant-swap"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "red-feature",
+   "content": {
+    "heading": "Rowan nimbus grove map compass marble",
+    "lead": "Ember orbit cinder notice harvest ledger share lantern",
+    "items": [
+     {
+      "text": "Falcon refine atlas pebble"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Canvas thread compass",
+      "href": "https://brackenford.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan orbit meadow",
+      "href": "https://brackenford.example/sprout",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Steer",
+      "text": "Cobalt harbor fjord weigh beacon rowan pebble tidy"
+     },
+     {
+      "title": "Thread",
+      "text": "Delta sketch ember shape cinder summit juniper cobalt"
+     },
+     {
+      "title": "Share",
+      "text": "Lantern falcon refine measure bundle grove map compass"
+     },
+     {
+      "title": "Sketch",
+      "text": "Plan prism cinder notice juniper ledger share fjord"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Falcon basil",
+      "href": "https://brackenford.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Bundle canvas",
+      "href": "https://brackenford.example/map",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace quarry",
+      "href": "https://brackenford.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Orbit meadow",
+      "href": "https://brackenford.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Steer ledger",
+      "href": "https://brackenford.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Lantern weigh",
+      "href": "https://brackenford.example/basil",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan nimbus",
+      "href": "https://brackenford.example/grove",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Thread trace",
+      "href": "https://brackenford.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan shape",
+      "href": "https://brackenford.example/gather",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Summit harvest",
+      "href": "https://brackenford.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor lantern",
+      "href": "https://brackenford.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Refine measure",
+      "href": "https://brackenford.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://brackenford.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sketch ember",
+      "href": "https://brackenford.example/orbit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Meadow summit",
+      "href": "https://brackenford.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger harbor",
+      "href": "https://brackenford.example/fjord",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Signal beacon",
+      "href": "https://brackenford.example/rowan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Pebble canvas",
+      "href": "https://brackenford.example/cedar",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:trace-sketch-ember"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:prism-cinder-sprout"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

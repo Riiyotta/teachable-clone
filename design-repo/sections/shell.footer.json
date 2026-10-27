@@ -1,0 +1,205 @@
+{
+ "id": "shell.footer",
+ "title": "Site footer",
+ "semantic": {
+  "id": "shell.footer",
+  "category": "SHELL"
+ },
+ "source": {
+  "id": "Footer:Footer:footer@154",
+  "file": "src/components/Footer.jsx",
+  "tag": "footer",
+  "lines": "151-279",
+  "tagLine": 154,
+  "tagLineSha1": "e1be41497eca8d9e",
+  "anchor": "export default function Footer",
+  "anchorLine": 151
+ },
+ "additionalSources": [],
+ "purpose": "Large footer with link columns, social links, legal row and oversized echo wordmarks that drift with the pointer.",
+ "retrievalEligible": true,
+ "placement": "footer",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/",
+    "/ai-hub",
+    "/analytics-and-reporting",
+    "/app-hub",
+    "/coaching",
+    "/customer-journey",
+    "/digital-downloads",
+    "/enterprise",
+    "/examples",
+    "/memberships",
+    "/mobile-app",
+    "/online-courses",
+    "/payments",
+    "/pricing",
+    "/sales-and-marketing",
+    "/site-builder",
+    "/student-experience",
+    "/watch-demo"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "items",
+   "media"
+  ],
+  "fields": {
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 9,
+    "observedIn": 18
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 69,
+    "maxChars": 466,
+    "observedIn": 18
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 18,
+    "observedIn": 18
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ],
+   "actions": [
+    18,
+    18
+   ],
+   "media": [
+    2,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "brand.wordmark",
+     "certification.mark"
+    ],
+    "generatedRoles": [
+     "brand.placeholder-mark",
+     "brand.user-supplied-mark",
+     "certification.placeholder"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "brand.placeholder-mark",
+  "brand.user-supplied-mark",
+  "certification.placeholder"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "parallax.pointer"
+  ],
+  "requiredPatterns": [
+   "parallax.pointer"
+  ],
+  "reducedMotionFallback": {
+   "parallax.pointer": "static-offsets"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "multi-column link grid; 808.8px tall at 1440"
+  },
+  {
+   "range": "<=479",
+   "behavior": "columns stack; 1631.75px at 390 (feature-template.md); echo parallax off"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 18,
+   "minPx": 808.8,
+   "maxPx": 808.8,
+   "medianPx": 808.8,
+   "sample": {
+    "/": 808.8,
+    "/pricing": 808.8,
+    "/online-courses": 808.8,
+    "/coaching": 808.8,
+    "/digital-downloads": 808.8,
+    "/memberships": 808.8,
+    "/payments": 808.8,
+    "/enterprise": 808.8,
+    "/ai-hub": 808.8,
+    "/app-hub": 808.8,
+    "/analytics-and-reporting": 808.8,
+    "/customer-journey": 808.8,
+    "/mobile-app": 808.8,
+    "/sales-and-marketing": 808.8,
+    "/site-builder": 808.8,
+    "/student-experience": 808.8,
+    "/watch-demo": 808.8,
+    "/examples": 808.8
+   }
+  },
+  "390": {
+   "nodes": 18,
+   "minPx": 1631.6,
+   "maxPx": 1631.6,
+   "medianPx": 1631.6,
+   "sample": {
+    "/": 1631.6,
+    "/pricing": 1631.6,
+    "/online-courses": 1631.6,
+    "/coaching": 1631.6,
+    "/digital-downloads": 1631.6,
+    "/memberships": 1631.6,
+    "/payments": 1631.6,
+    "/enterprise": 1631.6,
+    "/ai-hub": 1631.6,
+    "/app-hub": 1631.6,
+    "/analytics-and-reporting": 1631.6,
+    "/customer-journey": 1631.6,
+    "/mobile-app": 1631.6,
+    "/sales-and-marketing": 1631.6,
+    "/site-builder": 1631.6,
+    "/student-experience": 1631.6,
+    "/watch-demo": 1631.6,
+    "/examples": 1631.6
+   }
+  }
+ },
+ "evidence": [
+  "src/components/Footer.jsx:151-279",
+  "src/layout/Layout.jsx:64"
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "id": "pricing.plan-cards",
+ "title": "Plan cards with billing toggle",
+ "semantic": {
+  "id": "pricing.plan-cards",
+  "category": "PRICING"
+ },
+ "source": {
+  "id": "PlanCards:PlanCards:div@197",
+  "file": "src/components/pages/pricing/PlanCards.jsx",
+  "tag": "div",
+  "lines": "179-223",
+  "tagLine": 197,
+  "tagLineSha1": "52f27211cf63d136",
+  "anchor": "export default function PlanCards",
+  "anchorLine": 179
+ },
+ "additionalSources": [],
+ "purpose": "Monthly/yearly toggle and the plan cards (name, price, bullets with tooltips, button) plus a custom-plan card.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/pricing"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "items"
+  ],
+  "fields": {
+   "items[].title": {
+    "type": "text",
+    "maxWords": 1,
+    "maxChars": 7,
+    "observedIn": 1
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 23,
+    "maxChars": 131,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 20,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    30,
+    30
+   ],
+   "actions": [
+    5,
+    5
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "tabs.fade"
+  ],
+  "requiredPatterns": [
+   "tabs.fade"
+  ],
+  "reducedMotionFallback": {
+   "tabs.fade": "instant-swap"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=1321",
+   "behavior": "cards in one row"
+  },
+  {
+   "range": "<=1320",
+   "behavior": "card padding tightens"
+  },
+  {
+   "range": "<=991",
+   "behavior": "cards stack"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 1152.7,
+   "maxPx": 1152.7,
+   "medianPx": 1152.7,
+   "sample": {
+    "/pricing": 1152.7
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 3236.5,
+   "maxPx": 3236.5,
+   "medianPx": 3236.5,
+   "sample": {
+    "/pricing": 3236.5
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/pricing/PlanCards.jsx:179-223",
+  "src/pages/Pricing.jsx:14"
+ ]
+}

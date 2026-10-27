@@ -1,0 +1,91 @@
+{
+ "note": "Source identity registry used by schema/semantic_validate.py in generated mode. Only the brand itself, its domains and generic store/rating/endpoint patterns are kept as plain patterns; real people, organisations, customer domains, CTA labels and copy are stored as hashes in schema/source-identity-hashes.json so this repo never transcribes them.",
+ "sourceBrand": {
+  "patterns": [
+   "\\bTeachable\\b",
+   "\\bTEACHABLE\\b",
+   "(?i:\\bteachable\\.com\\b)",
+   "(?i:\\bhotmart\\b)"
+  ],
+  "caseNote": "'Teachable' is matched case-sensitively so the ordinary lowercase adjective stays usable in generated copy.",
+  "evidence": [
+   "src/components/Footer.jsx:232",
+   "src/content/home.js:114"
+  ]
+ },
+ "sourceDomains": {
+  "patterns": [
+   "(?i:(^|[/.@])teachable\\.com)",
+   "(?i:hotmart\\.co)",
+   "(?i:contatoseguro\\.com\\.br)"
+  ],
+  "evidence": [
+   "src/components/Footer.jsx:27",
+   "src/routes.js:1"
+  ]
+ },
+ "storeAndMarketplace": {
+  "patterns": [
+   "(?i:\\bapp store\\b)",
+   "(?i:\\bgoogle play\\b)",
+   "(?i:apps\\.apple\\.com)",
+   "(?i:play\\.google\\.com)",
+   "(?i:\\btestflight\\b)"
+  ],
+  "evidence": [
+   "src/content/mobile-app.js:70"
+  ]
+ },
+ "rating": {
+  "patterns": [
+   "\\S+ • \\d{2}/(\\d{2}/)?\\d{4}",
+   "★",
+   "(?i:\\b[0-5](\\.\\d)?\\s*(/\\s*5|out of 5|stars?)\\b)"
+  ],
+  "evidence": [
+   "src/content/mobile-app.js:50",
+   "src/components/pages/mobile-app/Rating.jsx:21"
+  ],
+  "note": "Pattern 1 is the source's review handle/date line format; 2-3 are review-score phrasings (policy extension: no numeric score appears in the clone)."
+ },
+ "liveEndpoints": {
+  "patterns": [
+   "(?i:typeform\\.com)",
+   "(?i:hsforms\\.(com|net))",
+   "(?i:forms\\.hubspot\\.com)",
+   "(?i:hs-interactives)"
+  ],
+  "evidence": [
+   "src/pages/CustomerJourney.jsx:70",
+   "CLONE_SPEC.md:168"
+  ]
+ },
+ "thirdPartyEmbeds": {
+  "patterns": [
+   "(?i:vimeo\\.com)",
+   "(?i:onelineplayer\\.com)",
+   "(?i:storylane\\.io)"
+  ],
+  "evidence": [
+   "src/content/enterprise.js:67",
+   "src/pages/AIHub.jsx:44"
+  ]
+ },
+ "cta": {
+  "verbs": [
+   "start",
+   "try",
+   "get",
+   "join",
+   "explore",
+   "see",
+   "talk",
+   "book",
+   "watch",
+   "download",
+   "learn",
+   "migrate"
+  ],
+  "rule": "a generated action label is rejected when it starts with one of these verbs and names the source brand/product, or when it equals a source CTA label of 3+ words (hashed)."
+ }
+}

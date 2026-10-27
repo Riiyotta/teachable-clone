@@ -1,0 +1,233 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T8",
+ "route": "/demo-notice",
+ "theme": "light",
+ "brand": {
+  "name": "Rimeford House"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Summit steer",
+      "href": "https://rimeford.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share willow",
+      "href": "https://rimeford.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Refine rowan",
+      "href": "https://rimeford.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove map",
+      "href": "https://rimeford.example/trace",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:quarry-field-shape",
+      "alt": "Cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "conversion.demo-unlock",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Notice juniper",
+    "heading": "Ledger harbor",
+    "lead": "Willow signal beacon atlas nimbus grove cedar trace",
+    "items": [
+     {
+      "text": "Sketch field orbit gather notice harvest sort share"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Willow signal beacon rowan",
+      "href": "https://rimeford.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas thread compass quarry",
+      "href": "https://rimeford.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Orbit cinder summit steer",
+      "href": "https://rimeford.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor willow weigh refine",
+      "href": "https://rimeford.example/measure",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Pebble canvas cedar delta",
+      "href": "https://rimeford.example/marble",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:ember-shape-meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "unlock.reveal",
+    "reducedMotionFallback": "instant-show"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Summit",
+      "text": "Juniper cobalt share willow falcon beacon atlas bundle"
+     },
+     {
+      "title": "Tidy",
+      "text": "Cedar compass sketch ember prism cinder summit harvest"
+     },
+     {
+      "title": "Ledger",
+      "text": "Harbor fjord weigh refine atlas bundle canvas cedar"
+     },
+     {
+      "title": "Delta",
+      "text": "Sketch plan prism gather notice steer sort tidal"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Lantern weigh",
+      "href": "https://rimeford.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://rimeford.example/grove",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Thread compass",
+      "href": "https://rimeford.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field prism",
+      "href": "https://rimeford.example/meadow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sprout steer",
+      "href": "https://rimeford.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share willow",
+      "href": "https://rimeford.example/weigh",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil measure",
+      "href": "https://rimeford.example/nimbus",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove thread",
+      "href": "https://rimeford.example/trace",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble plan",
+      "href": "https://rimeford.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cinder sprout",
+      "href": "https://rimeford.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sort tidal",
+      "href": "https://rimeford.example/willow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Signal refine",
+      "href": "https://rimeford.example/rowan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Bundle canvas",
+      "href": "https://rimeford.example/map",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace sketch",
+      "href": "https://rimeford.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Shape gather",
+      "href": "https://rimeford.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest cobalt",
+      "href": "https://rimeford.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Willow weigh",
+      "href": "https://rimeford.example/beacon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan bundle",
+      "href": "https://rimeford.example/canvas",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:thread-trace-sketch"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:field-orbit-gather"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

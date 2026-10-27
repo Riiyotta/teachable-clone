@@ -1,0 +1,27 @@
+{
+ "id": "primitive.glyph-letter",
+ "kind": "primitive",
+ "title": "Decorative glyph letter",
+ "purpose": "Replaces one letter inside a heading with a stylised brand SVG; the real letter stays in the DOM (transparent) so the heading still reads correctly.",
+ "source": {
+  "file": "src/components/shared/Glyph.jsx",
+  "lines": "46-49",
+  "anchor": "export default function Glyph",
+  "anchorLine": 46
+ },
+ "props": {
+  "letter": [
+   "o",
+   "e",
+   "a",
+   "i"
+  ],
+  "size": [
+   "h1",
+   "h2"
+  ]
+ },
+ "tokens": [],
+ "assetRole": "illustration.brand-glyph",
+ "generationNote": "Brand lettering. Generated pages must not reuse the source glyph SVGs; use illustration.generated or plain text."
+}

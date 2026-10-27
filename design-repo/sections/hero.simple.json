@@ -1,0 +1,104 @@
+{
+ "id": "hero.simple",
+ "title": "Simple centred hero",
+ "semantic": {
+  "id": "hero.simple",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "SimpleHero:SimpleHero:section@5",
+  "file": "src/components/pages/examples/SimpleHero.jsx",
+  "tag": "section",
+  "lines": "3-13",
+  "tagLine": 5,
+  "tagLineSha1": "0584417c54b0f5ce",
+  "anchor": "export default function SimpleHero",
+  "anchorLine": 3
+ },
+ "additionalSources": [],
+ "purpose": "Page-opening centred heading only.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "heading"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/examples"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 9,
+    "maxChars": 51,
+    "observedIn": 1,
+    "maxLines1440": 1,
+    "maxLines390": 3
+   }
+  },
+  "listSizes": {}
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "centred heading"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 293.3,
+   "maxPx": 293.3,
+   "medianPx": 293.3,
+   "sample": {
+    "/examples": 293.3
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 252.4,
+   "maxPx": 252.4,
+   "medianPx": 252.4,
+   "sample": {
+    "/examples": 252.4
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/examples/SimpleHero.jsx:3-13",
+  "src/pages/Examples.jsx:11"
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "id": "features.integration-hub",
+ "title": "Integration logo hub",
+ "semantic": {
+  "id": "features.integration-hub",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "Hub:Hub:section@56",
+  "file": "src/components/Hub.jsx",
+  "tag": "section",
+  "lines": "28-94",
+  "tagLine": 56,
+  "tagLineSha1": "218c2e0c22a3b618",
+  "anchor": "export default function Hub",
+  "anchorLine": 28
+ },
+ "additionalSources": [],
+ "purpose": "Heading and paragraph over a grid of third-party integration logos that scale in on scroll, with a button to the integrations directory.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/",
+    "/coaching",
+    "/digital-downloads",
+    "/memberships",
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 28,
+    "observedIn": 5,
+    "maxLines1440": 1,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 37,
+    "maxChars": 212,
+    "observedIn": 5,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 18,
+    "observedIn": 5
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 20,
+    "observedIn": 5
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 23,
+    "observedIn": 5
+   }
+  },
+  "listSizes": {
+   "items": [
+    4,
+    4
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    18,
+    18
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "partner.logo"
+    ],
+    "generatedRoles": [
+     "partner.placeholder-icon"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "partner.placeholder-icon"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "scroll.scrub"
+  ],
+  "requiredPatterns": [
+   "scroll.scrub"
+  ],
+  "reducedMotionFallback": {
+   "scroll.scrub": "final-state"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "logo grid with hover tooltips"
+  },
+  {
+   "range": "<=991",
+   "behavior": "tooltips off; grid tightens"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 5,
+   "minPx": 880.6,
+   "maxPx": 909.8,
+   "medianPx": 880.6,
+   "sample": {
+    "/": 880.6,
+    "/online-courses": 909.8,
+    "/coaching": 880.6,
+    "/digital-downloads": 880.6,
+    "/memberships": 880.6
+   }
+  },
+  "390": {
+   "nodes": 5,
+   "minPx": 793.4,
+   "maxPx": 816.8,
+   "medianPx": 793.4,
+   "sample": {
+    "/": 793.4,
+    "/online-courses": 816.8,
+    "/coaching": 793.4,
+    "/digital-downloads": 793.4,
+    "/memberships": 793.4
+   }
+  }
+ },
+ "evidence": [
+  "src/components/Hub.jsx:28-94",
+  "src/pages/Home.jsx:34",
+  "src/pages/OnlineCourses.jsx:69",
+  "src/pages/Coaching.jsx:90",
+  "src/pages/DigitalDownloads.jsx:66",
+  "src/pages/Memberships.jsx:55"
+ ]
+}

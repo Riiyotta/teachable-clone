@@ -1,0 +1,16 @@
+{
+ "id": "primitive.check-icon",
+ "kind": "primitive",
+ "title": "Check mark",
+ "purpose": "Stroke check icon; size/colour set by the caller.",
+ "source": {
+  "file": "src/components/shared/CheckIcon.jsx",
+  "lines": "4-12",
+  "anchor": "export default function CheckIcon",
+  "anchorLine": 4
+ },
+ "props": {},
+ "tokens": [
+  "color.check-green"
+ ]
+}

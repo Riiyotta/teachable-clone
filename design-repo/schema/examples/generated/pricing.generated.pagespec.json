@@ -1,0 +1,789 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T5",
+ "route": "/pricing-beacon",
+ "theme": "light",
+ "brand": {
+  "name": "Mossgate Workshop"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Steer ledger",
+      "href": "https://mossgate.example/share",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord weigh",
+      "href": "https://mossgate.example/beacon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan pebble",
+      "href": "https://mossgate.example/tidy",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map delta",
+      "href": "https://mossgate.example/marble",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:field-orbit-meadow",
+      "alt": "Notice"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.pricing",
+   "variant": "default",
+   "content": {
+    "heading": "Steer cobalt",
+    "lead": "Tidal lantern signal basil measure"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "pricing.plan-cards",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Nimbus",
+      "text": "Grove thread compass quarry field shape gather summit"
+     },
+     {
+      "title": "Steer",
+      "text": "Sort share fjord falcon basil measure nimbus grove"
+     },
+     {
+      "title": "Cedar",
+      "text": "Trace sketch plan shape cinder notice harvest cobalt"
+     },
+     {
+      "title": "Share",
+      "text": "Willow signal refine rowan bundle grove thread compass"
+     },
+     {
+      "title": "Marble",
+      "text": "Field orbit gather sprout steer cobalt harbor lantern"
+     },
+     {
+      "title": "Signal",
+      "text": "Refine atlas pebble tidy map trace marble ember"
+     },
+     {
+      "title": "Orbit",
+      "text": "Gather sprout harvest ledger harbor fjord weigh basil"
+     },
+     {
+      "title": "Measure",
+      "text": "Pebble grove thread delta marble field orbit gather"
+     },
+     {
+      "title": "Sprout",
+      "text": "Harvest cobalt share lantern signal basil atlas pebble"
+     },
+     {
+      "title": "Canvas",
+      "text": "Cedar trace quarry ember shape cinder summit harvest"
+     },
+     {
+      "title": "Ledger",
+      "text": "Tidal lantern weigh basil measure bundle tidy map"
+     },
+     {
+      "title": "Trace",
+      "text": "Sketch ember orbit meadow sprout harvest sort tidal"
+     },
+     {
+      "title": "Fjord",
+      "text": "Falcon refine atlas pebble grove map compass quarry"
+     },
+     {
+      "title": "Plan",
+      "text": "Orbit meadow sprout harvest sort share lantern weigh"
+     },
+     {
+      "title": "Beacon",
+      "text": "Measure nimbus canvas cedar compass marble field prism"
+     },
+     {
+      "title": "Meadow",
+      "text": "Sprout harvest ledger harbor lantern weigh basil rowan"
+     },
+     {
+      "title": "Pebble",
+      "text": "Grove cedar trace sketch plan orbit meadow summit"
+     },
+     {
+      "title": "Juniper",
+      "text": "Sort share willow falcon refine rowan nimbus tidy"
+     },
+     {
+      "title": "Cedar",
+      "text": "Delta quarry field shape cinder summit juniper cobalt"
+     },
+     {
+      "title": "Harbor",
+      "text": "Willow signal refine atlas nimbus grove thread compass"
+     },
+     {
+      "title": "Marble",
+      "text": "Plan shape gather summit juniper ledger share lantern"
+     },
+     {
+      "title": "Falcon",
+      "text": "Basil rowan bundle tidy map delta sketch field"
+     },
+     {
+      "title": "Orbit",
+      "text": "Gather summit juniper cobalt tidal lantern signal basil"
+     },
+     {
+      "title": "Measure",
+      "text": "Bundle grove thread delta sketch field shape gather"
+     },
+     {
+      "title": "Summit",
+      "text": "Harvest cobalt tidal lantern falcon refine atlas pebble"
+     },
+     {
+      "title": "Canvas",
+      "text": "Thread delta quarry ember orbit gather notice harvest"
+     },
+     {
+      "title": "Sort",
+      "text": "Tidal willow falcon refine atlas nimbus tidy cedar"
+     },
+     {
+      "title": "Delta",
+      "text": "Marble ember shape cinder sprout steer cobalt harbor"
+     },
+     {
+      "title": "Lantern",
+      "text": "Signal beacon measure pebble tidy cedar delta quarry"
+     },
+     {
+      "title": "Plan",
+      "text": "Shape gather notice juniper cobalt harbor lantern falcon"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Beacon rowan",
+      "href": "https://mossgate.example/nimbus",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas cedar",
+      "href": "https://mossgate.example/trace",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry plan",
+      "href": "https://mossgate.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather sprout",
+      "href": "https://mossgate.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger share",
+      "href": "https://mossgate.example/fjord",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.fade",
+    "reducedMotionFallback": "instant-swap"
+   }
+  },
+  {
+   "section": "pricing.comparison-matrix",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Weigh refine",
+      "text": "Atlas pebble tidy cedar"
+     },
+     {
+      "title": "Trace quarry",
+      "text": "Plan orbit meadow sprout"
+     },
+     {
+      "title": "Steer cobalt",
+      "text": "Harbor lantern signal basil"
+     },
+     {
+      "title": "Rowan nimbus",
+      "text": "Tidy thread delta marble"
+     },
+     {
+      "title": "Field shape",
+      "text": "Gather summit steer cobalt"
+     },
+     {
+      "title": "Share lantern",
+      "text": "Signal beacon rowan nimbus"
+     },
+     {
+      "title": "Grove cedar",
+      "text": "Delta quarry plan orbit"
+     },
+     {
+      "title": "Gather notice",
+      "text": "Harvest cobalt tidal fjord"
+     },
+     {
+      "title": "Weigh basil",
+      "text": "Rowan bundle canvas thread"
+     },
+     {
+      "title": "Compass marble",
+      "text": "Ember orbit cinder notice"
+     },
+     {
+      "title": "Steer cobalt",
+      "text": "Share lantern signal basil"
+     },
+     {
+      "title": "Measure pebble",
+      "text": "Canvas cedar compass quarry"
+     },
+     {
+      "title": "Plan orbit",
+      "text": "Gather notice harvest ledger"
+     },
+     {
+      "title": "Share lantern",
+      "text": "Falcon basil atlas bundle"
+     },
+     {
+      "title": "Canvas thread",
+      "text": "Delta sketch field shape"
+     },
+     {
+      "title": "Gather summit",
+      "text": "Harvest ledger tidal fjord"
+     },
+     {
+      "title": "Signal refine",
+      "text": "Measure pebble grove map"
+     },
+     {
+      "title": "Compass marble",
+      "text": "Plan shape cinder notice"
+     },
+     {
+      "title": "Steer ledger",
+      "text": "Harbor willow weigh basil"
+     },
+     {
+      "title": "Atlas nimbus",
+      "text": "Grove map trace marble"
+     },
+     {
+      "title": "Ember orbit",
+      "text": "Gather summit juniper sort"
+     },
+     {
+      "title": "Harbor lantern",
+      "text": "Signal beacon rowan nimbus"
+     },
+     {
+      "title": "Canvas map",
+      "text": "Compass marble plan orbit"
+     },
+     {
+      "title": "Gather notice",
+      "text": "Harvest cobalt share willow"
+     },
+     {
+      "title": "Falcon refine",
+      "text": "Atlas bundle tidy cedar"
+     },
+     {
+      "title": "Trace marble",
+      "text": "Ember shape gather sprout"
+     },
+     {
+      "title": "Juniper cobalt",
+      "text": "Share fjord weigh basil"
+     },
+     {
+      "title": "Measure pebble",
+      "text": "Canvas thread delta marble"
+     },
+     {
+      "title": "Plan shape",
+      "text": "Meadow notice steer sort"
+     },
+     {
+      "title": "Harbor lantern",
+      "text": "Signal basil rowan nimbus"
+     },
+     {
+      "title": "Grove map",
+      "text": "Compass quarry ember shape"
+     },
+     {
+      "title": "Meadow notice",
+      "text": "Steer cobalt share fjord"
+     },
+     {
+      "title": "Weigh refine",
+      "text": "Measure bundle grove cedar"
+     },
+     {
+      "title": "Trace marble",
+      "text": "Plan orbit gather sprout"
+     },
+     {
+      "title": "Steer ledger",
+      "text": "Share lantern weigh basil"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Rowan nimbus",
+      "href": "https://mossgate.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cedar delta",
+      "href": "https://mossgate.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ember prism",
+      "href": "https://mossgate.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sprout harvest",
+      "href": "https://mossgate.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor lantern",
+      "href": "https://mossgate.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon atlas",
+      "href": "https://mossgate.example/pebble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://mossgate.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry plan",
+      "href": "https://mossgate.example/orbit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather summit",
+      "href": "https://mossgate.example/harvest",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.switch",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "pricing.fee-details",
+   "variant": "default",
+   "content": {
+    "heading": "Cobalt share lantern",
+    "lead": "Signal beacon atlas nimbus grove cedar trace quarry",
+    "actions": [
+     {
+      "label": "Ember orbit",
+      "href": "https://mossgate.example/meadow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice steer",
+      "href": "https://mossgate.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share fjord",
+      "href": "https://mossgate.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://mossgate.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove thread",
+      "href": "https://mossgate.example/trace",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "disclosure.instant",
+    "reducedMotionFallback": "unchanged"
+   }
+  },
+  {
+   "section": "social-proof.stories-slider",
+   "variant": "default",
+   "content": {
+    "heading": "Sketch plan orbit",
+    "lead": "Meadow notice juniper cobalt tidal lantern signal refine",
+    "items": [
+     {
+      "text": "Atlas pebble grove thread delta quarry field prism"
+     },
+     {
+      "text": "Cinder sprout steer sort share lantern falcon basil"
+     },
+     {
+      "text": "Atlas pebble canvas cedar compass sketch plan orbit"
+     },
+     {
+      "text": "Meadow summit harvest sort harbor fjord weigh refine"
+     },
+     {
+      "text": "Measure pebble canvas map compass sketch ember shape"
+     },
+     {
+      "text": "Cinder notice juniper sort harbor willow signal basil"
+     },
+     {
+      "text": "Rowan bundle canvas map trace marble field prism"
+     },
+     {
+      "text": "Meadow summit harvest ledger harbor lantern falcon beacon"
+     },
+     {
+      "text": "Atlas bundle tidy cedar delta marble plan prism"
+     },
+     {
+      "text": "Meadow notice juniper cobalt share willow falcon basil"
+     },
+     {
+      "text": "Measure pebble grove map trace quarry plan orbit"
+     },
+     {
+      "text": "Cinder sprout harvest ledger harbor lantern falcon beacon"
+     },
+     {
+      "text": "Measure pebble canvas thread trace sketch ember prism"
+     },
+     {
+      "text": "Gather notice juniper sort harbor willow falcon refine"
+     },
+     {
+      "text": "Measure pebble canvas map compass sketch ember shape"
+     },
+     {
+      "text": "Meadow sprout harvest cobalt tidal fjord falcon basil"
+     },
+     {
+      "text": "Measure bundle canvas cedar compass sketch plan prism"
+     },
+     {
+      "text": "Meadow sprout juniper cobalt tidal willow falcon basil"
+     },
+     {
+      "text": "Measure nimbus canvas thread delta sketch field prism"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Cinder",
+      "href": "https://mossgate.example/sprout",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:steer-ledger-harbor",
+      "alt": "Willow weigh refine rowan pebble canvas cedar trace"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:quarry-field-orbit",
+      "alt": "Gather notice juniper sort harbor lantern signal beacon"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:rowan-nimbus-tidy",
+      "alt": "Thread delta sketch ember prism meadow summit juniper"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:ledger-tidal-lantern",
+      "alt": "Falcon basil measure pebble grove cedar compass marble"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:ember-orbit-meadow",
+      "alt": "Summit juniper cobalt harbor lantern signal refine rowan"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:pebble-tidy-thread",
+      "alt": "Trace sketch ember prism cinder summit juniper ledger"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "paused-manual-controls"
+   }
+  },
+  {
+   "section": "faq.accordion",
+   "variant": "default",
+   "content": {
+    "heading": "Harbor lantern weigh basil",
+    "items": [
+     {
+      "title": "Measure bundle canvas thread delta sketch field",
+      "text": "Prism cinder summit steer sort harbor willow falcon"
+     },
+     {
+      "title": "Basil rowan bundle canvas map trace quarry",
+      "text": "Plan shape gather sprout juniper sort tidal willow"
+     },
+     {
+      "title": "Weigh refine rowan bundle tidy cedar delta",
+      "text": "Quarry ember shape meadow summit steer ledger harbor"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Fjord signal",
+      "href": "https://mossgate.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Measure bundle",
+      "href": "https://mossgate.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.expand",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "blue-product",
+   "content": {
+    "heading": "Map delta quarry ember prism meadow",
+    "lead": "Notice harvest cobalt harbor willow signal refine rowan",
+    "actions": [
+     {
+      "label": "Nimbus grove cedar",
+      "href": "https://mossgate.example/trace",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry ember shape",
+      "href": "https://mossgate.example/meadow",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Summit",
+      "text": "Harvest ledger tidal fjord signal basil measure bundle"
+     },
+     {
+      "title": "Tidy",
+      "text": "Cedar trace marble plan prism gather sprout harvest"
+     },
+     {
+      "title": "Cobalt",
+      "text": "Harbor fjord falcon beacon rowan pebble tidy cedar"
+     },
+     {
+      "title": "Compass",
+      "text": "Marble plan orbit gather sprout juniper ledger share"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Lantern weigh",
+      "href": "https://mossgate.example/basil",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan pebble",
+      "href": "https://mossgate.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cedar delta",
+      "href": "https://mossgate.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field shape",
+      "href": "https://mossgate.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Summit juniper",
+      "href": "https://mossgate.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share fjord",
+      "href": "https://mossgate.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon rowan",
+      "href": "https://mossgate.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas thread",
+      "href": "https://mossgate.example/trace",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sketch field",
+      "href": "https://mossgate.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather notice",
+      "href": "https://mossgate.example/harvest",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://mossgate.example/willow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://mossgate.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus tidy",
+      "href": "https://mossgate.example/map",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace quarry",
+      "href": "https://mossgate.example/field",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Shape cinder",
+      "href": "https://mossgate.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Juniper ledger",
+      "href": "https://mossgate.example/share",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Lantern weigh",
+      "href": "https://mossgate.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://mossgate.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:thread-trace-sketch"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:plan-prism-meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  },
+  {
+   "section": "pricing.exit-modal",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Sprout",
+    "heading": "Harvest ledger tidal",
+    "lead": "Willow falcon beacon rowan pebble grove cedar trace",
+    "note": "Marble ember shape cinder",
+    "actions": [
+     {
+      "label": "Summit harvest",
+      "href": "https://mossgate.example/sort",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:tidal-fjord-falcon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "modal.exit-intent",
+    "reducedMotionFallback": "unchanged"
+   }
+  }
+ ]
+}

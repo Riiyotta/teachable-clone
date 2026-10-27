@@ -1,0 +1,173 @@
+{
+ "note": "Closed motion vocabulary. Each pattern cites the motion evidence (CLONE_SPEC.md §21 motion index, BUILD_NOTES.md, specs, src). reducedMotionFallback is PRESCRIPTIVE for generated pages: the clone itself only honours prefers-reduced-motion in DemoUnlockHero (sourceHonoursReducedMotion).",
+ "patterns": {
+  "static": {
+   "description": "No motion beyond hover micro-interactions (button label scale, underline).",
+   "reducedMotionFallback": "none-needed",
+   "cite": "CLONE_SPEC.md:1027",
+   "match": "There are **no page-load entrance animations**",
+   "sourceHonoursReducedMotion": false
+  },
+  "marquee.loop": {
+   "description": "Infinite linear horizontal loop (promo 25s, stats 60s, logo tiles 24-30s); some pause on hover.",
+   "reducedMotionFallback": "paused-static-row",
+   "cite": "CLONE_SPEC.md:999",
+   "match": "| M1 | Marquee items |",
+   "sourceHonoursReducedMotion": false
+  },
+  "nav.dropdown": {
+   "description": "Click-to-open mega dropdown (chevron rotates 300ms ease) and hamburger morph (200ms ease).",
+   "reducedMotionFallback": "instant-toggle",
+   "cite": "CLONE_SPEC.md:1001",
+   "match": "| M3 | Nav dropdown chevron |",
+   "sourceHonoursReducedMotion": false
+  },
+  "parallax.pointer": {
+   "description": "Footer echo wordmarks drift with the pointer (smoothed); static offsets at rest.",
+   "reducedMotionFallback": "static-offsets",
+   "cite": "specs/product-template.md:46",
+   "match": "### G3. Footer: undocumented mouse-move parallax",
+   "sourceHonoursReducedMotion": false
+  },
+  "countdown.tick": {
+   "description": "Text update every second (not an animation).",
+   "reducedMotionFallback": "unchanged",
+   "cite": "CLONE_SPEC.md:1000",
+   "match": "| M2 | Banner countdown |",
+   "sourceHonoursReducedMotion": false
+  },
+  "tabs.autoplay-progress": {
+   "description": "Tabs autoplay with a progress bar (hero 6s/tab while visible; memberships slider 4s).",
+   "reducedMotionFallback": "manual-tabs-no-autoplay",
+   "cite": "CLONE_SPEC.md:1010",
+   "match": "| M12 | Hero tabs |",
+   "sourceHonoursReducedMotion": false
+  },
+  "panel.fade-scale-in": {
+   "description": "Floating UI panels fade/scale in after a tab activates (400-500ms, delays 600/900ms).",
+   "reducedMotionFallback": "instant-show",
+   "cite": "CLONE_SPEC.md:1011",
+   "match": "| M13 | Hero UI panels |",
+   "sourceHonoursReducedMotion": false
+  },
+  "scroll.pinned-scrub": {
+   "description": "Section pins while scroll scrubs its keyframes (why scene 280vh, scale 400vh).",
+   "reducedMotionFallback": "unpinned-static-stack",
+   "cite": "CLONE_SPEC.md:1012",
+   "match": "| M14 | Why scene |",
+   "sourceHonoursReducedMotion": false
+  },
+  "scroll.scrub": {
+   "description": "Scroll-linked property scrub without pinning (hub logos scale in, card heading grows, card stair flattens).",
+   "reducedMotionFallback": "final-state",
+   "cite": "CLONE_SPEC.md:1023",
+   "match": "| M25 | Hub logos |",
+   "sourceHonoursReducedMotion": false
+  },
+  "reveal.on-scroll": {
+   "description": "Elements animate in when scrolled into view (flags burst, tools cards, mobile flags).",
+   "reducedMotionFallback": "final-state",
+   "cite": "CLONE_SPEC.md:1017",
+   "match": "| M19 | Scale flags |",
+   "sourceHonoursReducedMotion": false
+  },
+  "float.continuous": {
+   "description": "Continuous small drift loop (rAF).",
+   "reducedMotionFallback": "static",
+   "cite": "CLONE_SPEC.md:1018",
+   "match": "| M20 | Flag float |",
+   "sourceHonoursReducedMotion": false
+  },
+  "text.swap-loop": {
+   "description": "Timed fade swap of one word (600ms, 800ms hold).",
+   "reducedMotionFallback": "first-item-static",
+   "cite": "CLONE_SPEC.md:1019",
+   "match": "| M21 | Language word |",
+   "sourceHonoursReducedMotion": false
+  },
+  "shimmer.loop": {
+   "description": "Infinite shimmer sweep across an accent (4.5s).",
+   "reducedMotionFallback": "none",
+   "cite": "CLONE_SPEC.md:1020",
+   "match": "| M22 | AI shimmer |",
+   "sourceHonoursReducedMotion": false
+  },
+  "carousel.autoplay": {
+   "description": "Looping slider that autoplays (2000ms delay, 300ms slide) and pauses on hover.",
+   "reducedMotionFallback": "paused-manual-controls",
+   "cite": "CLONE_SPEC.md:1021",
+   "match": "| M23 | Stories Swiper |",
+   "sourceHonoursReducedMotion": false
+  },
+  "carousel.manual": {
+   "description": "Slider moved by buttons/drag/swipe only (300-500ms).",
+   "reducedMotionFallback": "instant-slide",
+   "cite": "CLONE_SPEC.md:1022",
+   "match": "| M24 | Case-study Swiper |",
+   "sourceHonoursReducedMotion": false
+  },
+  "accordion.expand": {
+   "description": "Height expand/collapse with icon rotation (.3s ease); one open at a time.",
+   "reducedMotionFallback": "instant-toggle",
+   "cite": "CLONE_SPEC.md:1024",
+   "match": "| M26 | FAQ |",
+   "sourceHonoursReducedMotion": false
+  },
+  "tabs.fade": {
+   "description": "Pill tabs: pane fades out 100ms then in 300ms.",
+   "reducedMotionFallback": "instant-swap",
+   "cite": "BUILD_NOTES.md:343",
+   "match": "the pane fades out over 100ms, then the new pane fades in over 300ms",
+   "sourceHonoursReducedMotion": false
+  },
+  "tabs.switch": {
+   "description": "Filter pills swap content instantly (no animation).",
+   "reducedMotionFallback": "unchanged",
+   "cite": "BUILD_NOTES.md:383",
+   "match": "8 filter pills, default \"Transaction fees & Usage\", instant switch",
+   "sourceHonoursReducedMotion": false
+  },
+  "disclosure.instant": {
+   "description": "Click toggles a disclosure instantly (no animation).",
+   "reducedMotionFallback": "unchanged",
+   "cite": "BUILD_NOTES.md:383",
+   "match": "`FeeDropdowns` (click toggles display, in flow, no animation)",
+   "sourceHonoursReducedMotion": false
+  },
+  "modal.exit-intent": {
+   "description": "Dialog opens instantly on exit intent (no animation).",
+   "reducedMotionFallback": "unchanged",
+   "cite": "BUILD_NOTES.md:383",
+   "match": "`ExitModal` (once per session `ta_exitModalShown`",
+   "sourceHonoursReducedMotion": false
+  },
+  "pulse.loop": {
+   "description": "Background colour pulse cycling across cards (4s / 6s, staggered).",
+   "reducedMotionFallback": "static-no-pulse",
+   "cite": "src/index.css:471",
+   "match": "@keyframes bgSteps {",
+   "sourceHonoursReducedMotion": false
+  },
+  "expand.embed": {
+   "description": "Embed widens from half to full width (.5s ease) with text fade.",
+   "reducedMotionFallback": "instant-expand",
+   "cite": "BUILD_NOTES.md:326",
+   "match": "Expand: the text fades (.2s), the embed widens 50% → 100% (.5s ease)",
+   "sourceHonoursReducedMotion": false
+  },
+  "lightbox.open": {
+   "description": "Lightbox dialog fades in (300ms).",
+   "reducedMotionFallback": "instant-open",
+   "cite": "BUILD_NOTES.md:334",
+   "match": "(portal, 300ms fade, Esc / backdrop / close button",
+   "sourceHonoursReducedMotion": false
+  },
+  "unlock.reveal": {
+   "description": "Unlocking reveals the video and an offer with an entrance animation.",
+   "reducedMotionFallback": "instant-show",
+   "cite": "src/components/pages/watch-demo/DemoUnlockHero.jsx:10",
+   "match": "prefers-reduced-motion drops the chip / thumb / offer-button transitions and the offer animation.",
+   "sourceHonoursReducedMotion": true
+  }
+ }
+}

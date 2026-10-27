@@ -1,0 +1,19 @@
+{
+ "id": "primitive.play-icon",
+ "kind": "primitive",
+ "title": "Play glyph",
+ "purpose": "Outline play icon on video thumbnails.",
+ "source": {
+  "file": "src/components/shared/PlayIcon.jsx",
+  "lines": "4-17",
+  "anchor": "export default function PlayIcon",
+  "anchorLine": 4
+ },
+ "props": {
+  "tone": [
+   "dark",
+   "light"
+  ]
+ },
+ "tokens": []
+}

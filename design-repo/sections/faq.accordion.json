@@ -1,0 +1,205 @@
+{
+ "id": "faq.accordion",
+ "title": "FAQ accordion",
+ "semantic": {
+  "id": "faq.accordion",
+  "category": "FAQ"
+ },
+ "source": {
+  "id": "Faq:Faq:section@93",
+  "file": "src/components/Faq.jsx",
+  "tag": "section",
+  "lines": "83-119",
+  "tagLine": 93,
+  "tagLineSha1": "90459129a877ef84",
+  "anchor": "export default function Faq",
+  "anchorLine": 83
+ },
+ "additionalSources": [],
+ "purpose": "Question list where one answer is open at a time (first open on load).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "standard padding",
+   "requiredFields": [
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [
+    "bullets"
+   ],
+   "observedOn": [
+    "/",
+    "/coaching",
+    "/digital-downloads",
+    "/mobile-app",
+    "/payments",
+    "/pricing",
+    "/site-builder"
+   ]
+  },
+  "flush-top": {
+   "description": "no top padding (follows a band)",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [
+    "bullets"
+   ],
+   "observedOn": [
+    "/customer-journey"
+   ]
+  },
+  "with-footnote": {
+   "description": "adds a grey footnote card under the list",
+   "requiredFields": [
+    "bullets",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOn": [
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 55,
+    "observedIn": 9,
+    "maxLines1440": 2,
+    "maxLines390": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 13,
+    "maxChars": 71,
+    "observedIn": 9
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 85,
+    "maxChars": 472,
+    "observedIn": 9
+   },
+   "bullets[]": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 82,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 27,
+    "observedIn": 4
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    14
+   ],
+   "bullets": [
+    9,
+    9
+   ],
+   "actions": [
+    1,
+    12
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "accordion.expand"
+  ],
+  "requiredPatterns": [
+   "accordion.expand"
+  ],
+  "reducedMotionFallback": {
+   "accordion.expand": "instant-toggle"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "single column in a narrow container"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 9,
+   "minPx": 704.5,
+   "maxPx": 1543.7,
+   "medianPx": 1055.7,
+   "sample": {
+    "/": 1230.9,
+    "/pricing": 1055.7,
+    "/online-courses": 1543.7,
+    "/coaching": 707.7,
+    "/digital-downloads": 1055.7,
+    "/payments": 1055.7,
+    "/customer-journey": 760.4,
+    "/mobile-app": 880.1,
+    "/site-builder": 704.5
+   }
+  },
+  "390": {
+   "nodes": 9,
+   "minPx": 595.4,
+   "maxPx": 1556.5,
+   "medianPx": 947.6,
+   "sample": {
+    "/": 1155,
+    "/pricing": 947.6,
+    "/online-courses": 1556.5,
+    "/coaching": 647.2,
+    "/digital-downloads": 1021.6,
+    "/payments": 1059.4,
+    "/customer-journey": 745.2,
+    "/mobile-app": 846.8,
+    "/site-builder": 595.4
+   }
+  }
+ },
+ "evidence": [
+  "src/components/Faq.jsx:83-119",
+  "src/pages/Home.jsx:36",
+  "src/pages/Pricing.jsx:30",
+  "src/pages/OnlineCourses.jsx:91",
+  "src/pages/Coaching.jsx:93",
+  "src/pages/DigitalDownloads.jsx:70",
+  "src/pages/Payments.jsx:62",
+  "src/pages/CustomerJourney.jsx:76",
+  "src/pages/MobileApp.jsx:55",
+  "src/pages/SiteBuilder.jsx:51"
+ ]
+}

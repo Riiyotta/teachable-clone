@@ -1,0 +1,16 @@
+{
+ "id": "primitive.arrow-icon",
+ "kind": "primitive",
+ "title": "Arrow glyph",
+ "purpose": "16x9 arrow in currentColor; flips 180deg.",
+ "source": {
+  "file": "src/components/shared/ArrowIcon.jsx",
+  "lines": "2-11",
+  "anchor": "export default function ArrowIcon",
+  "anchorLine": 2
+ },
+ "props": {
+  "flipped": "boolean"
+ },
+ "tokens": []
+}

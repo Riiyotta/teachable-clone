@@ -1,0 +1,591 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "font.family.body": {
+   "value": "Peridotpenormvf, Arial, sans-serif",
+   "category": "fontFamily",
+   "cite": "tailwind.config.cjs:82",
+   "match": "'Peridotpenormvf'"
+  },
+  "font.family.heading": {
+   "value": "Ivyprestoheadline, Georgia, sans-serif",
+   "category": "fontFamily",
+   "cite": "tailwind.config.cjs:81",
+   "match": "'Ivyprestoheadline'"
+  },
+  "font.family.mono": {
+   "value": "monospace",
+   "category": "fontFamily",
+   "cite": "tailwind.config.cjs:83",
+   "match": "'monospace'"
+  },
+  "font.lineHeight.body": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:90",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.card-title": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:98",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.cta-heading": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:99",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.display-why": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:100",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.display-why-sm": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:101",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.explainer-title": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:103",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.h1": {
+   "value": "1",
+   "category": "lineHeight",
+   "cite": "src/index.css:46",
+   "match": "--lh-h1: 1",
+   "responsive": {
+    "<=991": {
+     "value": "1.1",
+     "cite": "src/index.css:82",
+     "match": "--lh-h1: 1.1"
+    },
+    "<=767": {
+     "value": "1",
+     "cite": "src/index.css:105",
+     "match": "--lh-h1: 1"
+    }
+   }
+  },
+  "font.lineHeight.h2": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "src/index.css:48",
+   "match": "--lh-h2: 1.1",
+   "responsive": {}
+  },
+  "font.lineHeight.h3": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "src/index.css:50",
+   "match": "--lh-h3: 1.1",
+   "responsive": {}
+  },
+  "font.lineHeight.large": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:95",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.list-title": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:104",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.marquee-stat": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:108",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.medium": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:91",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.rating-title": {
+   "value": "1.2",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:106",
+   "match": "lineHeight: '1.2'"
+  },
+  "font.lineHeight.regular": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:92",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.slider-title": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:105",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.small": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:93",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.subheading": {
+   "value": "1.2",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:97",
+   "match": "lineHeight: '1.2'"
+  },
+  "font.lineHeight.tier-badge": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:107",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.lineHeight.tiny": {
+   "value": "1.5",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:94",
+   "match": "lineHeight: '1.5'"
+  },
+  "font.lineHeight.tools-heading": {
+   "value": "1.1",
+   "category": "lineHeight",
+   "cite": "tailwind.config.cjs:102",
+   "match": "lineHeight: '1.1'"
+  },
+  "font.size.body": {
+   "value": "1.3rem",
+   "category": "fontSize",
+   "cite": "src/index.css:44",
+   "match": "--fs-body: 1.3rem",
+   "responsive": {
+    "<=767": {
+     "value": "1rem",
+     "cite": "src/index.css:103",
+     "match": "--fs-body: 1rem"
+    },
+    "<=479": {
+     "value": "4vw",
+     "cite": "src/index.css:127",
+     "match": "--fs-body: 4vw"
+    }
+   }
+  },
+  "font.size.card-title": {
+   "value": "2.25rem",
+   "category": "fontSize",
+   "cite": "src/index.css:67",
+   "match": "--fs-card-title: 2.25rem",
+   "responsive": {
+    "<=991": {
+     "value": "1.75rem",
+     "cite": "src/index.css:90",
+     "match": "--fs-card-title: 1.75rem"
+    },
+    "<=767": {
+     "value": "1.5rem",
+     "cite": "src/index.css:115",
+     "match": "--fs-card-title: 1.5rem"
+    },
+    "<=479": {
+     "value": "8vw",
+     "cite": "src/index.css:141",
+     "match": "--fs-card-title: 8vw"
+    }
+   }
+  },
+  "font.size.cta-heading": {
+   "value": "3rem",
+   "category": "fontSize",
+   "cite": "src/index.css:68",
+   "match": "--fs-cta-heading: 3rem",
+   "responsive": {
+    "<=767": {
+     "value": "2.5rem",
+     "cite": "src/index.css:116",
+     "match": "--fs-cta-heading: 2.5rem"
+    },
+    "<=479": {
+     "value": "10vw",
+     "cite": "src/index.css:142",
+     "match": "--fs-cta-heading: 10vw"
+    }
+   }
+  },
+  "font.size.display-why": {
+   "value": "6rem",
+   "category": "fontSize",
+   "cite": "src/index.css:69",
+   "match": "--fs-display-why: 6rem",
+   "responsive": {
+    "<=991": {
+     "value": "5rem",
+     "cite": "src/index.css:91",
+     "match": "--fs-display-why: 5rem"
+    },
+    "<=767": {
+     "value": "3rem",
+     "cite": "src/index.css:117",
+     "match": "--fs-display-why: 3rem"
+    },
+    "<=479": {
+     "value": "12vw",
+     "cite": "src/index.css:143",
+     "match": "--fs-display-why: 12vw"
+    }
+   }
+  },
+  "font.size.display-why-sm": {
+   "value": "4rem",
+   "category": "fontSize",
+   "cite": "src/index.css:70",
+   "match": "--fs-display-why-sm: 4rem",
+   "responsive": {
+    "<=991": {
+     "value": "3rem",
+     "cite": "src/index.css:92",
+     "match": "--fs-display-why-sm: 3rem"
+    },
+    "<=767": {
+     "value": "2.5rem",
+     "cite": "src/index.css:118",
+     "match": "--fs-display-why-sm: 2.5rem"
+    },
+    "<=479": {
+     "value": "10vw",
+     "cite": "src/index.css:144",
+     "match": "--fs-display-why-sm: 10vw"
+    }
+   }
+  },
+  "font.size.explainer-title": {
+   "value": "3rem",
+   "category": "fontSize",
+   "cite": "src/index.css:72",
+   "match": "--fs-explainer-title: 3rem",
+   "responsive": {
+    "<=991": {
+     "value": "2rem",
+     "cite": "src/index.css:94",
+     "match": "--fs-explainer-title: 2rem"
+    },
+    "<=479": {
+     "value": "8vw",
+     "cite": "src/index.css:146",
+     "match": "--fs-explainer-title: 8vw"
+    }
+   }
+  },
+  "font.size.h1": {
+   "value": "5rem",
+   "category": "fontSize",
+   "cite": "src/index.css:45",
+   "match": "--fs-h1: 5rem",
+   "responsive": {
+    "<=991": {
+     "value": "3.5rem",
+     "cite": "src/index.css:81",
+     "match": "--fs-h1: 3.5rem"
+    },
+    "<=767": {
+     "value": "2.5rem",
+     "cite": "src/index.css:104",
+     "match": "--fs-h1: 2.5rem"
+    },
+    "<=479": {
+     "value": "11vw",
+     "cite": "src/index.css:128",
+     "match": "--fs-h1: 11vw"
+    }
+   }
+  },
+  "font.size.h2": {
+   "value": "4rem",
+   "category": "fontSize",
+   "cite": "src/index.css:47",
+   "match": "--fs-h2: 4rem",
+   "responsive": {
+    "<=991": {
+     "value": "2.5rem",
+     "cite": "src/index.css:83",
+     "match": "--fs-h2: 2.5rem"
+    },
+    "<=767": {
+     "value": "2rem",
+     "cite": "src/index.css:106",
+     "match": "--fs-h2: 2rem"
+    },
+    "<=479": {
+     "value": "10vw",
+     "cite": "src/index.css:129",
+     "match": "--fs-h2: 10vw"
+    }
+   }
+  },
+  "font.size.h3": {
+   "value": "3rem",
+   "category": "fontSize",
+   "cite": "src/index.css:49",
+   "match": "--fs-h3: 3rem",
+   "responsive": {
+    "<=767": {
+     "value": "2rem",
+     "cite": "src/index.css:107",
+     "match": "--fs-h3: 2rem"
+    },
+    "<=479": {
+     "value": "8vw",
+     "cite": "src/index.css:130",
+     "match": "--fs-h3: 8vw"
+    }
+   }
+  },
+  "font.size.large": {
+   "value": "1.5rem",
+   "category": "fontSize",
+   "cite": "src/index.css:55",
+   "match": "--fs-large: 1.5rem",
+   "responsive": {
+    "<=767": {
+     "value": "1.25rem",
+     "cite": "src/index.css:108",
+     "match": "--fs-large: 1.25rem"
+    },
+    "<=479": {
+     "value": "5vw",
+     "cite": "src/index.css:135",
+     "match": "--fs-large: 5vw"
+    }
+   }
+  },
+  "font.size.list-title": {
+   "value": "2rem",
+   "category": "fontSize",
+   "cite": "src/index.css:73",
+   "match": "--fs-list-title: 2rem",
+   "responsive": {
+    "<=991": {
+     "value": "1.75rem",
+     "cite": "src/index.css:95",
+     "match": "--fs-list-title: 1.75rem"
+    },
+    "<=767": {
+     "value": "1.5rem",
+     "cite": "src/index.css:120",
+     "match": "--fs-list-title: 1.5rem"
+    },
+    "<=479": {
+     "value": "8vw",
+     "cite": "src/index.css:147",
+     "match": "--fs-list-title: 8vw"
+    }
+   }
+  },
+  "font.size.marquee-stat": {
+   "value": "1.75rem",
+   "category": "fontSize",
+   "cite": "src/index.css:77",
+   "match": "--fs-marquee-stat: 1.75rem",
+   "responsive": {
+    "<=991": {
+     "value": "1.5rem",
+     "cite": "src/index.css:98",
+     "match": "--fs-marquee-stat: 1.5rem"
+    },
+    "<=767": {
+     "value": "1.25rem",
+     "cite": "src/index.css:122",
+     "match": "--fs-marquee-stat: 1.25rem"
+    }
+   }
+  },
+  "font.size.medium": {
+   "value": "1.15rem",
+   "category": "fontSize",
+   "cite": "src/index.css:51",
+   "match": "--fs-medium: 1.15rem",
+   "responsive": {
+    "<=991": {
+     "value": "1rem",
+     "cite": "src/index.css:84",
+     "match": "--fs-medium: 1rem"
+    },
+    "<=479": {
+     "value": "4vw",
+     "cite": "src/index.css:131",
+     "match": "--fs-medium: 4vw"
+    }
+   }
+  },
+  "font.size.rating-title": {
+   "value": "1.5rem",
+   "category": "fontSize",
+   "cite": "src/index.css:75",
+   "match": "--fs-rating-title: 1.5rem",
+   "responsive": {
+    "<=479": {
+     "value": "6vw",
+     "cite": "src/index.css:149",
+     "match": "--fs-rating-title: 6vw"
+    }
+   }
+  },
+  "font.size.regular": {
+   "value": "1rem",
+   "category": "fontSize",
+   "cite": "src/index.css:52",
+   "match": "--fs-regular: 1rem",
+   "responsive": {
+    "<=479": {
+     "value": "4vw",
+     "cite": "src/index.css:132",
+     "match": "--fs-regular: 4vw"
+    }
+   }
+  },
+  "font.size.slider-title": {
+   "value": "3rem",
+   "category": "fontSize",
+   "cite": "src/index.css:74",
+   "match": "--fs-slider-title: 3rem",
+   "responsive": {
+    "<=991": {
+     "value": "2.5rem",
+     "cite": "src/index.css:96",
+     "match": "--fs-slider-title: 2.5rem"
+    },
+    "<=767": {
+     "value": "1.5rem",
+     "cite": "src/index.css:121",
+     "match": "--fs-slider-title: 1.5rem"
+    },
+    "<=479": {
+     "value": "7vw",
+     "cite": "src/index.css:148",
+     "match": "--fs-slider-title: 7vw"
+    }
+   }
+  },
+  "font.size.small": {
+   "value": "0.875rem",
+   "category": "fontSize",
+   "cite": "src/index.css:53",
+   "match": "--fs-small: 0.875rem",
+   "responsive": {
+    "<=479": {
+     "value": "3.5vw",
+     "cite": "src/index.css:133",
+     "match": "--fs-small: 3.5vw"
+    }
+   }
+  },
+  "font.size.subheading": {
+   "value": "2.25rem",
+   "category": "fontSize",
+   "cite": "src/index.css:66",
+   "match": "--fs-subheading: 2.25rem",
+   "responsive": {
+    "<=991": {
+     "value": "1.75rem",
+     "cite": "src/index.css:89",
+     "match": "--fs-subheading: 1.75rem"
+    },
+    "<=767": {
+     "value": "1.25rem",
+     "cite": "src/index.css:114",
+     "match": "--fs-subheading: 1.25rem"
+    },
+    "<=479": {
+     "value": "7vw",
+     "cite": "src/index.css:140",
+     "match": "--fs-subheading: 7vw"
+    }
+   }
+  },
+  "font.size.tier-badge": {
+   "value": "1.1rem",
+   "category": "fontSize",
+   "cite": "src/index.css:76",
+   "match": "--fs-tier-badge: 1.1rem",
+   "responsive": {
+    "<=991": {
+     "value": "1rem",
+     "cite": "src/index.css:97",
+     "match": "--fs-tier-badge: 1rem"
+    }
+   }
+  },
+  "font.size.tiny": {
+   "value": "0.75rem",
+   "category": "fontSize",
+   "cite": "src/index.css:54",
+   "match": "--fs-tiny: 0.75rem",
+   "responsive": {
+    "<=479": {
+     "value": "3vw",
+     "cite": "src/index.css:134",
+     "match": "--fs-tiny: 3vw"
+    }
+   }
+  },
+  "font.size.tools-heading": {
+   "value": "5rem",
+   "category": "fontSize",
+   "cite": "src/index.css:71",
+   "match": "--fs-tools-heading: 5rem",
+   "responsive": {
+    "<=991": {
+     "value": "4rem",
+     "cite": "src/index.css:93",
+     "match": "--fs-tools-heading: 4rem"
+    },
+    "<=767": {
+     "value": "3rem",
+     "cite": "src/index.css:119",
+     "match": "--fs-tools-heading: 3rem"
+    },
+    "<=479": {
+     "value": "10vw",
+     "cite": "src/index.css:145",
+     "match": "--fs-tools-heading: 10vw"
+    }
+   }
+  },
+  "font.weight.400": {
+   "value": "400",
+   "category": "fontWeight",
+   "cite": "CLONE_SPEC.md:44",
+   "match": "Weights in use: 400, 500, 600, 700, 800"
+  },
+  "font.weight.500": {
+   "value": "500",
+   "category": "fontWeight",
+   "cite": "CLONE_SPEC.md:44",
+   "match": "Weights in use: 400, 500, 600, 700, 800"
+  },
+  "font.weight.600": {
+   "value": "600",
+   "category": "fontWeight",
+   "cite": "CLONE_SPEC.md:44",
+   "match": "Weights in use: 400, 500, 600, 700, 800"
+  },
+  "font.weight.700": {
+   "value": "700",
+   "category": "fontWeight",
+   "cite": "CLONE_SPEC.md:44",
+   "match": "Weights in use: 400, 500, 600, 700, 800"
+  },
+  "font.weight.800": {
+   "value": "800",
+   "category": "fontWeight",
+   "cite": "CLONE_SPEC.md:44",
+   "match": "Weights in use: 400, 500, 600, 700, 800"
+  }
+ }
+}

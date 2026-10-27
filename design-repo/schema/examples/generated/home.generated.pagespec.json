@@ -1,0 +1,1044 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T0",
+ "route": "/",
+ "theme": "light",
+ "brand": {
+  "name": "Fernhollow Studio"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.promo-marquee",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Pebble grove thread delta marble",
+      "href": "https://fernhollow.example/field",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Orbit gather notice steer ledger",
+      "href": "https://fernhollow.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Willow falcon refine atlas nimbus",
+      "href": "https://fernhollow.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused-static-row"
+   }
+  },
+  {
+   "section": "shell.navbar",
+   "variant": "sticky",
+   "content": {
+    "actions": [
+     {
+      "label": "Cedar compass",
+      "href": "https://fernhollow.example/marble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ember orbit",
+      "href": "https://fernhollow.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Summit harvest",
+      "href": "https://fernhollow.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor willow",
+      "href": "https://fernhollow.example/signal",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:basil-rowan-pebble",
+      "alt": "Tidy"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.home",
+   "variant": "default",
+   "content": {
+    "heading": "Thread delta quarry field",
+    "lead": "Prism meadow summit harvest cobalt tidal lantern weigh",
+    "items": [
+     {
+      "text": "Basil measure pebble tidy thread delta sketch field"
+     },
+     {
+      "text": "Prism meadow notice juniper ledger harbor fjord signal"
+     },
+     {
+      "text": "Refine rowan bundle grove map delta sketch field"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Shape gather",
+      "href": "https://fernhollow.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest sort",
+      "href": "https://fernhollow.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord falcon",
+      "href": "https://fernhollow.example/beacon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas bundle",
+      "href": "https://fernhollow.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:cedar-trace-marble"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:plan-prism-meadow"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:sprout-steer-cobalt"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:harbor-fjord-weigh"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:beacon-measure-bundle"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:tidy-thread-compass"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:quarry-plan-shape"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:cinder-sprout-harvest"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.autoplay-progress",
+    "reducedMotionFallback": "manual-tabs-no-autoplay"
+   }
+  },
+  {
+   "section": "stats.counters",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Sort",
+      "text": "Share lantern"
+     },
+     {
+      "title": "Falcon",
+      "text": "Refine rowan"
+     },
+     {
+      "title": "Nimbus",
+      "text": "Tidy map"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.demo-link",
+   "variant": "default",
+   "content": {
+    "actions": [
+     {
+      "label": "Compass",
+      "href": "https://fernhollow.example/sketch",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.offer-cards",
+   "variant": "home",
+   "content": {
+    "heading": "Plan prism meadow summit steer",
+    "lead": "Sort harbor fjord signal beacon atlas bundle tidy",
+    "items": [
+     {
+      "title": "Map",
+      "text": "Trace quarry ember shape gather summit juniper ledger"
+     },
+     {
+      "title": "Harbor",
+      "text": "Lantern weigh basil measure bundle canvas map trace"
+     },
+     {
+      "title": "Quarry",
+      "text": "Field orbit cinder sprout harvest sort share fjord"
+     },
+     {
+      "title": "Signal",
+      "text": "Beacon atlas pebble tidy cedar delta marble ember"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Prism gather",
+      "href": "https://fernhollow.example/summit",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:juniper-sort-tidal",
+      "alt": "Lantern signal refine atlas nimbus tidy map delta"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:sketch-ember-shape",
+      "alt": "Cinder notice harvest sort share willow signal basil"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:rowan-nimbus-tidy",
+      "alt": "Cedar trace sketch ember orbit cinder notice harvest"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:cobalt-share-willow",
+      "alt": "Falcon basil measure pebble tidy map compass quarry"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.payments-promo",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Ember",
+    "heading": "Orbit meadow summit steer",
+    "bullets": [
+     "Ledger tidal fjord weigh basil atlas pebble",
+     "Grove thread trace marble ember orbit meadow",
+     "Summit harvest ledger tidal willow signal refine"
+    ],
+    "actions": [
+     {
+      "label": "Atlas bundle",
+      "href": "https://fernhollow.example/tidy",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:map-compass-quarry"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:plan-shape-gather"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.sticky-scroll-scene",
+   "variant": "default",
+   "content": {
+    "heading": "Sprout harvest cobalt",
+    "lead": "Share fjord falcon refine rowan bundle canvas",
+    "items": [
+     {
+      "title": "Thread delta sketch",
+      "text": "Field orbit meadow sprout juniper sort share willow"
+     },
+     {
+      "title": "Weigh beacon atlas",
+      "text": "Nimbus canvas map compass sketch ember orbit gather"
+     },
+     {
+      "title": "Notice harvest cobalt",
+      "text": "Tidal fjord signal beacon rowan nimbus tidy map"
+     },
+     {
+      "title": "Delta sketch ember",
+      "text": "Prism gather notice harvest cobalt share fjord weigh"
+     },
+     {
+      "title": "Refine measure nimbus",
+      "text": "Canvas map trace quarry plan prism gather notice"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:juniper-cobalt-harbor",
+      "alt": "Fjord signal refine measure pebble grove map compass"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:quarry-ember-orbit",
+      "alt": "Cinder summit juniper sort harbor fjord weigh beacon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.pinned-scrub",
+    "reducedMotionFallback": "unpinned-static-stack"
+   }
+  },
+  {
+   "section": "features.image-rows",
+   "variant": "overlap",
+   "content": {
+    "heading": "Rowan bundle grove map",
+    "lead": "Trace sketch ember prism gather sprout juniper cobalt",
+    "items": [
+     {
+      "title": "Harbor fjord signal",
+      "text": "Beacon measure pebble grove cedar compass marble plan"
+     },
+     {
+      "title": "Shape cinder summit",
+      "text": "Steer ledger tidal fjord falcon beacon rowan bundle"
+     },
+     {
+      "title": "Canvas thread compass",
+      "text": "Quarry ember shape meadow summit harvest sort harbor"
+     },
+     {
+      "title": "Willow falcon beacon",
+      "text": "Atlas nimbus grove map delta sketch field prism"
+     },
+     {
+      "title": "Cinder summit harvest",
+      "text": "Cobalt tidal fjord falcon basil measure nimbus grove"
+     },
+     {
+      "title": "Cedar compass marble",
+      "text": "Field prism meadow notice harvest cobalt harbor lantern"
+     },
+     {
+      "title": "Weigh basil atlas",
+      "text": "Nimbus canvas map compass marble plan prism meadow"
+     },
+     {
+      "title": "Notice harvest sort",
+      "text": "Share willow signal refine rowan nimbus canvas map"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:trace-marble-ember",
+      "alt": "Prism cinder notice harvest sort tidal lantern falcon"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:basil-measure-bundle",
+      "alt": "Canvas map compass sketch field orbit cinder notice"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.scale-stepper",
+   "variant": "default",
+   "content": {
+    "heading": "Juniper ledger tidal willow",
+    "lead": "Weigh beacon rowan nimbus tidy thread compass quarry",
+    "items": [
+     {
+      "title": "Ember shape",
+      "text": "Meadow notice steer ledger tidal lantern weigh beacon"
+     },
+     {
+      "title": "Measure pebble",
+      "text": "Canvas map delta marble plan orbit gather notice"
+     },
+     {
+      "title": "Juniper ledger",
+      "text": "Harbor lantern signal beacon measure bundle tidy map"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:trace-sketch-ember"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:orbit-cinder-notice"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:steer-sort-harbor"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:fjord-weigh-beacon"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:measure-pebble-canvas"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:thread-compass-quarry"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:field-orbit-meadow"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:sprout-harvest-sort"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:harbor-fjord-weigh"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.pinned-scrub",
+    "reducedMotionFallback": "unpinned-static-stack"
+   }
+  },
+  {
+   "section": "features.ai-automations",
+   "variant": "default",
+   "content": {
+    "heading": "Beacon",
+    "items": [
+     {
+      "title": "Rowan pebble",
+      "text": "Canvas cedar delta quarry plan shape meadow notice"
+     },
+     {
+      "title": "Juniper ledger",
+      "text": "Share lantern signal beacon atlas pebble grove thread"
+     },
+     {
+      "title": "Trace marble",
+      "text": "Ember shape gather sprout harvest sort tidal fjord"
+     },
+     {
+      "title": "Weigh refine",
+      "text": "Rowan pebble tidy cedar trace quarry field prism"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:meadow-notice-harvest",
+      "alt": "Cobalt tidal willow signal beacon atlas pebble canvas"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:cedar-trace-marble",
+      "alt": "Plan prism meadow sprout steer sort harbor willow"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:signal-refine-measure",
+      "alt": "Bundle canvas map trace quarry plan shape meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.stories-slider",
+   "variant": "default",
+   "content": {
+    "heading": "Notice steer cobalt",
+    "lead": "Harbor willow signal refine rowan pebble grove cedar",
+    "items": [
+     {
+      "text": "Trace marble plan orbit meadow summit steer cobalt"
+     },
+     {
+      "text": "Tidal fjord signal basil rowan pebble tidy map"
+     },
+     {
+      "text": "Compass marble plan prism cinder summit steer cobalt"
+     },
+     {
+      "text": "Harbor fjord weigh beacon measure bundle canvas cedar"
+     },
+     {
+      "text": "Delta sketch ember prism meadow sprout harvest sort"
+     },
+     {
+      "text": "Tidal willow signal refine atlas bundle tidy map"
+     },
+     {
+      "text": "Trace marble field prism gather notice juniper sort"
+     },
+     {
+      "text": "Share willow signal refine rowan nimbus grove cedar"
+     },
+     {
+      "text": "Delta sketch field prism cinder notice steer ledger"
+     },
+     {
+      "text": "Share lantern falcon beacon atlas pebble canvas cedar"
+     },
+     {
+      "text": "Delta sketch field prism gather summit steer sort"
+     },
+     {
+      "text": "Tidal willow falcon refine measure nimbus grove cedar"
+     },
+     {
+      "text": "Delta sketch plan orbit gather summit steer ledger"
+     },
+     {
+      "text": "Share willow weigh beacon atlas bundle grove thread"
+     },
+     {
+      "text": "Trace marble ember prism cinder notice harvest sort"
+     },
+     {
+      "text": "Share lantern falcon beacon atlas pebble tidy cedar"
+     },
+     {
+      "text": "Delta sketch plan prism cinder notice steer ledger"
+     },
+     {
+      "text": "Share willow falcon refine measure nimbus tidy thread"
+     },
+     {
+      "text": "Compass marble ember prism gather notice juniper ledger"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Harbor",
+      "href": "https://fernhollow.example/lantern",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:falcon-refine-rowan",
+      "alt": "Nimbus grove thread compass marble ember orbit meadow"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:sprout-steer-ledger",
+      "alt": "Share fjord signal refine measure nimbus grove map"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:trace-marble-field",
+      "alt": "Shape gather summit steer sort harbor willow falcon"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:refine-atlas-bundle",
+      "alt": "Tidy map compass marble plan shape meadow summit"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:harvest-cobalt-share",
+      "alt": "Willow falcon refine measure pebble grove thread compass"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:quarry-ember-shape",
+      "alt": "Cinder summit juniper cobalt tidal willow falcon beacon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "paused-manual-controls"
+   }
+  },
+  {
+   "section": "pricing.teaser",
+   "variant": "default",
+   "content": {
+    "heading": "Atlas pebble grove thread trace",
+    "lead": "Quarry field shape gather notice steer",
+    "items": [
+     {
+      "title": "Sort harbor willow",
+      "text": "Falcon basil rowan pebble tidy map delta marble"
+     },
+     {
+      "title": "Ember orbit cinder",
+      "text": "Sprout steer cobalt share lantern weigh beacon atlas"
+     },
+     {
+      "title": "Bundle tidy cedar",
+      "text": "Trace marble ember shape cinder notice harvest cobalt"
+     },
+     {
+      "title": "Tidal willow falcon",
+      "text": "Beacon rowan pebble grove cedar trace sketch field"
+     },
+     {
+      "title": "Prism cinder sprout",
+      "text": "Juniper cobalt harbor willow signal refine measure nimbus"
+     },
+     {
+      "title": "Grove map compass",
+      "text": "Quarry field shape meadow notice juniper ledger tidal"
+     },
+     {
+      "title": "Lantern weigh basil",
+      "text": "Measure nimbus grove map compass sketch field shape"
+     },
+     {
+      "title": "Meadow summit steer",
+      "text": "Cobalt tidal fjord weigh beacon atlas pebble canvas"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Thread",
+      "href": "https://fernhollow.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble",
+      "href": "https://fernhollow.example/ember",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:shape-meadow-notice",
+      "alt": "Steer cobalt harbor willow falcon refine rowan"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.integration-hub",
+   "variant": "default",
+   "content": {
+    "heading": "Pebble tidy map",
+    "lead": "Compass marble field orbit meadow notice harvest cobalt",
+    "items": [
+     {
+      "text": "Tidal willow"
+     },
+     {
+      "text": "Weigh beacon"
+     },
+     {
+      "text": "Rowan bundle"
+     },
+     {
+      "text": "Tidy map"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Delta",
+      "href": "https://fernhollow.example/quarry",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:plan-shape-meadow",
+      "alt": "Sprout steer"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:sort-tidal-willow",
+      "alt": "Falcon beacon"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:measure-pebble-grove",
+      "alt": "Thread compass"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:sketch-ember-prism",
+      "alt": "Meadow summit"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:steer-cobalt-tidal",
+      "alt": "Willow falcon"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:basil-measure-nimbus",
+      "alt": "Canvas thread"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:compass-marble-ember",
+      "alt": "Orbit meadow"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:sprout-juniper-ledger",
+      "alt": "Share willow"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:falcon-basil-rowan",
+      "alt": "Nimbus tidy"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:map-delta-quarry",
+      "alt": "Ember prism"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cinder-summit-steer",
+      "alt": "Ledger tidal"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:willow-weigh-refine",
+      "alt": "Measure bundle"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:canvas-map-delta",
+      "alt": "Marble ember"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:prism-gather-notice",
+      "alt": "Harvest ledger"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:tidal-fjord-falcon",
+      "alt": "Basil rowan"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:nimbus-canvas-map",
+      "alt": "Trace sketch"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:field-prism-cinder",
+      "alt": "Notice steer"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cobalt-tidal-lantern",
+      "alt": "Falcon beacon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "scroll.scrub",
+    "reducedMotionFallback": "final-state"
+   }
+  },
+  {
+   "section": "social-proof.case-study-slider",
+   "variant": "default",
+   "content": {
+    "heading": "Rowan nimbus canvas thread",
+    "lead": "Compass sketch plan prism gather sprout harvest ledger",
+    "actions": [
+     {
+      "label": "Harbor fjord signal basil measure",
+      "href": "https://fernhollow.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas cedar trace quarry field",
+      "href": "https://fernhollow.example/prism",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather summit juniper cobalt share",
+      "href": "https://fernhollow.example/lantern",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:signal-beacon-rowan",
+      "alt": "Pebble canvas thread compass quarry plan shape gather"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:sprout-harvest-sort",
+      "alt": "Share fjord signal basil measure nimbus grove cedar"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:compass-sketch-field",
+      "alt": "Orbit cinder summit juniper sort harbor lantern weigh"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "instant-slide"
+   }
+  },
+  {
+   "section": "faq.accordion",
+   "variant": "default",
+   "content": {
+    "heading": "Basil atlas nimbus grove",
+    "items": [
+     {
+      "title": "Thread delta sketch field shape cinder sprout",
+      "text": "Harvest sort tidal willow weigh refine atlas pebble"
+     },
+     {
+      "title": "Tidy map trace quarry field orbit meadow",
+      "text": "Summit juniper sort share lantern weigh basil measure"
+     },
+     {
+      "title": "Pebble grove thread trace sketch ember shape",
+      "text": "Cinder sprout harvest ledger tidal fjord signal beacon"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Rowan pebble",
+      "href": "https://fernhollow.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map compass",
+      "href": "https://fernhollow.example/quarry",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.expand",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.impact",
+   "variant": "default",
+   "content": {
+    "heading": "Plan prism gather notice juniper",
+    "actions": [
+     {
+      "label": "Ledger",
+      "href": "https://fernhollow.example/share",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:willow-weigh-basil",
+      "alt": "Atlas bundle canvas thread delta marble ember orbit"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Gather",
+      "text": "Sprout harvest cobalt harbor willow weigh beacon measure"
+     },
+     {
+      "title": "Nimbus",
+      "text": "Canvas map compass quarry ember shape meadow summit"
+     },
+     {
+      "title": "Steer",
+      "text": "Cobalt tidal fjord weigh refine atlas bundle grove"
+     },
+     {
+      "title": "Map",
+      "text": "Delta sketch ember orbit cinder sprout juniper cobalt"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Harbor fjord",
+      "href": "https://fernhollow.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil atlas",
+      "href": "https://fernhollow.example/pebble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove cedar",
+      "href": "https://fernhollow.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry ember",
+      "href": "https://fernhollow.example/orbit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather sprout",
+      "href": "https://fernhollow.example/harvest",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sort share",
+      "href": "https://fernhollow.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Weigh beacon",
+      "href": "https://fernhollow.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus canvas",
+      "href": "https://fernhollow.example/cedar",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace sketch",
+      "href": "https://fernhollow.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Prism gather",
+      "href": "https://fernhollow.example/summit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Juniper cobalt",
+      "href": "https://fernhollow.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Lantern signal",
+      "href": "https://fernhollow.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Measure pebble",
+      "href": "https://fernhollow.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map compass",
+      "href": "https://fernhollow.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field orbit",
+      "href": "https://fernhollow.example/gather",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice juniper",
+      "href": "https://fernhollow.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidal lantern",
+      "href": "https://fernhollow.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil rowan",
+      "href": "https://fernhollow.example/nimbus",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:tidy-cedar-compass"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:sketch-ember-shape"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

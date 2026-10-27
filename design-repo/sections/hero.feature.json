@@ -1,0 +1,222 @@
+{
+ "id": "hero.feature",
+ "title": "Feature hero",
+ "semantic": {
+  "id": "hero.feature",
+  "category": "HERO"
+ },
+ "source": {
+  "id": "FeatureHero:FeatureHero:section@12",
+  "file": "src/components/sections/FeatureHero.jsx",
+  "tag": "section",
+  "lines": "10-46",
+  "tagLine": 12,
+  "tagLineSha1": "90459129a877ef84",
+  "anchor": "export default function FeatureHero",
+  "anchorLine": 10
+ },
+ "additionalSources": [],
+ "purpose": "Page-opening composition for a feature page: eyebrow, headline (sometimes with a decorative glyph letter), paragraph, button and a portrait image.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "bottom padding",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/ai-hub",
+    "/analytics-and-reporting",
+    "/mobile-app",
+    "/sales-and-marketing",
+    "/student-experience"
+   ]
+  },
+  "flush-bottom": {
+   "description": "no bottom padding",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/site-builder"
+   ]
+  },
+  "flush-login": {
+   "description": "no bottom padding plus an 'already a customer' login line",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/app-hub"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "eyebrow",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "eyebrow": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 26,
+    "observedIn": 7
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 14,
+    "maxChars": 73,
+    "observedIn": 7,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 35,
+    "maxChars": 212,
+    "observedIn": 7,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 41,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 21,
+    "observedIn": 7
+   }
+  },
+  "listSizes": {
+   "items": [
+    1,
+    1
+   ],
+   "actions": [
+    1,
+    2
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "photo.source-scene"
+    ],
+    "generatedRoles": [
+     "photo.generated-scene"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "photo.generated-scene"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=480",
+   "behavior": "text left, image right"
+  },
+  {
+   "range": "<=479",
+   "behavior": "text above image"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 7,
+   "minPx": 723,
+   "maxPx": 844.8,
+   "medianPx": 844.8,
+   "sample": {
+    "/ai-hub": 844.8,
+    "/app-hub": 725,
+    "/analytics-and-reporting": 799.4,
+    "/mobile-app": 844.8,
+    "/sales-and-marketing": 844.8,
+    "/site-builder": 723,
+    "/student-experience": 844.8
+   }
+  },
+  "390": {
+   "nodes": 7,
+   "minPx": 899.3,
+   "maxPx": 1031.9,
+   "medianPx": 1007.3,
+   "sample": {
+    "/ai-hub": 1031.9,
+    "/app-hub": 1007.3,
+    "/analytics-and-reporting": 1009.5,
+    "/mobile-app": 1008.5,
+    "/sales-and-marketing": 899.3,
+    "/site-builder": 919.4,
+    "/student-experience": 965.6
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/FeatureHero.jsx:10-46",
+  "src/pages/AIHub.jsx:30",
+  "src/pages/AppHub.jsx:16",
+  "src/pages/AnalyticsAndReporting.jsx:26",
+  "src/pages/MobileApp.jsx:27",
+  "src/pages/SalesAndMarketing.jsx:34",
+  "src/pages/SiteBuilder.jsx:25",
+  "src/pages/StudentExperience.jsx:22"
+ ]
+}

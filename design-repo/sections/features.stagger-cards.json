@@ -1,0 +1,187 @@
+{
+ "id": "features.stagger-cards",
+ "title": "Staggered three cards",
+ "semantic": {
+  "id": "features.stagger-cards",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "StaggerCards:StaggerCards:section@37",
+  "file": "src/components/sections/StaggerCards.jsx",
+  "tag": "section",
+  "lines": "34-75",
+  "tagLine": 37,
+  "tagLineSha1": "bc8e5d3453a3cb76",
+  "anchor": "export default function StaggerCards",
+  "anchorLine": 34
+ },
+ "additionalSources": [],
+ "purpose": "Heading, intro and three image cards offset vertically in a stair pattern.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "platform": {
+   "description": "grey gradient image wells, optional centred button",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/online-courses"
+   ]
+  },
+  "spotlight": {
+   "description": "per-card buttons",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/coaching"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 11,
+    "maxChars": 56,
+    "observedIn": 2,
+    "maxLines1440": 3,
+    "maxLines390": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 35,
+    "maxChars": 204,
+    "observedIn": 2,
+    "maxLines1440": 4,
+    "maxLines390": 5
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 21,
+    "observedIn": 2
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 27,
+    "maxChars": 146,
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 16,
+    "observedIn": 2
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    3
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    3,
+    3
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "photo.source-scene",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "photo.generated-scene",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "three columns with stair offsets"
+  },
+  {
+   "range": "<=767",
+   "behavior": "two columns or one"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 2,
+   "minPx": 1099.8,
+   "maxPx": 1205.3,
+   "medianPx": 1152.5,
+   "sample": {
+    "/online-courses": 1205.3,
+    "/coaching": 1099.8
+   }
+  },
+  "390": {
+   "nodes": 2,
+   "minPx": 1785.6,
+   "maxPx": 2012.5,
+   "medianPx": 1899.0,
+   "sample": {
+    "/online-courses": 1785.6,
+    "/coaching": 2012.5
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/StaggerCards.jsx:34-75",
+  "src/pages/OnlineCourses.jsx:58",
+  "src/pages/Coaching.jsx:60"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "component.lightbox",
+ "kind": "component",
+ "title": "Lightbox",
+ "purpose": "Portal dialog with a video iframe; 300ms fade; Esc/backdrop/close; focus returns; body scroll locked.",
+ "source": {
+  "file": "src/components/shared/Lightbox.jsx",
+  "lines": "8-89",
+  "anchor": "export default function Lightbox",
+  "anchorLine": 8
+ },
+ "props": {
+  "open": "boolean",
+  "src": "embed url",
+  "title": "text"
+ },
+ "tokens": [],
+ "retrievalEligible": false,
+ "note": "runtime overlay UI; reachable only from social-proof.video-review"
+}

@@ -1,0 +1,317 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "color.black": {
+   "value": "#000000",
+   "category": "color",
+   "cite": "CLONE_SPEC.md:71",
+   "match": "`#000000`"
+  },
+  "color.blue.dark": {
+   "value": "#1c4774",
+   "category": "color",
+   "cite": "tailwind.config.cjs:31",
+   "match": "'#1c4774'"
+  },
+  "color.blue.end": {
+   "value": "#6f92b6",
+   "category": "color",
+   "cite": "tailwind.config.cjs:31",
+   "match": "'#6f92b6'"
+  },
+  "color.charcoal": {
+   "value": "#4e4e4e",
+   "category": "color",
+   "cite": "tailwind.config.cjs:57",
+   "match": "'#4e4e4e'"
+  },
+  "color.check-green": {
+   "value": "#32d532",
+   "category": "color",
+   "cite": "tailwind.config.cjs:62",
+   "match": "'#32d532'"
+  },
+  "color.cream": {
+   "value": "#fae6b6",
+   "category": "color",
+   "cite": "tailwind.config.cjs:33",
+   "match": "'#fae6b6'"
+  },
+  "color.embed-border": {
+   "value": "rgba(63,95,172,.35)",
+   "category": "color",
+   "cite": "tailwind.config.cjs:60",
+   "match": "'rgba(63,95,172,.35)'"
+  },
+  "color.focus": {
+   "value": "#005fcc",
+   "category": "color",
+   "cite": "tailwind.config.cjs:34",
+   "match": "'#005fcc'"
+  },
+  "color.form-required": {
+   "value": "#668c00",
+   "category": "color",
+   "cite": "tailwind.config.cjs:59",
+   "match": "'#668c00'"
+  },
+  "color.form-track": {
+   "value": "#e9e9e9",
+   "category": "color",
+   "cite": "tailwind.config.cjs:61",
+   "match": "'#e9e9e9'"
+  },
+  "color.gold": {
+   "value": "#ffd700",
+   "category": "color",
+   "cite": "tailwind.config.cjs:51",
+   "match": "'#ffd700'"
+  },
+  "color.grey-card": {
+   "value": "#e6e6e6",
+   "category": "color",
+   "cite": "tailwind.config.cjs:66",
+   "match": "'#e6e6e6'"
+  },
+  "color.grey-card-border": {
+   "value": "#aaaaaa",
+   "category": "color",
+   "cite": "tailwind.config.cjs:67",
+   "match": "'#aaaaaa'"
+  },
+  "color.grey-footnote": {
+   "value": "#444444",
+   "category": "color",
+   "cite": "tailwind.config.cjs:52",
+   "match": "'#444444'"
+  },
+  "color.grey-note": {
+   "value": "#666666",
+   "category": "color",
+   "cite": "tailwind.config.cjs:69",
+   "match": "'#666666'"
+  },
+  "color.grey-strike": {
+   "value": "#777777",
+   "category": "color",
+   "cite": "tailwind.config.cjs:64",
+   "match": "'#777777'"
+  },
+  "color.grey.end": {
+   "value": "#bebebe",
+   "category": "color",
+   "cite": "tailwind.config.cjs:23",
+   "match": "'#bebebe'"
+  },
+  "color.grey.light": {
+   "value": "#f0f0f0",
+   "category": "color",
+   "cite": "tailwind.config.cjs:21",
+   "match": "'#f0f0f0'"
+  },
+  "color.grey.mid": {
+   "value": "#bfbfbf",
+   "category": "color",
+   "cite": "tailwind.config.cjs:22",
+   "match": "'#bfbfbf'"
+  },
+  "color.grey.muted": {
+   "value": "#a0a0a0",
+   "category": "color",
+   "cite": "tailwind.config.cjs:25",
+   "match": "'#a0a0a0'"
+  },
+  "color.grey.rule": {
+   "value": "#cccccc",
+   "category": "color",
+   "cite": "tailwind.config.cjs:29",
+   "match": "'#cccccc'"
+  },
+  "color.grey.slide": {
+   "value": "#f5f5f5",
+   "category": "color",
+   "cite": "tailwind.config.cjs:24",
+   "match": "'#f5f5f5'"
+  },
+  "color.grey.tab": {
+   "value": "#222222",
+   "category": "color",
+   "cite": "tailwind.config.cjs:27",
+   "match": "'#222222'"
+  },
+  "color.grey.title": {
+   "value": "#979797",
+   "category": "color",
+   "cite": "tailwind.config.cjs:26",
+   "match": "'#979797'"
+  },
+  "color.grey.track": {
+   "value": "#e7e7e7",
+   "category": "color",
+   "cite": "tailwind.config.cjs:28",
+   "match": "'#e7e7e7'"
+  },
+  "color.halloween.close": {
+   "value": "#ffffff1f",
+   "category": "color",
+   "cite": "tailwind.config.cjs:44",
+   "match": "'#ffffff1f'"
+  },
+  "color.halloween.colon": {
+   "value": "#6f6585",
+   "category": "color",
+   "cite": "tailwind.config.cjs:42",
+   "match": "'#6f6585'"
+  },
+  "color.halloween.ink": {
+   "value": "#0b0910",
+   "category": "color",
+   "cite": "tailwind.config.cjs:37",
+   "match": "'#0b0910'"
+  },
+  "color.halloween.label": {
+   "value": "#a79fbd",
+   "category": "color",
+   "cite": "tailwind.config.cjs:43",
+   "match": "'#a79fbd'"
+  },
+  "color.halloween.note": {
+   "value": "#cfc8e0",
+   "category": "color",
+   "cite": "tailwind.config.cjs:41",
+   "match": "'#cfc8e0'"
+  },
+  "color.halloween.plum": {
+   "value": "#2a1f45",
+   "category": "color",
+   "cite": "tailwind.config.cjs:39",
+   "match": "'#2a1f45'"
+  },
+  "color.halloween.rule": {
+   "value": "#ffffff24",
+   "category": "color",
+   "cite": "tailwind.config.cjs:45",
+   "match": "'#ffffff24'"
+  },
+  "color.halloween.rule-mob": {
+   "value": "#ffffff1a",
+   "category": "color",
+   "cite": "tailwind.config.cjs:46",
+   "match": "'#ffffff1a'"
+  },
+  "color.halloween.text": {
+   "value": "#ece8f5",
+   "category": "color",
+   "cite": "tailwind.config.cjs:40",
+   "match": "'#ece8f5'"
+  },
+  "color.halloween.unit": {
+   "value": "#ffffff12",
+   "category": "color",
+   "cite": "tailwind.config.cjs:47",
+   "match": "'#ffffff12'"
+  },
+  "color.halloween.violet": {
+   "value": "#1c1530",
+   "category": "color",
+   "cite": "tailwind.config.cjs:38",
+   "match": "'#1c1530'"
+  },
+  "color.ice": {
+   "value": "#e5f2ff",
+   "category": "color",
+   "cite": "tailwind.config.cjs:65",
+   "match": "'#e5f2ff'"
+  },
+  "color.nav-mob-card": {
+   "value": "rgba(255,255,255,.08)",
+   "category": "color",
+   "cite": "tailwind.config.cjs:49",
+   "match": "'rgba(255,255,255,.08)'"
+  },
+  "color.navy": {
+   "value": "#182a44",
+   "category": "color",
+   "cite": "tailwind.config.cjs:55",
+   "match": "'#182a44'"
+  },
+  "color.red.dark": {
+   "value": "#7f2a23",
+   "category": "color",
+   "cite": "tailwind.config.cjs:32",
+   "match": "'#7f2a23'"
+  },
+  "color.slate": {
+   "value": "#555555",
+   "category": "color",
+   "cite": "tailwind.config.cjs:68",
+   "match": "'#555555'"
+  },
+  "color.step-tint.1": {
+   "value": "#fbf7e5",
+   "category": "color",
+   "cite": "tailwind.config.cjs:53",
+   "match": "'#fbf7e5'"
+  },
+  "color.step-tint.2": {
+   "value": "#e7eef3",
+   "category": "color",
+   "cite": "tailwind.config.cjs:53",
+   "match": "'#e7eef3'"
+  },
+  "color.step-tint.3": {
+   "value": "#efe7e6",
+   "category": "color",
+   "cite": "tailwind.config.cjs:53",
+   "match": "'#efe7e6'"
+  },
+  "color.tooltip": {
+   "value": "#1a1a1a",
+   "category": "color",
+   "cite": "tailwind.config.cjs:58",
+   "match": "'#1a1a1a'"
+  },
+  "color.warm": {
+   "value": "#f5f2ee",
+   "category": "color",
+   "cite": "tailwind.config.cjs:56",
+   "match": "'#f5f2ee'"
+  },
+  "color.warm-light": {
+   "value": "#f5f3f1",
+   "category": "color",
+   "cite": "tailwind.config.cjs:70",
+   "match": "'#f5f3f1'"
+  },
+  "color.white": {
+   "value": "#ffffff",
+   "category": "color",
+   "cite": "CLONE_SPEC.md:72",
+   "match": "`#ffffff`"
+  },
+  "color.yellow.default": {
+   "value": "#e6ff32",
+   "category": "color",
+   "cite": "tailwind.config.cjs:19",
+   "match": "'#e6ff32'"
+  },
+  "color.yellow.fade": {
+   "value": "#edf0e0",
+   "category": "color",
+   "cite": "tailwind.config.cjs:19",
+   "match": "'#edf0e0'"
+  },
+  "color.yellow.light": {
+   "value": "#f8ffc6",
+   "category": "color",
+   "cite": "tailwind.config.cjs:19",
+   "match": "'#f8ffc6'"
+  },
+  "color.yellow.olive": {
+   "value": "#687317",
+   "category": "color",
+   "cite": "tailwind.config.cjs:19",
+   "match": "'#687317'"
+  }
+ }
+}

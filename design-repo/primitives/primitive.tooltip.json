@@ -1,0 +1,19 @@
+{
+ "id": "primitive.tooltip",
+ "kind": "primitive",
+ "title": "Tooltip",
+ "purpose": "Single body-level tooltip shown 50ms after hover/focus, placed above the trigger.",
+ "source": {
+  "file": "src/components/shared/Tooltip.jsx",
+  "lines": "64-95",
+  "anchor": "export default function Tooltip",
+  "anchorLine": 64
+ },
+ "props": {
+  "message": "short text",
+  "delayMs": 50
+ },
+ "tokens": [
+  "color.tooltip"
+ ]
+}

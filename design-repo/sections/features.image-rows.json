@@ -1,0 +1,220 @@
+{
+ "id": "features.image-rows",
+ "title": "Image + text feature rows",
+ "semantic": {
+  "id": "features.image-rows",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "WhyCards:WhyCards:section@188",
+  "file": "src/components/WhyCards.jsx",
+  "tag": "section",
+  "lines": "119-194",
+  "tagLine": 188,
+  "tagLineSha1": "29e76cb9b999e5c8",
+  "anchor": "export default function WhyCards",
+  "anchorLine": 119
+ },
+ "additionalSources": [
+  {
+   "id": "WhyCards:WhyCards:section@169#plain",
+   "file": "src/components/WhyCards.jsx",
+   "tag": "section",
+   "lines": "119-194",
+   "tagLine": 169,
+   "tagLineSha1": "1dd9b3ae72c89fee",
+   "anchor": "export default function WhyCards",
+   "anchorLine": 119
+  }
+ ],
+ "purpose": "Alternating rows of a large image and a titled text block with arrow bullets and an optional button.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "overlap": {
+   "description": "homepage: overlaps the pinned scene above, heading grows on scroll",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOn": [
+    "/"
+   ]
+  },
+  "plain": {
+   "description": "payments: rows only",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/payments"
+   ]
+  },
+  "plain-header": {
+   "description": "payments: centred header then rows",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/payments"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 38,
+    "observedIn": 3,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 18,
+    "maxChars": 113,
+    "observedIn": 3,
+    "maxLines1440": 3,
+    "maxLines390": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 41,
+    "observedIn": 3
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 116,
+    "observedIn": 3
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 14,
+    "observedIn": 2
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 107,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    8,
+    19
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    2,
+    4
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "photo.source-scene",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "photo.generated-scene",
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "photo.generated-scene",
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static",
+   "scroll.scrub"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed",
+   "scroll.scrub": "final-state"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "image and text side by side, alternating"
+  },
+  {
+   "range": "<=767",
+   "behavior": "text first, image below"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 3,
+   "minPx": 1156.9,
+   "maxPx": 1605.2,
+   "medianPx": 1334.3,
+   "sample": {
+    "/": 1605.2,
+    "/payments": 1156.9
+   }
+  },
+  "390": {
+   "nodes": 3,
+   "minPx": 1404.9,
+   "maxPx": 2614.9,
+   "medianPx": 1624,
+   "sample": {
+    "/": 2614.9,
+    "/payments": 1404.9
+   }
+  }
+ },
+ "evidence": [
+  "src/components/WhyCards.jsx:119-194",
+  "src/pages/Home.jsx:29",
+  "src/pages/Payments.jsx:46"
+ ]
+}

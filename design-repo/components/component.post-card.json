@@ -1,0 +1,39 @@
+{
+ "id": "component.post-card",
+ "kind": "component",
+ "title": "Post card",
+ "purpose": "3:2 cover image, title, summary and author row (avatar + name).",
+ "source": {
+  "file": "src/components/shared/PostCard.jsx",
+  "lines": "4-28",
+  "anchor": "export default function PostCard",
+  "anchorLine": 4
+ },
+ "props": {
+  "image": "asset",
+  "title": "text",
+  "text": "text",
+  "author": "text",
+  "avatar": "asset",
+  "href": "link"
+ },
+ "tokens": [
+  "radius.card"
+ ],
+ "assetRoles": {
+  "image": [
+   "photo.source-scene"
+  ],
+  "avatar": [
+   "person.photo"
+  ]
+ },
+ "generatedAssetRoles": {
+  "image": [
+   "photo.generated-scene"
+  ],
+  "avatar": [
+   "person.fictional-avatar"
+  ]
+ }
+}

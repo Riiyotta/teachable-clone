@@ -1,0 +1,17 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "zIndex.nav": {
+   "value": "999",
+   "category": "zIndex",
+   "cite": "tailwind.config.cjs:160",
+   "match": "'999'"
+  },
+  "zIndex.nav-inner": {
+   "value": "2147483647",
+   "category": "zIndex",
+   "cite": "tailwind.config.cjs:161",
+   "match": "'2147483647'"
+  }
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": "pricing.exit-modal",
+ "title": "Exit-intent offer dialog",
+ "semantic": {
+  "id": "pricing.exit-modal",
+  "category": "CONVERSION"
+ },
+ "source": {
+  "id": "ExitModal:ExitModal:div@96",
+  "file": "src/components/pages/pricing/ExitModal.jsx",
+  "tag": "div",
+  "lines": "12-153",
+  "tagLine": 96,
+  "tagLineSha1": "d0d5392cf2a7d553",
+  "anchor": "export default function ExitModal",
+  "anchorLine": 12
+ },
+ "additionalSources": [],
+ "purpose": "Modal dialog with a trial-extension offer shown once per session on exit intent.",
+ "retrievalEligible": false,
+ "retrievalIneligibleReason": "Exit-intent modal dialog shown once per session on mouse-leave; runtime overlay UI, not page content, so it is excluded from retrieval.",
+ "placement": "overlay",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "heading",
+    "lead",
+    "media",
+    "note"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/pricing"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "eyebrow",
+   "heading",
+   "lead",
+   "media",
+   "note"
+  ],
+  "fields": {
+   "eyebrow": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 13,
+    "observedIn": 1
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 30,
+    "observedIn": 1,
+    "maxLines1440": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 20,
+    "maxChars": 106,
+    "observedIn": 1
+   },
+   "note": {
+    "type": "text",
+    "maxWords": 7,
+    "maxChars": 37,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 18,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "modal.exit-intent"
+  ],
+  "requiredPatterns": [
+   "modal.exit-intent"
+  ],
+  "reducedMotionFallback": {
+   "modal.exit-intent": "unchanged"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "centred card over a backdrop"
+  }
+ ],
+ "runtimeUi": [
+  "opens on exit intent after 5s, once per session; Esc / backdrop / close button dismiss; focus trapped"
+ ],
+ "measuredHeightsPx": {},
+ "evidence": [
+  "src/components/pages/pricing/ExitModal.jsx:12-153",
+  "src/content/pricing.js:307-315"
+ ]
+}

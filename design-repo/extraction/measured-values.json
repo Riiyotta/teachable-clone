@@ -1,0 +1,2333 @@
+{
+ "sectionHeights": {
+  "viewport": 1440,
+  "measuredAt": "2026-10-27",
+  "method": "headless Chromium against the running clone (dev server), scrollY 0 after fonts.ready; heights = getBoundingClientRect of each top-level child of <main> mapped to its semantic node (pricing plan section split at the billing-tabs top; the homepage scale slider/mobile pair and the stats marquee/stack pair are one node each). Overlays render nothing until triggered (0px). The fixed inner-page navbar overlays the page (fixed: true).",
+  "routes": {
+   "/": {
+    "template": "T0",
+    "docHeightPx": 18238,
+    "nodes": [
+     {
+      "section": "shell.promo-marquee",
+      "variant": "default",
+      "heightPx": 48,
+      "yPx": 0
+     },
+     {
+      "section": "shell.navbar",
+      "variant": "sticky",
+      "heightPx": 79.3,
+      "yPx": 48
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "home-top",
+      "heightPx": 248.2,
+      "yPx": 127.3
+     },
+     {
+      "section": "hero.home",
+      "variant": "default",
+      "heightPx": 1443.3,
+      "yPx": 375.5
+     },
+     {
+      "section": "stats.counters",
+      "variant": "default",
+      "heightPx": 183.4,
+      "yPx": 1818.9
+     },
+     {
+      "section": "cta.demo-link",
+      "variant": "default",
+      "heightPx": 96.3,
+      "yPx": 2002.3
+     },
+     {
+      "section": "features.offer-cards",
+      "variant": "home",
+      "heightPx": 1055,
+      "yPx": 2098.5
+     },
+     {
+      "section": "cta.payments-promo",
+      "variant": "default",
+      "heightPx": 580.8,
+      "yPx": 3153.6
+     },
+     {
+      "section": "features.sticky-scroll-scene",
+      "variant": "default",
+      "heightPx": 2520,
+      "yPx": 3734.3
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "overlap",
+      "heightPx": 1605.2,
+      "yPx": 6101.3
+     },
+     {
+      "section": "features.scale-stepper",
+      "variant": "default",
+      "heightPx": 3600,
+      "yPx": 7706.5
+     },
+     {
+      "section": "features.ai-automations",
+      "variant": "default",
+      "heightPx": 904.7,
+      "yPx": 11306.5
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 12211.2
+     },
+     {
+      "section": "pricing.teaser",
+      "variant": "default",
+      "heightPx": 661.5,
+      "yPx": 13202.2
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 880.6,
+      "yPx": 13863.7
+     },
+     {
+      "section": "social-proof.case-study-slider",
+      "variant": "default",
+      "heightPx": 809.2,
+      "yPx": 14744.3
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1230.9,
+      "yPx": 15553.5
+     },
+     {
+      "section": "cta.impact",
+      "variant": "default",
+      "heightPx": 645.1,
+      "yPx": 16784.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 17429.5
+     }
+    ]
+   },
+   "/pricing": {
+    "template": "T5",
+    "docHeightPx": 6163,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.pricing",
+      "variant": "default",
+      "heightPx": 319.5,
+      "yPx": 0
+     },
+     {
+      "section": "pricing.plan-cards",
+      "variant": "default",
+      "heightPx": 1152.7,
+      "yPx": 319.5
+     },
+     {
+      "section": "pricing.comparison-matrix",
+      "variant": "default",
+      "heightPx": 885.5,
+      "yPx": 1472.3
+     },
+     {
+      "section": "pricing.fee-details",
+      "variant": "default",
+      "heightPx": 516.3,
+      "yPx": 2357.7
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 2874.1
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1055.7,
+      "yPx": 3865
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-product",
+      "heightPx": 433.7,
+      "yPx": 4920.7
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 5354.4
+     },
+     {
+      "section": "pricing.exit-modal",
+      "variant": "default",
+      "heightPx": 0.0,
+      "overlay": true
+     }
+    ]
+   },
+   "/online-courses": {
+    "template": "T1",
+    "docHeightPx": 10534,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 360.5,
+      "yPx": 0
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 795.6,
+      "yPx": 360.5
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 72,
+      "yPx": 1156
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1125.5,
+      "yPx": 1228
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "white",
+      "heightPx": 1125.5,
+      "yPx": 2353.4
+     },
+     {
+      "section": "features.stagger-cards",
+      "variant": "platform",
+      "heightPx": 1205.3,
+      "yPx": 3478.9
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 909.8,
+      "yPx": 4684.1
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 5594
+     },
+     {
+      "section": "features.tools-grid",
+      "variant": "default",
+      "heightPx": 1246.1,
+      "yPx": 6584.9
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 350.7,
+      "yPx": 7831
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "with-footnote",
+      "heightPx": 1543.7,
+      "yPx": 8181.7
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 9725.4
+     }
+    ]
+   },
+   "/coaching": {
+    "template": "T1",
+    "docHeightPx": 9406,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 360.5,
+      "yPx": 0
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner-gold",
+      "heightPx": 823.2,
+      "yPx": 360.5
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 72,
+      "yPx": 1183.6
+     },
+     {
+      "section": "features.steps",
+      "variant": "steps",
+      "heightPx": 748.9,
+      "yPx": 1255.6
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1703.9,
+      "yPx": 2004.4
+     },
+     {
+      "section": "features.stagger-cards",
+      "variant": "spotlight",
+      "heightPx": 1099.8,
+      "yPx": 3708.3
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "with-images",
+      "heightPx": 903.6,
+      "yPx": 4808.1
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 880.6,
+      "yPx": 5711.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 6592.4
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-header",
+      "heightPx": 306.5,
+      "yPx": 7583.4
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 707.7,
+      "yPx": 7889.9
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 8597.6
+     }
+    ]
+   },
+   "/digital-downloads": {
+    "template": "T1",
+    "docHeightPx": 9060,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 360.5,
+      "yPx": 0
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 823.2,
+      "yPx": 360.5
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 72,
+      "yPx": 1183.6
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 978.8,
+      "yPx": 1255.6
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "white",
+      "heightPx": 978.8,
+      "yPx": 2234.4
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1044.6,
+      "yPx": 3213.2
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 880.6,
+      "yPx": 4257.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 5138.4
+     },
+     {
+      "section": "features.file-type-list",
+      "variant": "default",
+      "heightPx": 634.4,
+      "yPx": 6129.4
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 431.5,
+      "yPx": 6763.7
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1055.7,
+      "yPx": 7195.2
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 8250.9
+     }
+    ]
+   },
+   "/memberships": {
+    "template": "T1",
+    "docHeightPx": 7000,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 360.5,
+      "yPx": 0
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 828.3,
+      "yPx": 360.5
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "gold-statement",
+      "heightPx": 437,
+      "yPx": 1188.8
+     },
+     {
+      "section": "features.dyna-tabs",
+      "variant": "default",
+      "heightPx": 927.9,
+      "yPx": 1625.8
+     },
+     {
+      "section": "pricing.teaser",
+      "variant": "default",
+      "heightPx": 661.5,
+      "yPx": 2553.7
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 678.3,
+      "yPx": 3215.2
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 880.6,
+      "yPx": 3893.5
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 4774.1
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-header",
+      "heightPx": 426.3,
+      "yPx": 5765
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 6191.3
+     }
+    ]
+   },
+   "/payments": {
+    "template": "T7",
+    "docHeightPx": 8959,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.split",
+      "variant": "light-image",
+      "heightPx": 805.5,
+      "yPx": 0
+     },
+     {
+      "section": "social-proof.testimonial-slider",
+      "variant": "default",
+      "heightPx": 424.6,
+      "yPx": 805.5
+     },
+     {
+      "section": "features.video-feature",
+      "variant": "default",
+      "heightPx": 693.5,
+      "yPx": 1230.1
+     },
+     {
+      "section": "features.compare-table",
+      "variant": "default",
+      "heightPx": 870.4,
+      "yPx": 1923.6
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "plain-header",
+      "heightPx": 1334.3,
+      "yPx": 2794
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "split-migrate",
+      "heightPx": 268.6,
+      "yPx": 4128.3
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "plain",
+      "heightPx": 1156.9,
+      "yPx": 4396.9
+     },
+     {
+      "section": "features.logo-tiles",
+      "variant": "default",
+      "heightPx": 649.2,
+      "yPx": 5553.8
+     },
+     {
+      "section": "conversion.sales-form",
+      "variant": "payments",
+      "heightPx": 891.9,
+      "yPx": 6203.1
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1055.7,
+      "yPx": 7095
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 8150.7
+     }
+    ]
+   },
+   "/enterprise": {
+    "template": "T6",
+    "docHeightPx": 6923,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.split",
+      "variant": "dark-video",
+      "heightPx": 747.7,
+      "yPx": 0
+     },
+     {
+      "section": "features.offer-cards",
+      "variant": "enterprise",
+      "heightPx": 626.8,
+      "yPx": 747.7
+     },
+     {
+      "section": "conversion.demo-embed",
+      "variant": "default",
+      "heightPx": 671.4,
+      "yPx": 1374.6
+     },
+     {
+      "section": "features.card-list",
+      "variant": "white-icons",
+      "heightPx": 686.9,
+      "yPx": 2045.9
+     },
+     {
+      "section": "features.image-grid",
+      "variant": "default",
+      "heightPx": 1537.8,
+      "yPx": 2732.9
+     },
+     {
+      "section": "social-proof.quote-band",
+      "variant": "default",
+      "heightPx": 358.8,
+      "yPx": 4270.7
+     },
+     {
+      "section": "features.card-list",
+      "variant": "badges",
+      "heightPx": 547.8,
+      "yPx": 4629.4
+     },
+     {
+      "section": "conversion.sales-form",
+      "variant": "enterprise",
+      "heightPx": 936.8,
+      "yPx": 5177.2
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 6114
+     }
+    ]
+   },
+   "/ai-hub": {
+    "template": "T2",
+    "docHeightPx": 6708,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 844.8,
+      "yPx": 0
+     },
+     {
+      "section": "social-proof.video-review",
+      "variant": "default",
+      "heightPx": 470,
+      "yPx": 844.8
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2346,
+      "yPx": 1314.8
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 72,
+      "yPx": 3660.8
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 744.1,
+      "yPx": 3732.7
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 4476.9
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 431.5,
+      "yPx": 5467.8
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 5899.3
+     }
+    ]
+   },
+   "/app-hub": {
+    "template": "T3",
+    "docHeightPx": 3367,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "flush-login",
+      "heightPx": 725,
+      "yPx": 0
+     },
+     {
+      "section": "features.app-directory",
+      "variant": "default",
+      "heightPx": 1351.7,
+      "yPx": 725
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 482,
+      "yPx": 2076.8
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 2558.7
+     }
+    ]
+   },
+   "/analytics-and-reporting": {
+    "template": "T2",
+    "docHeightPx": 5826,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 799.4,
+      "yPx": 0
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 504.3,
+      "yPx": 799.4
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 1636.6,
+      "yPx": 1303.7
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 2940.3
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 704.1,
+      "yPx": 3931.2
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 382.1,
+      "yPx": 4635.3
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 5017.4
+     }
+    ]
+   },
+   "/customer-journey": {
+    "template": "T4",
+    "docHeightPx": 4436,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.product",
+      "variant": "nav-top",
+      "heightPx": 927.9,
+      "yPx": 0
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "gold",
+      "heightPx": 524.5,
+      "yPx": 927.9
+     },
+     {
+      "section": "features.steps",
+      "variant": "tiers",
+      "heightPx": 944.3,
+      "yPx": 1452.4
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "flush-top",
+      "heightPx": 760.4,
+      "yPx": 2396.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "black-plain",
+      "heightPx": 470.4,
+      "yPx": 3157.1
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 3627.5
+     }
+    ]
+   },
+   "/mobile-app": {
+    "template": "T2",
+    "docHeightPx": 7361,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 844.8,
+      "yPx": 0
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 502.9,
+      "yPx": 844.8
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 853.1,
+      "yPx": 1347.6
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey-icons",
+      "heightPx": 884.5,
+      "yPx": 2200.7
+     },
+     {
+      "section": "features.two-col",
+      "variant": "image-first",
+      "heightPx": 598.7,
+      "yPx": 3085.2
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 3683.8
+     },
+     {
+      "section": "social-proof.ratings",
+      "variant": "default",
+      "heightPx": 691.3,
+      "yPx": 4674.8
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 306.5,
+      "yPx": 5366
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 880.1,
+      "yPx": 5672.6
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 6552.6
+     }
+    ]
+   },
+   "/sales-and-marketing": {
+    "template": "T2",
+    "docHeightPx": 8845,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 844.8,
+      "yPx": 0
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 535.8,
+      "yPx": 844.8
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2346,
+      "yPx": 1380.5
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey",
+      "heightPx": 1236.1,
+      "yPx": 3726.5
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 4962.7
+     },
+     {
+      "section": "features.two-col",
+      "variant": "text-first",
+      "heightPx": 718.4,
+      "yPx": 5953.6
+     },
+     {
+      "section": "editorial.quick-links-slider",
+      "variant": "default",
+      "heightPx": 818.4,
+      "yPx": 6672
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 546,
+      "yPx": 7490.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 8036.3
+     }
+    ]
+   },
+   "/site-builder": {
+    "template": "T2",
+    "docHeightPx": 6533,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "flush-bottom",
+      "heightPx": 723,
+      "yPx": 0
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 1665.8,
+      "yPx": 723
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey",
+      "heightPx": 1355.9,
+      "yPx": 2388.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "centered",
+      "heightPx": 968.5,
+      "yPx": 3744.6
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 306.5,
+      "yPx": 4713.2
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 704.5,
+      "yPx": 5019.7
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 5724.2
+     }
+    ]
+   },
+   "/student-experience": {
+    "template": "T2",
+    "docHeightPx": 5839,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 844.8,
+      "yPx": 0
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 437,
+      "yPx": 844.8
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2375.2,
+      "yPx": 1281.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 990.9,
+      "yPx": 3656.9
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 382.1,
+      "yPx": 4647.9
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 5030
+     }
+    ]
+   },
+   "/watch-demo": {
+    "template": "T8",
+    "docHeightPx": 1640,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "conversion.demo-unlock",
+      "variant": "default",
+      "heightPx": 831.7,
+      "yPx": 0
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 831.7
+     }
+    ]
+   },
+   "/examples": {
+    "template": "T9",
+    "docHeightPx": 3230,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 79.3,
+      "yPx": 0,
+      "fixed": true
+     },
+     {
+      "section": "hero.simple",
+      "variant": "default",
+      "heightPx": 293.3,
+      "yPx": 0
+     },
+     {
+      "section": "social-proof.example-showcase",
+      "variant": "default",
+      "heightPx": 1458,
+      "yPx": 293.3
+     },
+     {
+      "section": "social-proof.logo-row",
+      "variant": "default",
+      "heightPx": 238.4,
+      "yPx": 1751.4
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 431.5,
+      "yPx": 1989.8
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 808.8,
+      "yPx": 2421.3
+     }
+    ]
+   }
+  }
+ },
+ "sectionHeights390": {
+  "viewport": 390,
+  "routes": {
+   "/": {
+    "docHeightPx": 17815,
+    "nodes": [
+     {
+      "section": "shell.promo-marquee",
+      "variant": "default",
+      "heightPx": 51.4
+     },
+     {
+      "section": "shell.navbar",
+      "variant": "sticky",
+      "heightPx": 58.8
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "home-top",
+      "heightPx": 434.9
+     },
+     {
+      "section": "hero.home",
+      "variant": "default",
+      "heightPx": 810.2
+     },
+     {
+      "section": "stats.counters",
+      "variant": "default",
+      "heightPx": 222.5
+     },
+     {
+      "section": "cta.demo-link",
+      "variant": "default",
+      "heightPx": 102
+     },
+     {
+      "section": "features.offer-cards",
+      "variant": "home",
+      "heightPx": 2205.3
+     },
+     {
+      "section": "cta.payments-promo",
+      "variant": "default",
+      "heightPx": 741.4
+     },
+     {
+      "section": "features.sticky-scroll-scene",
+      "variant": "default",
+      "heightPx": 319.5
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "overlap",
+      "heightPx": 2614.9
+     },
+     {
+      "section": "features.scale-stepper",
+      "variant": "default",
+      "heightPx": 1096.8
+     },
+     {
+      "section": "features.ai-automations",
+      "variant": "default",
+      "heightPx": 1639.2
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "pricing.teaser",
+      "variant": "default",
+      "heightPx": 1555.1
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 793.4
+     },
+     {
+      "section": "social-proof.case-study-slider",
+      "variant": "default",
+      "heightPx": 961.1
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1155
+     },
+     {
+      "section": "cta.impact",
+      "variant": "default",
+      "heightPx": 518.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/pricing": {
+    "docHeightPx": 10628,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.pricing",
+      "variant": "default",
+      "heightPx": 210.3
+     },
+     {
+      "section": "pricing.plan-cards",
+      "variant": "default",
+      "heightPx": 3236.5
+     },
+     {
+      "section": "pricing.comparison-matrix",
+      "variant": "default",
+      "heightPx": 2833.1
+     },
+     {
+      "section": "pricing.fee-details",
+      "variant": "default",
+      "heightPx": 545.1
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 947.6
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-product",
+      "heightPx": 320
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     },
+     {
+      "section": "pricing.exit-modal",
+      "variant": "default",
+      "heightPx": 0.0
+     }
+    ]
+   },
+   "/online-courses": {
+    "docHeightPx": 14991,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 474.9
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 937.7
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 522.6
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1179.9
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "white",
+      "heightPx": 1340.4
+     },
+     {
+      "section": "features.stagger-cards",
+      "variant": "platform",
+      "heightPx": 1785.6
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 816.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "features.tools-grid",
+      "variant": "default",
+      "heightPx": 3472.3
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 369.1
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "with-footnote",
+      "heightPx": 1556.5
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/coaching": {
+    "docHeightPx": 13034,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 474.9
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner-gold",
+      "heightPx": 948.8
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 522.6
+     },
+     {
+      "section": "features.steps",
+      "variant": "steps",
+      "heightPx": 1070.8
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1926.8
+     },
+     {
+      "section": "features.stagger-cards",
+      "variant": "spotlight",
+      "heightPx": 2012.5
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "with-images",
+      "heightPx": 1779.8
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 793.4
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-header",
+      "heightPx": 322.3
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 647.2
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/digital-downloads": {
+    "docHeightPx": 10429,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 474.9
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 948.8
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 522.6
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1004
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "white",
+      "heightPx": 1020
+     },
+     {
+      "section": "features.split-rows",
+      "variant": "grey",
+      "heightPx": 1070.3
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 793.4
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "features.file-type-list",
+      "variant": "default",
+      "heightPx": 671.6
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 366.4
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1021.6
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/memberships": {
+    "docHeightPx": 9181,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "campaign.countdown-banner",
+      "variant": "large-top",
+      "heightPx": 474.9
+     },
+     {
+      "section": "hero.product",
+      "variant": "under-banner",
+      "heightPx": 1017.9
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "gold-statement",
+      "heightPx": 410.1
+     },
+     {
+      "section": "features.dyna-tabs",
+      "variant": "default",
+      "heightPx": 1010.2
+     },
+     {
+      "section": "pricing.teaser",
+      "variant": "default",
+      "heightPx": 1555.1
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 1041.2
+     },
+     {
+      "section": "features.integration-hub",
+      "variant": "default",
+      "heightPx": 793.4
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-header",
+      "heightPx": 343.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/payments": {
+    "docHeightPx": 10917,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.split",
+      "variant": "light-image",
+      "heightPx": 734.5
+     },
+     {
+      "section": "social-proof.testimonial-slider",
+      "variant": "default",
+      "heightPx": 539.4
+     },
+     {
+      "section": "features.video-feature",
+      "variant": "default",
+      "heightPx": 424.1
+     },
+     {
+      "section": "features.compare-table",
+      "variant": "default",
+      "heightPx": 1183.4
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "plain-header",
+      "heightPx": 1624
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "split-migrate",
+      "heightPx": 534.2
+     },
+     {
+      "section": "features.image-rows",
+      "variant": "plain",
+      "heightPx": 1404.9
+     },
+     {
+      "section": "features.logo-tiles",
+      "variant": "default",
+      "heightPx": 659.1
+     },
+     {
+      "section": "conversion.sales-form",
+      "variant": "payments",
+      "heightPx": 1122.7
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 1059.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/enterprise": {
+    "docHeightPx": 9316,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.split",
+      "variant": "dark-video",
+      "heightPx": 813.1
+     },
+     {
+      "section": "features.offer-cards",
+      "variant": "enterprise",
+      "heightPx": 1869.3
+     },
+     {
+      "section": "conversion.demo-embed",
+      "variant": "default",
+      "heightPx": 0
+     },
+     {
+      "section": "features.card-list",
+      "variant": "white-icons",
+      "heightPx": 1206.5
+     },
+     {
+      "section": "features.image-grid",
+      "variant": "default",
+      "heightPx": 1108.2
+     },
+     {
+      "section": "social-proof.quote-band",
+      "variant": "default",
+      "heightPx": 527.8
+     },
+     {
+      "section": "features.card-list",
+      "variant": "badges",
+      "heightPx": 1079.9
+     },
+     {
+      "section": "conversion.sales-form",
+      "variant": "enterprise",
+      "heightPx": 1079.8
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/ai-hub": {
+    "docHeightPx": 8670,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 1031.9
+     },
+     {
+      "section": "social-proof.video-review",
+      "variant": "default",
+      "heightPx": 811.6
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2165.1
+     },
+     {
+      "section": "stats.marquee",
+      "variant": "default",
+      "heightPx": 756.7
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 1003
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 366.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/app-hub": {
+    "docHeightPx": 5140,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "flush-login",
+      "heightPx": 1007.3
+     },
+     {
+      "section": "features.app-directory",
+      "variant": "default",
+      "heightPx": 2094.9
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 406.2
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/analytics-and-reporting": {
+    "docHeightPx": 6977,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 1009.5
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 458.7
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 1699
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "editorial.resource-cards",
+      "variant": "text-only",
+      "heightPx": 951.5
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 323.5
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/customer-journey": {
+    "docHeightPx": 6039,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.product",
+      "variant": "nav-top",
+      "heightPx": 925.9
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "gold",
+      "heightPx": 471.2
+     },
+     {
+      "section": "features.steps",
+      "variant": "tiers",
+      "heightPx": 1852.1
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "flush-top",
+      "heightPx": 745.2
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "black-plain",
+      "heightPx": 413.6
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/mobile-app": {
+    "docHeightPx": 9103,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 1008.5
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 626.4
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 745.8
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey-icons",
+      "heightPx": 1325.6
+     },
+     {
+      "section": "features.two-col",
+      "variant": "image-first",
+      "heightPx": 695.1
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "social-proof.ratings",
+      "variant": "default",
+      "heightPx": 993.9
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 326.2
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 846.8
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/sales-and-marketing": {
+    "docHeightPx": 10297,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 899.3
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 538.3
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2389
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey",
+      "heightPx": 1757.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "features.two-col",
+      "variant": "text-first",
+      "heightPx": 763
+     },
+     {
+      "section": "editorial.quick-links-slider",
+      "variant": "default",
+      "heightPx": 921.2
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 493.2
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/site-builder": {
+    "docHeightPx": 7845,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "flush-bottom",
+      "heightPx": 919.4
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 1710
+     },
+     {
+      "section": "features.card-list",
+      "variant": "grey",
+      "heightPx": 1805.8
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "centered",
+      "heightPx": 903.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-feature",
+      "heightPx": 279.4
+     },
+     {
+      "section": "faq.accordion",
+      "variant": "default",
+      "heightPx": 595.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/student-experience": {
+    "docHeightPx": 6713,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.feature",
+      "variant": "default",
+      "heightPx": 965.6
+     },
+     {
+      "section": "features.why-statement",
+      "variant": "yellow",
+      "heightPx": 376
+     },
+     {
+      "section": "features.explainer-rows",
+      "variant": "headed",
+      "heightPx": 2513
+     },
+     {
+      "section": "social-proof.stories-slider",
+      "variant": "default",
+      "heightPx": 903.7
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "red-plain",
+      "heightPx": 323.5
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/watch-demo": {
+    "docHeightPx": 2595,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "conversion.demo-unlock",
+      "variant": "default",
+      "heightPx": 963.9
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   },
+   "/examples": {
+    "docHeightPx": 5270,
+    "nodes": [
+     {
+      "section": "shell.navbar",
+      "variant": "fixed",
+      "heightPx": 58.8
+     },
+     {
+      "section": "hero.simple",
+      "variant": "default",
+      "heightPx": 252.4
+     },
+     {
+      "section": "social-proof.example-showcase",
+      "variant": "default",
+      "heightPx": 2768.7
+     },
+     {
+      "section": "social-proof.logo-row",
+      "variant": "default",
+      "heightPx": 250.8
+     },
+     {
+      "section": "cta.product-band",
+      "variant": "blue-plain",
+      "heightPx": 366.4
+     },
+     {
+      "section": "shell.footer",
+      "variant": "default",
+      "heightPx": 1631.6
+     }
+    ]
+   }
+  }
+ },
+ "docHeights": {
+  "1440": {
+   "/": 18238,
+   "/pricing": 6163,
+   "/online-courses": 10534,
+   "/coaching": 9406,
+   "/digital-downloads": 9060,
+   "/memberships": 7000,
+   "/payments": 8959,
+   "/enterprise": 6923,
+   "/ai-hub": 6708,
+   "/app-hub": 3367,
+   "/analytics-and-reporting": 5826,
+   "/customer-journey": 4436,
+   "/mobile-app": 7361,
+   "/sales-and-marketing": 8845,
+   "/site-builder": 6533,
+   "/student-experience": 5839,
+   "/watch-demo": 1640,
+   "/examples": 3230
+  },
+  "1280": {
+   "/": 17278,
+   "/pricing": 6066,
+   "/online-courses": 10269,
+   "/coaching": 9191,
+   "/digital-downloads": 8822,
+   "/memberships": 6863,
+   "/payments": 8688,
+   "/enterprise": 6731,
+   "/ai-hub": 6572,
+   "/app-hub": 3299,
+   "/analytics-and-reporting": 5685,
+   "/customer-journey": 4342,
+   "/mobile-app": 7231,
+   "/sales-and-marketing": 8586,
+   "/site-builder": 6353,
+   "/student-experience": 5678,
+   "/watch-demo": 1599,
+   "/examples": 3165
+  },
+  "390": {
+   "/": 17815,
+   "/pricing": 10628,
+   "/online-courses": 14991,
+   "/coaching": 13034,
+   "/digital-downloads": 10429,
+   "/memberships": 9181,
+   "/payments": 10917,
+   "/enterprise": 9316,
+   "/ai-hub": 8670,
+   "/app-hub": 5140,
+   "/analytics-and-reporting": 6977,
+   "/customer-journey": 6039,
+   "/mobile-app": 9103,
+   "/sales-and-marketing": 10297,
+   "/site-builder": 7845,
+   "/student-experience": 6713,
+   "/watch-demo": 2595,
+   "/examples": 5270
+  }
+ },
+ "rootFontSizePx": {
+  "1440": 14.9666,
+  "1280": 14.6222,
+  "390": 16
+ },
+ "wrapperGateWhitelist": [],
+ "liveParity": {
+  "pixelParity": "NOT MEASURED. No live-site capture was taken in this pass (R12); no pixel-compare number exists and none is claimed.",
+  "geometryCrossCheck": [
+   {
+    "route": "/",
+    "liveDocHeight1440": 18238,
+    "cloneDocHeight1440": 18238,
+    "liveEvidence": "CLONE_SPEC.md:164"
+   },
+   {
+    "route": "/",
+    "liveDocHeight390": 17815,
+    "cloneDocHeight390": 17815,
+    "liveEvidence": "CLONE_SPEC.md:164"
+   },
+   {
+    "route": "/analytics-and-reporting",
+    "liveDocHeight1440": 5826,
+    "cloneDocHeight1440": 5826,
+    "liveEvidence": "specs/feature-template.md:55"
+   },
+   {
+    "route": "/mobile-app",
+    "liveDocHeight1440": 7361,
+    "cloneDocHeight1440": 7361,
+    "liveEvidence": "specs/feature-template.md:55"
+   },
+   {
+    "route": "/sales-and-marketing",
+    "liveDocHeight1440": 8845,
+    "cloneDocHeight1440": 8845,
+    "liveEvidence": "specs/feature-template.md:55"
+   },
+   {
+    "route": "/site-builder",
+    "liveDocHeight1440": 6533,
+    "cloneDocHeight1440": 6533,
+    "liveEvidence": "specs/feature-template.md:55"
+   },
+   {
+    "route": "/student-experience",
+    "liveDocHeight1440": 5838,
+    "cloneDocHeight1440": 5839,
+    "liveEvidence": "specs/feature-template.md:55"
+   }
+  ],
+  "note": "Live heights are the Playwright measurements recorded in the project's own specs; clone heights were re-measured in this pass. This is a geometry cross-check, not a pixel parity gate."
+ },
+ "copyBudgetExtractor": "Per node, from the rendered DOM (visible elements only): heading = first h1/h2; eyebrow = a short uppercase leaf before the heading; lead = first <p> after the heading and before the first item title; items = distinct h3-h6 or heading-face leaf texts (title) and remaining <p> (text); bullets = leaf <li>; actions = <a>/<button> with text; media = distinct <img> sources + <iframe> hosts; media alt from the img alt attribute. Only counts (characters, words, rendered lines at 1440 and 390, list sizes) are recorded; no copy string is stored. Budgets take the max over 1440 and 390 renders and every route.",
+ "assetRoleRules": "Reference roles were assigned per image from its file name and section (extraction rule in the build): teachable-logo* -> brand.wordmark; soc2/security-* -> certification.mark; app-hub-*, payment-method tiles and integration hub -> partner.logo; enterprise *-logo.svg and the customer logo row -> customer.logo; creator/story/case-study/testimonial/video-review photos and example-school avatars -> person.photo; other .svg -> icon.source; names indicating UI/product composites -> product.screenshot; everything else -> photo.source-scene (the most restrictive photo role). Third-party iframes -> media.third-party-embed.",
+ "referenceLinkRedaction": "Reference examples keep only the ORIGIN of external links (https://host/), never the path, so real people's names in URL slugs are not stored; links to customer schools (their own domains or school subdomains) become https://customer-site.invalid/ because those domains are kept only as hashes. Asset refs are kept as file paths into the clone's public/assets (verified by verify_all ASSET_REFS); some file names contain creator or brand names: they are evidence pointers, never content, and every such role is rejected in generated mode.",
+ "liveEndpointsOmitted": [
+  {
+   "route": "/customer-journey",
+   "where": "features.steps tier note link",
+   "evidence": "src/pages/CustomerJourney.jsx:70",
+   "handling": "live third-party application form: link.live-endpoint is forbidden in every mode, so the reference example uses '#' for that action"
+  }
+ ],
+ "externalEvidence": {
+  "note": "Build-time evidence outside this package (path:line, relative to the clone project root). extraction/verify_all.py re-reads these when the clone project surrounds this folder and degrades to a warning when it does not.",
+  "cloneSpec": [
+   "CLONE_SPEC.md:141",
+   "CLONE_SPEC.md:996"
+  ],
+  "buildNotes": [
+   "BUILD_NOTES.md:81"
+  ],
+  "specs": [
+   "specs/product-template.md:11",
+   "specs/feature-template.md:55",
+   "specs/COMPONENT_PLAN.md:5"
+  ],
+  "router": [
+   "src/App.jsx:25",
+   "src/routes.js:2"
+  ]
+ },
+ "groundworkCorrections": [
+  {
+   "claim": "BUILD_NOTES.md says the enterprise customer wordmark was extracted to /assets/enterprise-quote-logo.svg and used by QuoteBanner.",
+   "finding": "The quote banner now renders /assets/placeholder-quote-logo.svg with alt 'Placeholder company logo' and a fictional quote; enterprise-quote-logo.svg (a real customer wordmark) is present in public/assets but unused.",
+   "evidence": [
+    "BUILD_NOTES.md:384",
+    "src/content/enterprise.js:126"
+   ]
+  },
+  {
+   "claim": "CLONE_SPEC.md §0.6 'No box-shadows anywhere on the page.'",
+   "finding": "True for the homepage only; inner pages use six shadow tokens (tile, embed, frame, chip, submit, modal), recorded as elevation.* tokens.",
+   "evidence": [
+    "CLONE_SPEC.md:97",
+    "tailwind.config.cjs:72"
+   ]
+  },
+  {
+   "claim": "Reduced-motion behaviour is implied for every motion in the specs.",
+   "finding": "The clone honours prefers-reduced-motion only in DemoUnlockHero; every other reducedMotionFallback in this repo is a prescriptive requirement for generated pages (motion-patterns.json sourceHonoursReducedMotion).",
+   "evidence": [
+    "src/components/pages/watch-demo/DemoUnlockHero.jsx:45"
+   ]
+  },
+  {
+   "claim": "src/App.jsx comment: 'unbuilt slugs fall back to ComingSoon'.",
+   "finding": "Every one of the 17 slugs has a page component registered in PAGES, so ComingSoon is never rendered; all 18 routes are live.",
+   "evidence": [
+    "src/App.jsx:24",
+    "src/App.jsx:25"
+   ]
+  }
+ ]
+}

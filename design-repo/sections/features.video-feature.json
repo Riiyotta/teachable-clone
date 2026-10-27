@@ -1,0 +1,137 @@
+{
+ "id": "features.video-feature",
+ "title": "Video feature",
+ "semantic": {
+  "id": "features.video-feature",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "VideoFeature:VideoFeature:section@9",
+  "file": "src/components/pages/payments/VideoFeature.jsx",
+  "tag": "section",
+  "lines": "7-36",
+  "tagLine": 9,
+  "tagLineSha1": "68d202788d74cb8f",
+  "anchor": "export default function VideoFeature",
+  "anchorLine": 7
+ },
+ "additionalSources": [],
+ "purpose": "Heading and text beside an embedded product video.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/payments"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "eyebrow",
+   "media"
+  ],
+  "fields": {
+   "eyebrow": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 27,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 16,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "media.third-party-embed"
+    ],
+    "generatedRoles": [
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "video.placeholder-poster"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "two columns"
+  },
+  {
+   "range": "<=767",
+   "behavior": "stacked"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 693.5,
+   "maxPx": 693.5,
+   "medianPx": 693.5,
+   "sample": {
+    "/payments": 693.5
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 424.1,
+   "maxPx": 424.1,
+   "medianPx": 424.1,
+   "sample": {
+    "/payments": 424.1
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/payments/VideoFeature.jsx:7-36",
+  "src/pages/Payments.jsx:35"
+ ]
+}

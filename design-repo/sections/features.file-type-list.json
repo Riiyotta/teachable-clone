@@ -1,0 +1,127 @@
+{
+ "id": "features.file-type-list",
+ "title": "File-type list",
+ "semantic": {
+  "id": "features.file-type-list",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "SellList:SellList:section@9",
+  "file": "src/components/pages/digital-downloads/SellList.jsx",
+  "tag": "section",
+  "lines": "7-35",
+  "tagLine": 9,
+  "tagLineSha1": "bc43bcef833c5eae",
+  "anchor": "export default function SellList",
+  "anchorLine": 7
+ },
+ "additionalSources": [],
+ "purpose": "Heading, intro and a list of sellable file types with icons.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/digital-downloads"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 35,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 18,
+    "maxChars": 83,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 15,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    6,
+    6
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "list beside / below the header"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 634.4,
+   "maxPx": 634.4,
+   "medianPx": 634.4,
+   "sample": {
+    "/digital-downloads": 634.4
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 671.6,
+   "maxPx": 671.6,
+   "medianPx": 671.6,
+   "sample": {
+    "/digital-downloads": 671.6
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/digital-downloads/SellList.jsx:7-35",
+  "src/pages/DigitalDownloads.jsx:68"
+ ]
+}

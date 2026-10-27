@@ -1,0 +1,474 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T6",
+ "route": "/enterprise-canvas",
+ "theme": "light",
+ "brand": {
+  "name": "Ostrander Collective"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Thread delta",
+      "href": "https://ostrander.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ember shape",
+      "href": "https://ostrander.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sprout harvest",
+      "href": "https://ostrander.example/cobalt",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share lantern",
+      "href": "https://ostrander.example/falcon",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:beacon-rowan-pebble",
+      "alt": "Canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.split",
+   "variant": "dark-video",
+   "content": {
+    "heading": "Cedar compass sketch",
+    "lead": "Plan prism meadow summit juniper sort share fjord",
+    "items": [
+     {
+      "text": "Falcon basil atlas"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Bundle canvas",
+      "href": "https://ostrander.example/cedar",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Compass sketch",
+      "href": "https://ostrander.example/plan",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:prism-gather-sprout",
+      "alt": "Juniper cobalt"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:share-lantern-signal",
+      "alt": "Beacon rowan"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.offer-cards",
+   "variant": "enterprise",
+   "content": {
+    "heading": "Pebble tidy cedar trace sketch",
+    "items": [
+     {
+      "title": "Field",
+      "text": "Prism cinder summit juniper ledger share fjord weigh"
+     },
+     {
+      "title": "Basil",
+      "text": "Measure nimbus tidy map trace marble ember prism"
+     },
+     {
+      "title": "Meadow",
+      "text": "Notice harvest ledger tidal lantern signal refine atlas"
+     },
+     {
+      "title": "Pebble",
+      "text": "Canvas cedar delta quarry plan prism meadow notice"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:harvest-sort-tidal",
+      "alt": "Willow signal beacon measure nimbus tidy cedar trace"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:quarry-field-prism",
+      "alt": "Gather summit steer sort share willow falcon basil"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:rowan-pebble-tidy",
+      "alt": "Thread delta sketch plan shape cinder notice harvest"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:ledger-harbor-willow",
+      "alt": "Falcon beacon measure nimbus tidy thread compass quarry"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "conversion.demo-embed",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Field shape",
+    "heading": "Gather notice juniper",
+    "lead": "Sort harbor lantern falcon beacon rowan bundle tidy",
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:map-trace-quarry"
+     },
+     {
+      "assetRole": "video.placeholder-poster",
+      "ref": "generate:plan-prism-meadow"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "expand.embed",
+    "reducedMotionFallback": "instant-expand"
+   }
+  },
+  {
+   "section": "features.card-list",
+   "variant": "badges",
+   "content": {
+    "heading": "Notice steer ledger",
+    "items": [
+     {
+      "title": "Harbor willow",
+      "text": "Falcon beacon atlas pebble tidy cedar trace marble"
+     },
+     {
+      "title": "Plan prism",
+      "text": "Meadow sprout steer ledger harbor fjord weigh basil"
+     },
+     {
+      "title": "Atlas bundle",
+      "text": "Tidy map delta sketch field orbit meadow summit"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "certification.placeholder",
+      "ref": "generate:juniper-cobalt-tidal"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:fjord-signal-refine"
+     },
+     {
+      "assetRole": "certification.placeholder",
+      "ref": "generate:rowan-bundle-canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.image-grid",
+   "variant": "default",
+   "content": {
+    "heading": "Cedar compass marble",
+    "lead": "Plan prism cinder sprout harvest ledger harbor",
+    "items": [
+     {
+      "title": "Fjord falcon",
+      "text": "Beacon rowan bundle grove thread trace sketch field"
+     },
+     {
+      "title": "Shape cinder",
+      "text": "Notice harvest cobalt tidal willow weigh beacon atlas"
+     },
+     {
+      "title": "Bundle grove",
+      "text": "Map trace sketch ember shape meadow notice steer"
+     },
+     {
+      "title": "Ledger share",
+      "text": "Willow weigh beacon rowan bundle grove thread delta"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Marble ember",
+      "href": "https://ostrander.example/orbit",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:meadow-sprout-harvest"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.quote-band",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "text": "Sort share fjord weigh basil rowan nimbus tidy"
+     },
+     {
+      "text": "Cedar compass quarry field prism meadow summit harvest"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:sort-harbor-lantern",
+      "alt": "Signal beacon"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.card-list",
+   "variant": "badges",
+   "content": {
+    "heading": "Rowan pebble canvas",
+    "items": [
+     {
+      "title": "Cedar compass",
+      "text": "Sketch plan prism gather sprout harvest sort harbor"
+     },
+     {
+      "title": "Fjord falcon",
+      "text": "Beacon atlas bundle canvas thread delta sketch field"
+     },
+     {
+      "title": "Prism meadow",
+      "text": "Notice steer cobalt harbor willow weigh basil measure"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "certification.placeholder",
+      "ref": "generate:bundle-tidy-cedar"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:trace-quarry-plan"
+     },
+     {
+      "assetRole": "certification.placeholder",
+      "ref": "generate:orbit-gather-sprout"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "conversion.sales-form",
+   "variant": "enterprise",
+   "content": {
+    "heading": "Harvest sort tidal fjord weigh",
+    "lead": "Refine rowan bundle canvas map trace sketch field",
+    "items": [
+     {
+      "text": "Shape meadow summit harvest sort"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Share",
+      "href": "https://ostrander.example/lantern",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:falcon-beacon-measure",
+      "alt": "Nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Tidy",
+      "text": "Cedar trace marble field shape gather summit harvest"
+     },
+     {
+      "title": "Sort",
+      "text": "Harbor lantern falcon beacon atlas bundle tidy cedar"
+     },
+     {
+      "title": "Compass",
+      "text": "Sketch field shape cinder notice steer ledger tidal"
+     },
+     {
+      "title": "Lantern",
+      "text": "Falcon basil atlas pebble grove map trace sketch"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Ember shape",
+      "href": "https://ostrander.example/meadow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice steer",
+      "href": "https://ostrander.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidal fjord",
+      "href": "https://ostrander.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://ostrander.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas cedar",
+      "href": "https://ostrander.example/delta",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble field",
+      "href": "https://ostrander.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cinder sprout",
+      "href": "https://ostrander.example/juniper",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cobalt share",
+      "href": "https://ostrander.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Signal beacon",
+      "href": "https://ostrander.example/measure",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Bundle canvas",
+      "href": "https://ostrander.example/thread",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Compass quarry",
+      "href": "https://ostrander.example/ember",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Prism gather",
+      "href": "https://ostrander.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://ostrander.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord weigh",
+      "href": "https://ostrander.example/basil",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan bundle",
+      "href": "https://ostrander.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Thread compass",
+      "href": "https://ostrander.example/marble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan shape",
+      "href": "https://ostrander.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sprout harvest",
+      "href": "https://ostrander.example/ledger",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:share-lantern-signal"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:refine-measure-bundle"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "id": "cta.product-band",
+ "title": "Call-to-action band",
+ "semantic": {
+  "id": "cta.product-band",
+  "category": "CTA"
+ },
+ "source": {
+  "id": "ProductCta:ProductCta:section@82",
+  "file": "src/components/sections/ProductCta.jsx",
+  "tag": "section",
+  "lines": "37-123",
+  "tagLine": 82,
+  "tagLineSha1": "90459129a877ef84",
+  "anchor": "export default function ProductCta",
+  "anchorLine": 37
+ },
+ "additionalSources": [
+  {
+   "id": "ProductCta:ProductCta:section@51#split-migrate",
+   "file": "src/components/sections/ProductCta.jsx",
+   "tag": "section",
+   "lines": "37-123",
+   "tagLine": 51,
+   "tagLineSha1": "5dc5a7976b474032",
+   "anchor": "export default function ProductCta",
+   "anchorLine": 37
+  }
+ ],
+ "purpose": "Rounded coloured card with a heading, optional paragraph and one button (optionally a login line); split variant puts text left and the button right.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "black-plain": {
+   "description": "black card with yellow heading",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/customer-journey"
+   ]
+  },
+  "blue-header": {
+   "description": "blue card with header group",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/coaching",
+    "/memberships"
+   ]
+  },
+  "blue-plain": {
+   "description": "blue card, heading/text/button as direct children",
+   "requiredFields": [
+    "actions",
+    "heading"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/digital-downloads",
+    "/examples",
+    "/online-courses"
+   ]
+  },
+  "blue-product": {
+   "description": "blue card, pricing header layout",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/pricing"
+   ]
+  },
+  "red-feature": {
+   "description": "red card, feature header (optional login line)",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/app-hub",
+    "/mobile-app",
+    "/sales-and-marketing",
+    "/site-builder"
+   ]
+  },
+  "red-plain": {
+   "description": "red card, no header group",
+   "requiredFields": [
+    "actions",
+    "heading"
+   ],
+   "forbiddenFields": [
+    "items",
+    "lead"
+   ],
+   "observedOn": [
+    "/ai-hub",
+    "/analytics-and-reporting",
+    "/student-experience"
+   ]
+  },
+  "split-migrate": {
+   "description": "navy/blue gradient split banner",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/payments"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 65,
+    "observedIn": 15,
+    "maxLines1440": 2,
+    "maxLines390": 4
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 31,
+    "maxChars": 180,
+    "observedIn": 10,
+    "maxLines1440": 2,
+    "maxLines390": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 41,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 21,
+    "observedIn": 15
+   }
+  },
+  "listSizes": {
+   "items": [
+    1,
+    1
+   ],
+   "actions": [
+    1,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "surface": {
+    "allowed": [
+     "color.surface.cta-blue",
+     "color.surface.cta-red",
+     "color.surface.inverse"
+    ],
+    "evidence": "src/components/sections/ProductCta.jsx:21"
+   }
+  },
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=768",
+   "behavior": "centred card (split: two columns)"
+  },
+  {
+   "range": "<=479",
+   "behavior": "children stretch full width"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 15,
+   "minPx": 268.6,
+   "maxPx": 546,
+   "medianPx": 426.3,
+   "sample": {
+    "/pricing": 433.7,
+    "/online-courses": 350.7,
+    "/coaching": 306.5,
+    "/digital-downloads": 431.5,
+    "/memberships": 426.3,
+    "/payments": 268.6,
+    "/ai-hub": 431.5,
+    "/app-hub": 482,
+    "/analytics-and-reporting": 382.1,
+    "/customer-journey": 470.4,
+    "/mobile-app": 306.5,
+    "/sales-and-marketing": 546,
+    "/site-builder": 306.5,
+    "/student-experience": 382.1,
+    "/examples": 431.5
+   }
+  },
+  "390": {
+   "nodes": 15,
+   "minPx": 279.4,
+   "maxPx": 534.2,
+   "medianPx": 366.4,
+   "sample": {
+    "/pricing": 320,
+    "/online-courses": 369.1,
+    "/coaching": 322.3,
+    "/digital-downloads": 366.4,
+    "/memberships": 343.4,
+    "/payments": 534.2,
+    "/ai-hub": 366.4,
+    "/app-hub": 406.2,
+    "/analytics-and-reporting": 323.5,
+    "/customer-journey": 413.6,
+    "/mobile-app": 326.2,
+    "/sales-and-marketing": 493.2,
+    "/site-builder": 279.4,
+    "/student-experience": 323.5,
+    "/examples": 366.4
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/ProductCta.jsx:37-123",
+  "src/pages/Pricing.jsx:31",
+  "src/pages/OnlineCourses.jsx:82",
+  "src/pages/Coaching.jsx:92",
+  "src/pages/DigitalDownloads.jsx:69",
+  "src/pages/Memberships.jsx:57",
+  "src/pages/Payments.jsx:47",
+  "src/pages/AIHub.jsx:63",
+  "src/pages/AppHub.jsx:26",
+  "src/pages/AnalyticsAndReporting.jsx:58",
+  "src/pages/CustomerJourney.jsx:77",
+  "src/pages/MobileApp.jsx:54",
+  "src/pages/SalesAndMarketing.jsx:72",
+  "src/pages/SiteBuilder.jsx:50",
+  "src/pages/StudentExperience.jsx:56",
+  "src/pages/Examples.jsx:14"
+ ]
+}

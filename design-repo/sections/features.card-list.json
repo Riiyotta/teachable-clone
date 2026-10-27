@@ -1,0 +1,243 @@
+{
+ "id": "features.card-list",
+ "title": "Feature card list",
+ "semantic": {
+  "id": "features.card-list",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "FeatureList:FeatureList:section@53",
+  "file": "src/components/sections/FeatureList.jsx",
+  "tag": "section",
+  "lines": "36-90",
+  "tagLine": 53,
+  "tagLineSha1": "90459129a877ef84",
+  "anchor": "function GreyList(",
+  "anchorLine": 36
+ },
+ "additionalSources": [
+  {
+   "id": "FeatureList:FeatureList:section@94#white-icons",
+   "file": "src/components/sections/FeatureList.jsx",
+   "tag": "section",
+   "lines": "92-124",
+   "tagLine": 94,
+   "tagLineSha1": "198fb8e796ea405a",
+   "anchor": "function WhiteList(",
+   "anchorLine": 92
+  },
+  {
+   "id": "FeatureList:FeatureList:section@128#badges",
+   "file": "src/components/sections/FeatureList.jsx",
+   "tag": "section",
+   "lines": "126-160",
+   "tagLine": 128,
+   "tagLineSha1": "e07c133577994dc3",
+   "anchor": "function BadgeList(",
+   "anchorLine": 126
+  }
+ ],
+ "purpose": "Header plus a row of short feature cards (title + text), optionally with icons; badge variant shows certification marks.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "badges": {
+   "description": "plain cards with certification icons",
+   "requiredFields": [
+    "heading",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [
+    "lead"
+   ],
+   "observedOn": [
+    "/enterprise"
+   ]
+  },
+  "grey": {
+   "description": "grey stair cards that flatten on scroll",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOn": [
+    "/sales-and-marketing",
+    "/site-builder"
+   ]
+  },
+  "grey-icons": {
+   "description": "same with check icons",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "media"
+   ],
+   "observedOn": [
+    "/mobile-app"
+   ]
+  },
+  "white-icons": {
+   "description": "warm band, white cards with icon tiles",
+   "requiredFields": [
+    "heading",
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [
+    "lead"
+   ],
+   "observedOn": [
+    "/enterprise"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 38,
+    "observedIn": 5,
+    "maxLines1440": 2,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 16,
+    "maxChars": 102,
+    "observedIn": 3,
+    "maxLines1440": 2,
+    "maxLines390": 3
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 29,
+    "observedIn": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 21,
+    "maxChars": 122,
+    "observedIn": 5
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    8
+   ],
+   "media": [
+    3,
+    4
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "certification.mark",
+     "icon.source"
+    ],
+    "generatedRoles": [
+     "certification.placeholder",
+     "icon.generic"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "certification.placeholder",
+  "icon.generic"
+ ],
+ "style": {
+  "props": {
+   "surface": {
+    "allowed": [
+     "color.surface.subtle",
+     "color.surface.warm",
+     "color.surface.page"
+    ],
+    "evidence": "src/components/sections/FeatureList.jsx:94"
+   }
+  },
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 2,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static",
+   "scroll.scrub"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed",
+   "scroll.scrub": "final-state"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "four (or three) columns"
+  },
+  {
+   "range": "<=991",
+   "behavior": "stair offsets removed; columns collapse"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 5,
+   "minPx": 547.8,
+   "maxPx": 1355.9,
+   "medianPx": 884.5,
+   "sample": {
+    "/enterprise": 547.8,
+    "/mobile-app": 884.5,
+    "/sales-and-marketing": 1236.1,
+    "/site-builder": 1355.9
+   }
+  },
+  "390": {
+   "nodes": 5,
+   "minPx": 1079.9,
+   "maxPx": 1805.8,
+   "medianPx": 1325.6,
+   "sample": {
+    "/enterprise": 1079.9,
+    "/mobile-app": 1325.6,
+    "/sales-and-marketing": 1757.8,
+    "/site-builder": 1805.8
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/FeatureList.jsx:36-90",
+  "src/components/sections/FeatureList.jsx:92-124",
+  "src/components/sections/FeatureList.jsx:126-160",
+  "src/pages/Enterprise.jsx:28",
+  "src/pages/MobileApp.jsx:44",
+  "src/pages/SalesAndMarketing.jsx:58",
+  "src/pages/SiteBuilder.jsx:48"
+ ]
+}

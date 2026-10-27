@@ -1,0 +1,419 @@
+{
+ "version": "1.0.0",
+ "note": "Closed asset/link/copy role vocabulary. availability is pinned in code (PINNED_AVAILABILITY in schema/semantic_validate.py and extraction/verify_all.py); editing this file alone cannot loosen it.",
+ "licensing": "The source is a real, live company (Teachable). public/assets holds its real logos, real third-party integration/partner/payment brands and real photos of real creators. Generated pages must never reproduce or imitate those logos, those people's photos or likenesses, or any of the source's proprietary copy, screenshots or media; they use the generation-safe roles only. Nothing in this repo licenses any source asset for reuse. Do not publish this repo or derived pages publicly.",
+ "availabilityEnum": [
+  "reference-only",
+  "generation-safe",
+  "blocked-for-generation"
+ ],
+ "generationPolicyEnum": [
+  "reference-evidence-only",
+  "must-not-fabricate",
+  "must-not-reuse-live-endpoint",
+  "must-not-reproduce",
+  "may-generate-new",
+  "user-supplied-only"
+ ],
+ "forbiddenInAllModes": [
+  "link.live-endpoint"
+ ],
+ "roleAssignmentRules": "extraction/measured-values.json assetRoleRules",
+ "roles": {
+  "brand.wordmark": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "The source company's own logo/wordmark (nav, footer, form card).",
+   "usedBySections": [
+    "conversion.sales-form",
+    "shell.footer",
+    "shell.navbar"
+   ],
+   "generationSafeSubstitutes": [
+    "brand.placeholder-mark",
+    "brand.user-supplied-mark"
+   ]
+  },
+  "product.screenshot": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Source product UI screenshots and composited marketing visuals.",
+   "usedBySections": [
+    "conversion.demo-embed",
+    "conversion.demo-unlock",
+    "cta.payments-promo",
+    "editorial.quick-links-slider",
+    "features.ai-automations",
+    "features.dyna-tabs",
+    "features.explainer-rows",
+    "features.image-grid",
+    "features.image-rows",
+    "features.offer-cards",
+    "features.split-rows",
+    "features.stagger-cards",
+    "features.sticky-scroll-scene",
+    "features.two-col",
+    "hero.home",
+    "hero.product",
+    "hero.split",
+    "pricing.exit-modal",
+    "pricing.teaser"
+   ],
+   "generationSafeSubstitutes": [
+    "product.generated-visual"
+   ]
+  },
+  "icon.source": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Source SVG icons and flags drawn for this site.",
+   "usedBySections": [
+    "cta.payments-promo",
+    "features.card-list",
+    "features.scale-stepper",
+    "social-proof.testimonial-slider",
+    "social-proof.video-review"
+   ],
+   "generationSafeSubstitutes": [
+    "icon.generic"
+   ]
+  },
+  "illustration.brand-glyph": {
+   "kind": "media",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Brand lettering SVGs that replace single letters inside headings.",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "illustration.generated"
+   ]
+  },
+  "customer.logo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Real customer / partner-organisation logos (enterprise logo strip, customer logo row).",
+   "usedBySections": [
+    "hero.split",
+    "social-proof.logo-row"
+   ],
+   "generationSafeSubstitutes": [
+    "customer.placeholder-logo"
+   ]
+  },
+  "partner.logo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Real third-party integration and payment-method brand logos.",
+   "usedBySections": [
+    "features.app-directory",
+    "features.integration-hub",
+    "features.logo-tiles"
+   ],
+   "generationSafeSubstitutes": [
+    "partner.placeholder-icon"
+   ]
+  },
+  "person.photo": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Photos of real creators/customers (stories, case studies, testimonials, example-school avatars). Payments testimonial photos are real people even where the clone shows placeholder names.",
+   "usedBySections": [
+    "social-proof.case-study-slider",
+    "social-proof.example-showcase",
+    "social-proof.stories-slider",
+    "social-proof.testimonial-slider",
+    "social-proof.video-review"
+   ],
+   "generationSafeSubstitutes": [
+    "person.fictional-avatar"
+   ]
+  },
+  "photo.source-scene": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Source photographs and scene imagery that may depict real people or real schools.",
+   "usedBySections": [
+    "cta.impact",
+    "editorial.quick-links-slider",
+    "editorial.resource-cards",
+    "features.explainer-rows",
+    "features.image-rows",
+    "features.offer-cards",
+    "features.split-rows",
+    "features.stagger-cards",
+    "features.sticky-scroll-scene",
+    "hero.feature",
+    "hero.product",
+    "social-proof.example-showcase"
+   ],
+   "generationSafeSubstitutes": [
+    "photo.generated-scene"
+   ]
+  },
+  "certification.mark": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Security/compliance certification marks (SOC 2, PCI DSS, GDPR, CCPA icons).",
+   "usedBySections": [
+    "features.card-list",
+    "shell.footer"
+   ],
+   "generationSafeSubstitutes": [
+    "certification.placeholder"
+   ]
+  },
+  "media.third-party-embed": {
+   "kind": "media",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Third-party video / interactive-demo embeds (Vimeo, onelineplayer, Storylane); domain-restricted, they error when run locally.",
+   "usedBySections": [
+    "conversion.demo-embed",
+    "conversion.demo-unlock",
+    "features.video-feature",
+    "hero.split",
+    "social-proof.video-review"
+   ],
+   "generationSafeSubstitutes": [
+    "video.placeholder-poster"
+   ]
+  },
+  "brand.placeholder-mark": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Neutral generated mark for a fictional brand.",
+   "usedBySections": [
+    "conversion.sales-form",
+    "shell.footer",
+    "shell.navbar"
+   ]
+  },
+  "brand.user-supplied-mark": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "user-supplied-only",
+   "description": "A mark the requesting user supplies for their own brand.",
+   "usedBySections": [
+    "conversion.sales-form",
+    "shell.footer",
+    "shell.navbar"
+   ]
+  },
+  "customer.placeholder-logo": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Neutral placeholder logo for a fictional organisation (the clone's own quote banner uses one).",
+   "usedBySections": [
+    "hero.split",
+    "social-proof.logo-row",
+    "social-proof.quote-band"
+   ]
+  },
+  "partner.placeholder-icon": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Generic integration/payment placeholder icon with no third-party brand.",
+   "usedBySections": [
+    "features.app-directory",
+    "features.integration-hub",
+    "features.logo-tiles"
+   ]
+  },
+  "person.fictional-avatar": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Generated avatar of a fictional person (never a likeness of a real person).",
+   "usedBySections": [
+    "social-proof.case-study-slider",
+    "social-proof.example-showcase",
+    "social-proof.stories-slider",
+    "social-proof.testimonial-slider",
+    "social-proof.video-review"
+   ]
+  },
+  "rating.placeholder": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Placeholder rating visual (generic stars) with no review-site mark or real score.",
+   "usedBySections": []
+  },
+  "product.generated-visual": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Newly generated product UI or marketing visual.",
+   "usedBySections": [
+    "conversion.demo-embed",
+    "conversion.demo-unlock",
+    "cta.payments-promo",
+    "editorial.quick-links-slider",
+    "features.ai-automations",
+    "features.dyna-tabs",
+    "features.explainer-rows",
+    "features.image-grid",
+    "features.image-rows",
+    "features.offer-cards",
+    "features.split-rows",
+    "features.stagger-cards",
+    "features.sticky-scroll-scene",
+    "features.two-col",
+    "hero.home",
+    "hero.product",
+    "hero.split",
+    "pricing.exit-modal",
+    "pricing.teaser"
+   ]
+  },
+  "photo.generated-scene": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Newly generated scene photo with fictional people only.",
+   "usedBySections": [
+    "cta.impact",
+    "editorial.quick-links-slider",
+    "editorial.resource-cards",
+    "features.explainer-rows",
+    "features.image-rows",
+    "features.offer-cards",
+    "features.split-rows",
+    "features.stagger-cards",
+    "features.sticky-scroll-scene",
+    "hero.feature",
+    "hero.product",
+    "social-proof.example-showcase"
+   ]
+  },
+  "illustration.generated": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Newly generated decorative illustration or lettering.",
+   "usedBySections": []
+  },
+  "video.placeholder-poster": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Static poster frame standing in for a video embed.",
+   "usedBySections": [
+    "conversion.demo-embed",
+    "conversion.demo-unlock",
+    "features.video-feature",
+    "hero.split",
+    "social-proof.video-review"
+   ]
+  },
+  "icon.generic": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Generic icon from an open set (no brand marks).",
+   "usedBySections": [
+    "cta.payments-promo",
+    "features.card-list",
+    "features.scale-stepper",
+    "social-proof.testimonial-slider",
+    "social-proof.video-review"
+   ]
+  },
+  "certification.placeholder": {
+   "kind": "media",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Neutral badge shape for a certification the generated brand really holds (user must confirm).",
+   "usedBySections": [
+    "features.card-list",
+    "shell.footer"
+   ]
+  },
+  "link.site-route": {
+   "kind": "link",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Internal route or #anchor of the cloned site.",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ]
+  },
+  "link.source-external": {
+   "kind": "link",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-fabricate",
+   "description": "Absolute link to the source company's or a third party's live site (sign-up, login, blog, social, customer schools).",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ]
+  },
+  "link.live-endpoint": {
+   "kind": "link",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-reuse-live-endpoint",
+   "description": "A live third-party form/registration endpoint (application form, form-submission API). Forbidden in every mode.",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "link.placeholder"
+   ],
+   "forbiddenInAllModes": true
+  },
+  "link.placeholder": {
+   "kind": "link",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Placeholder link on a reserved .example/.invalid host or an in-page #anchor.",
+   "usedBySections": []
+  },
+  "copy.source-verbatim": {
+   "kind": "copy",
+   "availability": "blocked-for-generation",
+   "generationPolicy": "must-not-reproduce",
+   "description": "Real marketing copy from the source (the homepage). Never stored in this repo; detected by hashed fingerprints.",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ]
+  },
+  "copy.clone-stand-in": {
+   "kind": "copy",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "The clone's original stand-in copy on the 17 inner pages (not the source's wording, but specific to this clone).",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ]
+  },
+  "copy.neutral-placeholder": {
+   "kind": "copy",
+   "availability": "reference-only",
+   "generationPolicy": "reference-evidence-only",
+   "description": "Neutral filler sized to the measured budget; used by this repo's reference examples because source copy is never stored.",
+   "usedBySections": [],
+   "generationSafeSubstitutes": [
+    "copy.original"
+   ]
+  },
+  "copy.original": {
+   "kind": "copy",
+   "availability": "generation-safe",
+   "generationPolicy": "may-generate-new",
+   "description": "Newly written copy for the generated brand.",
+   "usedBySections": []
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "note": "Rhythm/position rules JSON Schema cannot express. Every rule id here is implemented in schema/semantic_validate.py with the same severity (verify_all GRAPH_AGREEMENT).",
+ "rules": [
+  {
+   "id": "TEMPLATE_SEQUENCE",
+   "severity": "error",
+   "rule": "The PageSpec's node sequence (section#variant) must match its declared template's node list (required/repeatable/min/max/variants); the template id is cross-referenced, never nodes[] in isolation."
+  },
+  {
+   "id": "SHELL_ORDER",
+   "severity": "error",
+   "rule": "Promo marquee (if any) then navbar open the page; the footer closes the in-flow content; only overlays may follow the footer."
+  },
+  {
+   "id": "SHELL_NAV_MODE",
+   "severity": "error",
+   "rule": "Navbar variant 'sticky' exactly when the promo marquee is present (homepage shell); every other page uses 'fixed' with no marquee (src/routes.js SHELLS)."
+  },
+  {
+   "id": "ONE_HERO",
+   "severity": "error",
+   "rule": "Exactly one HERO node per page, except hero-less templates.",
+   "exceptions": [
+    "T8"
+   ]
+  },
+  {
+   "id": "HERO_FIRST_CONTENT",
+   "severity": "error",
+   "rule": "The hero is the first non-shell node, except an optional campaign banner may precede it."
+  },
+  {
+   "id": "SECTION_MAX_PER_PAGE",
+   "severity": "error",
+   "rule": "A section may not appear more often than its contract's maxPerPage (max observed on any route)."
+  },
+  {
+   "id": "NO_ADJACENT_IDENTICAL",
+   "severity": "error",
+   "rule": "Two adjacent nodes may not have the same section AND variant (split rows legitimately repeat with alternating variants)."
+  },
+  {
+   "id": "OVERLAY_LAST",
+   "severity": "error",
+   "rule": "Overlay nodes (dialogs) come after the footer."
+  },
+  {
+   "id": "HOME_ROUTE_ONLY",
+   "severity": "error",
+   "rule": "Template T0 (home) is valid only on '/', and '/' only on T0."
+  },
+  {
+   "id": "REFERENCE_ROUTE_IN_TEMPLATE",
+   "severity": "error",
+   "rule": "A reference-mode PageSpec's route must be a served route mapped to the same template in routes/routes.json."
+  },
+  {
+   "id": "RUNTIME_UI_INELIGIBLE",
+   "severity": "error",
+   "rule": "A node's retrievalEligible flag (if set) must equal the pinned value for its section."
+  },
+  {
+   "id": "CTA_CLOSES_PAGE",
+   "severity": "warn",
+   "rule": "The last in-flow content node should be CTA, CONVERSION or FAQ (every served route ends that way)."
+  },
+  {
+   "id": "AUTOPLAY_BUDGET",
+   "severity": "warn",
+   "rule": "No more than 3 sections with required autoplaying motion on one page (the busiest served page has 3).",
+   "max": 3
+  }
+ ],
+ "heroAllowedBefore": [
+  "campaign.countdown-banner"
+ ]
+}

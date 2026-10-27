@@ -1,0 +1,1224 @@
+{
+ "note": "One template per semantic page purpose (not per DOM shape). nodes are structured objects in page order; a PageSpec's node sequence (section#variant) must match its template's node pattern (schema/semantic_validate.py TEMPLATE_SEQUENCE). Variants and observedOnRoutes are derived from the measured node sequence of every route of the template.",
+ "families": [
+  "demo",
+  "directory",
+  "enterprise",
+  "feature",
+  "home",
+  "payments",
+  "pricing",
+  "product",
+  "program",
+  "showcase"
+ ],
+ "templates": {
+  "T0": {
+   "id": "T0",
+   "name": "home",
+   "title": "Home / platform overview",
+   "family": "home",
+   "purpose": "Platform overview that walks a prospective creator from the core promise through products, proof, pricing and FAQ to a closing call to action.",
+   "status": "implemented",
+   "renderedBy": "Home",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/",
+   "nodes": [
+    {
+     "section": "shell.promo-marquee",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "sticky"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "campaign.countdown-banner",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "home-top"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.home",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "stats.counters",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.demo-link",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.offer-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "home"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.payments-promo",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.sticky-scroll-scene",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.image-rows",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "overlap"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.scale-stepper",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.ai-automations",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.stories-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.teaser",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.integration-hub",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.case-study-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "faq.accordion",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.impact",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/Home.jsx:1-41"
+   ]
+  },
+  "T1": {
+   "id": "T1",
+   "name": "product-offering",
+   "title": "Product offering page",
+   "family": "product",
+   "purpose": "Explains one thing a creator can sell (a product type): what it is, how it works, proof and the path to start.",
+   "status": "implemented",
+   "renderedBy": "OnlineCourses / Coaching / DigitalDownloads / Memberships",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/online-courses",
+    "/coaching",
+    "/digital-downloads",
+    "/memberships"
+   ],
+   "routeCount": 4,
+   "representativeRoute": "/online-courses",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "campaign.countdown-banner",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "large-top"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "hero.product",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "under-banner",
+      "under-banner-gold"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "stats.marquee",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "features.why-statement",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "gold-statement"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.dyna-tabs",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.teaser",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.steps",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "steps"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.split-rows",
+     "required": false,
+     "repeatable": true,
+     "minCount": 1,
+     "maxCount": 3,
+     "variants": [
+      "grey",
+      "white"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "features.stagger-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "platform",
+      "spotlight"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "editorial.resource-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "text-only",
+      "with-images"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "features.integration-hub",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "social-proof.stories-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "features.tools-grid",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.file-type-list",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "blue-header",
+      "blue-plain"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "faq.accordion",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default",
+      "with-footnote"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 4
+    }
+   ],
+   "evidence": [
+    "src/pages/OnlineCourses.jsx:1-103",
+    "src/pages/Coaching.jsx:1-97",
+    "src/pages/DigitalDownloads.jsx:1-74",
+    "src/pages/Memberships.jsx:1-61"
+   ]
+  },
+  "T2": {
+   "id": "T2",
+   "name": "feature-highlight",
+   "title": "Feature highlight page",
+   "family": "feature",
+   "purpose": "Explains one platform capability: a statement of why it matters, explainer rows, supporting lists and proof, then a call to action.",
+   "status": "implemented",
+   "renderedBy": "AIHub / AnalyticsAndReporting / MobileApp / SalesAndMarketing / SiteBuilder / StudentExperience",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/ai-hub",
+    "/analytics-and-reporting",
+    "/mobile-app",
+    "/sales-and-marketing",
+    "/site-builder",
+    "/student-experience"
+   ],
+   "routeCount": 6,
+   "representativeRoute": "/ai-hub",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "hero.feature",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default",
+      "flush-bottom"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "social-proof.video-review",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.why-statement",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "yellow"
+     ],
+     "observedOnRoutes": 4
+    },
+    {
+     "section": "features.explainer-rows",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "headed"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "stats.marquee",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "editorial.resource-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "text-only"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "features.card-list",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "grey",
+      "grey-icons"
+     ],
+     "observedOnRoutes": 3
+    },
+    {
+     "section": "features.two-col",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "image-first",
+      "text-first"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.stories-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "centered",
+      "default"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "features.two-col",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "image-first",
+      "text-first"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "editorial.resource-cards",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "text-only"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "social-proof.ratings",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "editorial.quick-links-slider",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "red-feature",
+      "red-plain"
+     ],
+     "observedOnRoutes": 6
+    },
+    {
+     "section": "faq.accordion",
+     "required": false,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 2
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 6
+    }
+   ],
+   "evidence": [
+    "src/pages/AIHub.jsx:1-67",
+    "src/pages/AnalyticsAndReporting.jsx:1-62",
+    "src/pages/MobileApp.jsx:1-59",
+    "src/pages/SalesAndMarketing.jsx:1-76",
+    "src/pages/SiteBuilder.jsx:1-55",
+    "src/pages/StudentExperience.jsx:1-60"
+   ]
+  },
+  "T3": {
+   "id": "T3",
+   "name": "integrations-directory",
+   "title": "Integrations directory",
+   "family": "directory",
+   "purpose": "Browsable directory of third-party apps that connect to the platform, grouped by tab.",
+   "status": "implemented",
+   "renderedBy": "AppHub",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/app-hub"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/app-hub",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.feature",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "flush-login"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.app-directory",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "red-feature"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/AppHub.jsx:1-38"
+   ]
+  },
+  "T4": {
+   "id": "T4",
+   "name": "program-tiers",
+   "title": "Creator program / tiers page",
+   "family": "program",
+   "purpose": "Presents a tiered creator program (levels, perks, how to qualify) with FAQ and a call to see the tiers.",
+   "status": "implemented",
+   "renderedBy": "CustomerJourney",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/customer-journey"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/customer-journey",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.product",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "nav-top"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.why-statement",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "gold"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.steps",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "tiers"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "faq.accordion",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "flush-top"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "black-plain"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/CustomerJourney.jsx:1-88"
+   ]
+  },
+  "T5": {
+   "id": "T5",
+   "name": "pricing",
+   "title": "Pricing",
+   "family": "pricing",
+   "purpose": "Plan selection: plan cards with billing toggle, full feature comparison, fees, proof, FAQ and an exit-intent offer.",
+   "status": "implemented",
+   "renderedBy": "Pricing",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/pricing"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/pricing",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.pricing",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.plan-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.comparison-matrix",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.fee-details",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.stories-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "faq.accordion",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "blue-product"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "pricing.exit-modal",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/Pricing.jsx:1-42"
+   ]
+  },
+  "T6": {
+   "id": "T6",
+   "name": "enterprise-solution",
+   "title": "Enterprise solution (sales-led)",
+   "family": "enterprise",
+   "purpose": "Sales-led solution page for organisations: use cases, product demo, capabilities, trust/security and a talk-to-sales form.",
+   "status": "implemented",
+   "renderedBy": "Enterprise",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/enterprise"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/enterprise",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.split",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "dark-video"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.offer-cards",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "enterprise"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.demo-embed",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.card-list",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "badges",
+      "white-icons"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.image-grid",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.quote-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.card-list",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "badges",
+      "white-icons"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.sales-form",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "enterprise"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/Enterprise.jsx:1-46"
+   ]
+  },
+  "T7": {
+   "id": "T7",
+   "name": "payments-product",
+   "title": "Payments product page (sales-assisted)",
+   "family": "payments",
+   "purpose": "Product page for the built-in checkout: proof, video, comparison table, feature rows, payment-method coverage and a sales form.",
+   "status": "implemented",
+   "renderedBy": "Payments",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/payments"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/payments",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.split",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "light-image"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.testimonial-slider",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.video-feature",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.compare-table",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.image-rows",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "plain",
+      "plain-header"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "split-migrate"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.image-rows",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "plain",
+      "plain-header"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "features.logo-tiles",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.sales-form",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "payments"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "faq.accordion",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/Payments.jsx:1-66"
+   ]
+  },
+  "T8": {
+   "id": "T8",
+   "name": "gated-demo",
+   "title": "Gated product demo",
+   "family": "demo",
+   "purpose": "Single conversion block: a short form unlocks a recorded product demo (form is local-only in the clone).",
+   "status": "implemented",
+   "renderedBy": "WatchDemo",
+   "theme": "light",
+   "heroless": true,
+   "routes": [
+    "/watch-demo"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/watch-demo",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "conversion.demo-unlock",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/WatchDemo.jsx:1-8"
+   ]
+  },
+  "T9": {
+   "id": "T9",
+   "name": "customer-showcase",
+   "title": "Customer showcase (example schools)",
+   "family": "showcase",
+   "purpose": "Browsable showcase of example customer schools by category, a row of well-known customer logos and a closing call to action.",
+   "status": "implemented",
+   "renderedBy": "Examples",
+   "theme": "light",
+   "heroless": false,
+   "routes": [
+    "/examples"
+   ],
+   "routeCount": 1,
+   "representativeRoute": "/examples",
+   "nodes": [
+    {
+     "section": "shell.navbar",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "fixed"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "hero.simple",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.example-showcase",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "social-proof.logo-row",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "cta.product-band",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "blue-plain"
+     ],
+     "observedOnRoutes": 1
+    },
+    {
+     "section": "shell.footer",
+     "required": true,
+     "repeatable": false,
+     "variants": [
+      "default"
+     ],
+     "observedOnRoutes": 1
+    }
+   ],
+   "evidence": [
+    "src/pages/Examples.jsx:1-28"
+   ]
+  }
+ }
+}

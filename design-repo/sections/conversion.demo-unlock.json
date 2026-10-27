@@ -1,0 +1,177 @@
+{
+ "id": "conversion.demo-unlock",
+ "title": "Gated demo unlock",
+ "semantic": {
+  "id": "conversion.demo-unlock",
+  "category": "CONVERSION"
+ },
+ "source": {
+  "id": "DemoUnlockHero:DemoUnlockHero:section@67",
+  "file": "src/components/pages/watch-demo/DemoUnlockHero.jsx",
+  "tag": "section",
+  "lines": "26-220",
+  "tagLine": 67,
+  "tagLineSha1": "9cfae4262fdfca82",
+  "anchor": "export default function DemoUnlockHero",
+  "anchorLine": 26
+ },
+ "additionalSources": [],
+ "purpose": "Heading, short form and a locked video frame; submitting unlocks the recorded demo locally and reveals an offer.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/watch-demo"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "eyebrow",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "eyebrow": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 16,
+    "observedIn": 1
+   },
+   "heading": {
+    "type": "text",
+    "maxWords": 4,
+    "maxChars": 41,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 26,
+    "maxChars": 127,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 3
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 19,
+    "maxChars": 97,
+    "observedIn": 1
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 42,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    1,
+    1
+   ],
+   "actions": [
+    5,
+    5
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "media.third-party-embed",
+     "product.screenshot"
+    ],
+    "generatedRoles": [
+     "product.generated-visual",
+     "video.placeholder-poster"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "product.generated-visual",
+  "video.placeholder-poster"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "unlock.reveal"
+  ],
+  "requiredPatterns": [
+   "unlock.reveal"
+  ],
+  "reducedMotionFallback": {
+   "unlock.reveal": "instant-show"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "form beside the video"
+  },
+  {
+   "range": "<=767",
+   "behavior": "stacked"
+  }
+ ],
+ "runtimeUi": [
+  "unlock state kept in local storage only; the form does not submit anywhere",
+  "embedded third-party player is domain-restricted and errors locally"
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 831.7,
+   "maxPx": 831.7,
+   "medianPx": 831.7,
+   "sample": {
+    "/watch-demo": 831.7
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 963.9,
+   "maxPx": 963.9,
+   "medianPx": 963.9,
+   "sample": {
+    "/watch-demo": 963.9
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/watch-demo/DemoUnlockHero.jsx:26-220",
+  "src/pages/WatchDemo.jsx:6"
+ ]
+}

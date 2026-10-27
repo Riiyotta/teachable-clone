@@ -1,0 +1,177 @@
+{
+ "id": "campaign.countdown-banner",
+ "title": "Countdown campaign banner",
+ "semantic": {
+  "id": "campaign.countdown-banner",
+  "category": "CAMPAIGN"
+ },
+ "source": {
+  "id": "HalloweenBanner:HalloweenBanner:section@70",
+  "file": "src/components/HalloweenBanner.jsx",
+  "tag": "section",
+  "lines": "58-151",
+  "tagLine": 70,
+  "tagLineSha1": "9a9a5b9115324808",
+  "anchor": "export default function HalloweenBanner",
+  "anchorLine": 58
+ },
+ "additionalSources": [],
+ "purpose": "Dated promotional card with an offer headline, short benefit list, live countdown and a trial button; dismissible.",
+ "retrievalEligible": false,
+ "retrievalIneligibleReason": "Time-limited seasonal campaign (countdown to 31 Oct 2026, dismissible); a dated promotion must not be retrieved as a reusable section.",
+ "placement": "main",
+ "variants": {
+  "home-top": {
+   "description": "homepage: small top padding under the navigation",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/"
+   ]
+  },
+  "large-top": {
+   "description": "product pages: large top padding that clears the fixed navigation",
+   "requiredFields": [
+    "actions",
+    "eyebrow",
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/coaching",
+    "/digital-downloads",
+    "/memberships",
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "eyebrow",
+   "items"
+  ],
+  "fields": {
+   "eyebrow": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 23,
+    "observedIn": 5
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 10,
+    "maxChars": 50,
+    "observedIn": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 12,
+    "maxChars": 68,
+    "observedIn": 5
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 16,
+    "observedIn": 5
+   }
+  },
+  "listSizes": {
+   "items": [
+    5,
+    5
+   ],
+   "actions": [
+    2,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "countdown.tick"
+  ],
+  "requiredPatterns": [
+   "countdown.tick"
+  ],
+  "reducedMotionFallback": {
+   "countdown.tick": "unchanged"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "one row: copy, countdown, button"
+  },
+  {
+   "range": "<=991",
+   "behavior": "countdown and button wrap below the copy"
+  },
+  {
+   "range": "<=767",
+   "behavior": "card stacks; countdown becomes a pill row"
+  },
+  {
+   "range": "<=359",
+   "behavior": "countdown hidden"
+  }
+ ],
+ "runtimeUi": [
+  "close button hides the banner and stops the timer"
+ ],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 5,
+   "minPx": 248.2,
+   "maxPx": 360.5,
+   "medianPx": 360.5,
+   "sample": {
+    "/": 248.2,
+    "/online-courses": 360.5,
+    "/coaching": 360.5,
+    "/digital-downloads": 360.5,
+    "/memberships": 360.5
+   }
+  },
+  "390": {
+   "nodes": 5,
+   "minPx": 434.9,
+   "maxPx": 474.9,
+   "medianPx": 474.9,
+   "sample": {
+    "/": 434.9,
+    "/online-courses": 474.9,
+    "/coaching": 474.9,
+    "/digital-downloads": 474.9,
+    "/memberships": 474.9
+   }
+  }
+ },
+ "evidence": [
+  "src/components/HalloweenBanner.jsx:58-151",
+  "src/pages/Home.jsx:22",
+  "src/pages/OnlineCourses.jsx:25",
+  "src/pages/Coaching.jsx:25",
+  "src/pages/DigitalDownloads.jsx:22",
+  "src/pages/Memberships.jsx:21"
+ ]
+}

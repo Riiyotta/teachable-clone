@@ -1,0 +1,31 @@
+{
+ "note": "Component-scoped tokens -> semantic tokens.",
+ "tokens": {
+  "button.start.surface": "color.surface.brand",
+  "button.secondary.surface": "color.surface.page",
+  "button.dark.surface": "color.surface.inverse",
+  "button.border": "color.border.default",
+  "button.radius": "radius.pill",
+  "card.radius": "radius.card",
+  "card.surface": "color.surface.subtle",
+  "nav.surface": "color.surface.inverse",
+  "cta-band.surface.blue": "color.surface.cta-blue",
+  "cta-band.surface.red": "color.surface.cta-red",
+  "statement-band.surface": "color.surface.brand",
+  "focus.outline": "color.focus.ring"
+ },
+ "evidence": {
+  "button.start.surface": "src/index.css:304",
+  "button.secondary.surface": "src/index.css:308",
+  "button.dark.surface": "src/index.css:322",
+  "button.border": "src/index.css:287",
+  "button.radius": "src/index.css:286",
+  "card.radius": "specs/product-template.md:74",
+  "card.surface": "src/components/sections/FeatureList.jsx:75",
+  "nav.surface": "CLONE_SPEC.md:195",
+  "cta-band.surface.blue": "src/components/sections/ProductCta.jsx:21",
+  "cta-band.surface.red": "src/components/sections/ProductCta.jsx:21",
+  "statement-band.surface": "src/components/sections/FeatureWhy.jsx:12",
+  "focus.outline": "src/index.css:209"
+ }
+}

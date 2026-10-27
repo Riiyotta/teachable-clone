@@ -1,0 +1,61 @@
+{
+ "note": "Layout tokens: container max-widths and the fluid root font size.",
+ "tokens": {
+  "layout.maxWidth.container-large": {
+   "value": "86rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:111",
+   "match": "'86rem'"
+  },
+  "layout.maxWidth.container-medium": {
+   "value": "68rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:112",
+   "match": "'68rem'"
+  },
+  "layout.maxWidth.container-nav": {
+   "value": "87.5rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:114",
+   "match": "'87.5rem'"
+  },
+  "layout.maxWidth.container-small": {
+   "value": "48rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:113",
+   "match": "'48rem'"
+  },
+  "layout.maxWidth.mw-large": {
+   "value": "44rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:115",
+   "match": "'44rem'"
+  },
+  "layout.maxWidth.mw-medium": {
+   "value": "40rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:117",
+   "match": "'40rem'"
+  },
+  "layout.maxWidth.mw-xlarge": {
+   "value": "64rem",
+   "category": "size",
+   "cite": "tailwind.config.cjs:116",
+   "match": "'64rem'"
+  },
+  "layout.rootFontSize.compact": {
+   "value": "1rem",
+   "category": "rootFontSize",
+   "cite": "src/index.css:39",
+   "match": "font-size: 1rem;",
+   "note": "applies at <=991px (16px)"
+  },
+  "layout.rootFontSize.fluid": {
+   "value": "calc(0.7416576964477933rem + 0.21528525296017226vw)",
+   "category": "rootFontSize",
+   "cite": "src/index.css:35",
+   "match": "calc(0.7416576964477933rem + 0.21528525296017226vw)",
+   "note": "applies at >=992px; 1rem = 14.9666px @1440, 14.6222px @1280 (measured in the running clone)"
+  }
+ }
+}

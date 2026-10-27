@@ -1,0 +1,157 @@
+{
+ "id": "social-proof.case-study-slider",
+ "title": "Case-study slider",
+ "semantic": {
+  "id": "social-proof.case-study-slider",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "CaseStudy:CaseStudy:section@77",
+  "file": "src/components/CaseStudy.jsx",
+  "tag": "section",
+  "lines": "72-142",
+  "tagLine": 77,
+  "tagLineSha1": "bc43bcef833c5eae",
+  "anchor": "export default function CaseStudy",
+  "anchorLine": 72
+ },
+ "additionalSources": [],
+ "purpose": "Manual slider of customer case-study cards (portrait photo, name, business, read link) with prev/next and an n / N counter.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 8,
+    "maxChars": 53,
+    "observedIn": 1,
+    "maxLines1440": 4,
+    "maxLines390": 4
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 18,
+    "maxChars": 122,
+    "observedIn": 1,
+    "maxLines1440": 3,
+    "maxLines390": 4
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 10,
+    "maxChars": 57,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 15,
+    "maxChars": 98,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "actions": [
+    3,
+    3
+   ],
+   "media": [
+    3,
+    3
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "person.photo"
+    ],
+    "generatedRoles": [
+     "person.fictional-avatar"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "person.fictional-avatar"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "carousel.manual"
+  ],
+  "requiredPatterns": [
+   "carousel.manual"
+  ],
+  "reducedMotionFallback": {
+   "carousel.manual": "instant-slide"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "photo + card side by side"
+  },
+  {
+   "range": "<=767",
+   "behavior": "stacked; 961px at 390"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 809.2,
+   "maxPx": 809.2,
+   "medianPx": 809.2,
+   "sample": {
+    "/": 809.2
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 961.1,
+   "maxPx": 961.1,
+   "medianPx": 961.1,
+   "sample": {
+    "/": 961.1
+   }
+  }
+ },
+ "evidence": [
+  "src/components/CaseStudy.jsx:72-142",
+  "src/pages/Home.jsx:35"
+ ]
+}

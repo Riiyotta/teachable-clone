@@ -1,0 +1,501 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Fonts (CLONE_SPEC §0.3)
+--------------------------------------------------------------------------- */
+@font-face {
+  font-family: Ivyprestoheadline;
+  src: url(/fonts/IvyprestoHeadline-Regular.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Ivyprestoheadline;
+  src: url(/fonts/IvyprestoHeadline-RegularItalic.woff2) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Peridotpenormvf;
+  src: url(/fonts/PeridotPENormVF.woff2) format('woff2');
+  font-weight: 100 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------------------------------------------------------------------
+   Root + fluid tokens (§0.1, §0.4). Everything is built in rem so it scales.
+--------------------------------------------------------------------------- */
+@layer base {
+  html {
+    font-size: calc(0.7416576964477933rem + 0.21528525296017226vw);
+  }
+  @media screen and (max-width: 991px) {
+    html {
+      font-size: 1rem;
+    }
+  }
+
+  :root {
+    --fs-body: 1.3rem;
+    --fs-h1: 5rem;
+    --lh-h1: 1;
+    --fs-h2: 4rem;
+    --lh-h2: 1.1;
+    --fs-h3: 3rem;
+    --lh-h3: 1.1;
+    --fs-medium: 1.15rem;
+    --fs-regular: 1rem;
+    --fs-small: 0.875rem;
+    --fs-tiny: 0.75rem;
+    --fs-large: 1.5rem;
+    --global-padding: 2rem;
+    --section-large: 8rem;
+    --section-small: 2rem;
+    /* Webflow --_layout---spacing--medium (used by demo CTA padding-top) */
+    --spacing-medium: 2rem;
+    /* Inner pages: first section clears the fixed nav (feature-template T0, product-template G4) */
+    --hero-top: 12rem;
+    /* product-template G4 --section-padding--medium (product hero .has-top-banner top) */
+    --section-medium: 5rem;
+    /* Inner-page heading sizes (product-template G5, feature-template T11) */
+    --fs-subheading: 2.25rem;
+    --fs-card-title: 2.25rem;
+    --fs-cta-heading: 3rem;
+    --fs-display-why: 6rem;
+    --fs-display-why-sm: 4rem;
+    --fs-tools-heading: 5rem;
+    --fs-explainer-title: 3rem;
+    --fs-list-title: 2rem;
+    --fs-slider-title: 3rem;
+    --fs-rating-title: 1.5rem;
+    --fs-tier-badge: 1.1rem;
+    --fs-marquee-stat: 1.75rem;
+  }
+  @media screen and (max-width: 991px) {
+    :root {
+      --fs-h1: 3.5rem;
+      --lh-h1: 1.1;
+      --fs-h2: 2.5rem;
+      --fs-medium: 1rem;
+      --section-large: 5rem;
+      --spacing-medium: 1.5rem;
+      --hero-top: 9rem;
+      --section-medium: 4rem;
+      --fs-subheading: 1.75rem;
+      --fs-card-title: 1.75rem;
+      --fs-display-why: 5rem;
+      --fs-display-why-sm: 3rem;
+      --fs-tools-heading: 4rem;
+      --fs-explainer-title: 2rem;
+      --fs-list-title: 1.75rem;
+      --fs-slider-title: 2.5rem;
+      --fs-tier-badge: 1rem;
+      --fs-marquee-stat: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    :root {
+      --fs-body: 1rem;
+      --fs-h1: 2.5rem;
+      --lh-h1: 1;
+      --fs-h2: 2rem;
+      --fs-h3: 2rem;
+      --fs-large: 1.25rem;
+      --section-large: 3rem;
+      --section-small: 1.5rem;
+      --spacing-medium: 1.25rem;
+      --hero-top: 8rem;
+      --section-medium: 3rem;
+      --fs-subheading: 1.25rem;
+      --fs-card-title: 1.5rem;
+      --fs-cta-heading: 2.5rem;
+      --fs-display-why: 3rem;
+      --fs-display-why-sm: 2.5rem;
+      --fs-tools-heading: 3rem;
+      --fs-list-title: 1.5rem;
+      --fs-slider-title: 1.5rem;
+      --fs-marquee-stat: 1.25rem;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    :root {
+      --fs-body: 4vw;
+      --fs-h1: 11vw;
+      --fs-h2: 10vw;
+      --fs-h3: 8vw;
+      --fs-medium: 4vw;
+      --fs-regular: 4vw;
+      --fs-small: 3.5vw;
+      --fs-tiny: 3vw;
+      --fs-large: 5vw;
+      --global-padding: 1.5rem;
+      --spacing-medium: 2rem;
+      --hero-top: 7rem;
+      --section-medium: 5rem;
+      --fs-subheading: 7vw;
+      --fs-card-title: 8vw;
+      --fs-cta-heading: 10vw;
+      --fs-display-why: 12vw;
+      --fs-display-why-sm: 10vw;
+      --fs-tools-heading: 10vw;
+      --fs-explainer-title: 8vw;
+      --fs-list-title: 8vw;
+      --fs-slider-title: 7vw;
+      --fs-rating-title: 6vw;
+    }
+  }
+
+  body {
+    @apply bg-white font-body text-black;
+    font-size: var(--fs-body);
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  h1 {
+    @apply font-heading text-h1 font-normal;
+  }
+  h2 {
+    @apply font-heading text-h2 font-normal;
+  }
+  h3 {
+    @apply font-heading text-h3 font-normal;
+  }
+  ul,
+  ol {
+    padding-left: 1.5rem;
+  }
+  li {
+    margin-bottom: 0.25rem;
+  }
+  em {
+    font-style: italic;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  ::selection {
+    background-color: #000;
+    color: #fff;
+    text-shadow: none;
+  }
+  [text-selection='reverse'] ::selection {
+    background-color: #fff;
+    color: #000;
+    text-shadow: none;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  [role='button']:focus-visible,
+  [tabindex]:not([tabindex='-1']):focus-visible {
+    outline: 2px solid theme('colors.focus');
+    outline-offset: 2px;
+  }
+
+  button,
+  a[href],
+  [role='button'] {
+    cursor: pointer;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Shared layout / type / button classes (§0.7, §0.8). Reuse these.
+--------------------------------------------------------------------------- */
+@layer components {
+  /* layout primitives */
+  .padding-global {
+    padding-left: var(--global-padding);
+    padding-right: var(--global-padding);
+    position: relative;
+  }
+  .container-large {
+    @apply mx-auto w-full max-w-container-large;
+  }
+  .container-medium {
+    @apply mx-auto w-full max-w-container-medium;
+  }
+  .container-small {
+    @apply mx-auto w-full max-w-container-small;
+  }
+  .padding-section-large {
+    padding-top: var(--section-large);
+    padding-bottom: var(--section-large);
+  }
+  .padding-section-small {
+    padding-top: var(--section-small);
+    padding-bottom: var(--section-small);
+  }
+
+  /* headings / text */
+  .heading-style-h1 {
+    @apply font-heading text-h1 font-normal;
+  }
+  .heading-style-h2 {
+    @apply font-heading text-h2 font-normal;
+  }
+  .heading-style-h3 {
+    @apply font-heading text-h3 font-normal;
+  }
+  .text-size-medium {
+    @apply text-medium;
+  }
+  .text-size-regular {
+    @apply text-regular;
+  }
+  .text-size-small {
+    @apply text-small;
+  }
+
+  /* responsive visibility (Webflow helpers) */
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape {
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .hide-mobile-portrait {
+      display: none !important;
+    }
+  }
+
+  /* --- Buttons (§0.8). Markup: <a class="btn-sso"><span class="btn-txt">Label</span></a> --- */
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    border-radius: 9999px;
+    border: 1px solid #000;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+  .btn-txt {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    transform-origin: center;
+    transition: transform 200ms ease;
+  }
+  .btn-sso {
+    @apply btn bg-yellow text-black;
+    padding: 1rem 1.5rem;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-black;
+    padding: 1rem 1.5rem;
+  }
+  .btn-primary {
+    @apply btn bg-yellow text-black;
+    padding: 0.9rem 1.5rem 1.1rem;
+  }
+  .btn-primary-white {
+    @apply btn-primary bg-white;
+  }
+  .btn-primary-black {
+    @apply btn-primary border-white bg-black text-white;
+  }
+  .btn-black {
+    @apply btn bg-black text-white;
+    padding: 1.1rem 1.5rem;
+  }
+  .btn-nav-secondary {
+    @apply btn border-white bg-transparent text-white;
+    padding: 1rem 1.5rem;
+  }
+  /* hover: only the label scales (IX2) */
+  .btn-sso:hover .btn-txt {
+    transform: scale(1.03);
+  }
+  .btn-secondary:hover .btn-txt,
+  .btn-primary:hover .btn-txt,
+  .btn-primary-white:hover .btn-txt,
+  .btn-primary-black:hover .btn-txt {
+    transform: scale(1.02);
+  }
+  @media screen and (max-width: 991px) {
+    .btn-sso,
+    .btn-secondary,
+    .btn-primary,
+    .btn-black,
+    .btn-nav-secondary {
+      font-size: 0.875rem;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .btn-txt {
+      font-size: 1.05rem;
+    }
+  }
+
+  /* arrow pill button ("Discover what's new") */
+  .btn-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    border-radius: 9999px;
+    background-color: #000;
+    color: #fff;
+    font-size: var(--fs-regular);
+    font-weight: 600;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    text-decoration: none;
+  }
+  .btn-arrow__circle {
+    @apply flex items-center justify-center rounded-full bg-yellow text-black;
+    width: 2rem;
+    aspect-ratio: 1;
+  }
+  .btn-arrow__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    transition: transform 0.2s ease;
+  }
+  .btn-arrow:hover .btn-arrow__icon {
+    transform: rotateZ(-45deg);
+  }
+
+  /* arrow glyph (pair with <ArrowIcon/>) */
+  .arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+  }
+  .arrow-icon.is-flipped {
+    transform: rotate(180deg);
+  }
+  @media screen and (max-width: 767px) {
+    .arrow-icon {
+      width: 0.85rem;
+    }
+  }
+
+  /* FAQ rich answers (<Faq items={[{ q, a: <>…</> }]}/>), from .accordion_rich-text in the page CSS */
+  .faq-rich p,
+  .faq-rich ul,
+  .faq-rich ol {
+    font-size: var(--fs-medium);
+  }
+  .faq-rich ul {
+    padding-left: 1.2rem;
+  }
+  .faq-rich ol {
+    padding-left: 2rem;
+  }
+  .faq-rich li {
+    margin-bottom: 0;
+  }
+  .faq-rich a {
+    text-decoration: underline;
+  }
+  .faq-rich a:hover {
+    text-decoration: none;
+  }
+
+  /* "→ text" lists */
+  .list-arrows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .list-arrows__row {
+    display: flex;
+    gap: 0.5rem;
+  }
+  @media screen and (max-width: 991px) {
+    .list-arrows {
+      margin-top: 0;
+    }
+    .list-arrows__row {
+      font-size: 0.875rem;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .list-arrows__row {
+      font-size: 4vw;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Keyframes
+--------------------------------------------------------------------------- */
+/* §1 promo marquee (verbatim from the inline embed) */
+@keyframes track {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+.marquee-item {
+  animation: track 25s linear infinite;
+}
+.marquee:hover .marquee-item {
+  animation-play-state: paused;
+}
+
+/* Steps background pulse (<Steps/>; verbatim from the `.code_steps-bg` embeds). Each card sets
+   --step-bg and its own animation-delay.
+   coaching (product-template T7):     4s, delays 0 / .2 / .4s, #f0f0f0
+   customer-journey (MF4, tiers):      6s, delays 0 / 1.5 / 3s, step-tint-1/2/3 */
+@keyframes bgSteps {
+  0% { background-color: transparent; }
+  5% { background-color: var(--step-bg); }
+  16% { background-color: var(--step-bg); }
+  30% { background-color: transparent; }
+  100% { background-color: transparent; }
+}
+@keyframes bgStepsTiers {
+  0% { background-color: transparent; }
+  5% { background-color: var(--step-bg); }
+  35% { background-color: var(--step-bg); }
+  45%, 100% { background-color: transparent; }
+}
+
+/* <StatsMarquee/> (product-template T3, verbatim from the page embed): each of the 2 blocks moves by its
+   own width, 60s linear, no hover pause. */
+@keyframes marquee-horizontal {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-100%); }
+}
+/* <LogoMarquee/> loops.
+   loop="half" (enterprise hero, verbatim): each track moves -50% of its own width (visible jump, as live).
+   loop="gap" (payments, verbatim): -(100% + the track gap); the gap comes from --logo-gap. */
+@keyframes logo-marquee-half {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes logo-marquee-gap {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-100% - var(--logo-gap))); }
+}

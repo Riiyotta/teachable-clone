@@ -1,0 +1,188 @@
+{
+ "id": "features.why-statement",
+ "title": "Statement band",
+ "semantic": {
+  "id": "features.why-statement",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "FeatureWhy:FeatureWhy:section@12",
+  "file": "src/components/sections/FeatureWhy.jsx",
+  "tag": "section",
+  "lines": "10-45",
+  "tagLine": 12,
+  "tagLineSha1": "2a2f5b60c4646af4",
+  "anchor": "export default function FeatureWhy",
+  "anchorLine": 10
+ },
+ "additionalSources": [
+  {
+   "id": "FeatureWhy:WhyStatement:section@7#gold-statement",
+   "file": "src/components/pages/memberships/WhyStatement.jsx",
+   "tag": "section",
+   "lines": "5-22",
+   "tagLine": 7,
+   "tagLineSha1": "fcc27d1a7d2ffa5b",
+   "anchor": "export default function WhyStatement",
+   "anchorLine": 5
+  }
+ ],
+ "purpose": "Coloured band with one very large statement heading and a supporting paragraph (optional pill or icon).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "gold": {
+   "description": "gold band, smaller heading",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/customer-journey"
+   ]
+  },
+  "gold-statement": {
+   "description": "gold band statement (memberships; separate implementation, same purpose)",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "items"
+   ],
+   "observedOn": [
+    "/memberships"
+   ]
+  },
+  "yellow": {
+   "description": "yellow band (feature pages)",
+   "requiredFields": [
+    "heading",
+    "lead"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/analytics-and-reporting",
+    "/mobile-app",
+    "/sales-and-marketing",
+    "/student-experience"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "lead"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 16,
+    "maxChars": 89,
+    "observedIn": 6,
+    "maxLines1440": 4,
+    "maxLines390": 6
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 81,
+    "maxChars": 466,
+    "observedIn": 6,
+    "maxLines1440": 9,
+    "maxLines390": 11
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 54,
+    "maxChars": 337,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {
+   "surface": {
+    "allowed": [
+     "color.surface.brand",
+     "color.surface.gold"
+    ],
+    "evidence": "src/components/sections/FeatureWhy.jsx:12"
+   }
+  },
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "heading and paragraph stack; display type steps down per breakpoint"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 6,
+   "minPx": 437,
+   "maxPx": 535.8,
+   "medianPx": 503.6,
+   "sample": {
+    "/memberships": 437,
+    "/analytics-and-reporting": 504.3,
+    "/customer-journey": 524.5,
+    "/mobile-app": 502.9,
+    "/sales-and-marketing": 535.8,
+    "/student-experience": 437
+   }
+  },
+  "390": {
+   "nodes": 6,
+   "minPx": 376,
+   "maxPx": 626.4,
+   "medianPx": 464.9,
+   "sample": {
+    "/memberships": 410.1,
+    "/analytics-and-reporting": 458.7,
+    "/customer-journey": 471.2,
+    "/mobile-app": 626.4,
+    "/sales-and-marketing": 538.3,
+    "/student-experience": 376
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/FeatureWhy.jsx:10-45",
+  "src/components/pages/memberships/WhyStatement.jsx:5-22",
+  "src/pages/AnalyticsAndReporting.jsx:33",
+  "src/pages/CustomerJourney.jsx:37",
+  "src/pages/MobileApp.jsx:34",
+  "src/pages/SalesAndMarketing.jsx:41",
+  "src/pages/StudentExperience.jsx:29"
+ ]
+}

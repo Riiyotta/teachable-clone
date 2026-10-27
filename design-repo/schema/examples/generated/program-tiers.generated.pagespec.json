@@ -1,0 +1,340 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T4",
+ "route": "/program-map",
+ "theme": "light",
+ "brand": {
+  "name": "Larchway Academy"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Fjord signal",
+      "href": "https://larchway.example/basil",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Measure bundle",
+      "href": "https://larchway.example/tidy",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map trace",
+      "href": "https://larchway.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field prism",
+      "href": "https://larchway.example/meadow",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:sprout-juniper-cobalt",
+      "alt": "Tidal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.product",
+   "variant": "nav-top",
+   "content": {
+    "eyebrow": "Fjord falcon",
+    "heading": "Refine measure bundle canvas cedar compass",
+    "lead": "Sketch plan shape gather notice steer ledger harbor",
+    "items": [
+     {
+      "text": "Willow signal refine"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Rowan bundle",
+      "href": "https://larchway.example/grove",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map compass",
+      "href": "https://larchway.example/sketch",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:field-shape-cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.why-statement",
+   "variant": "gold",
+   "content": {
+    "heading": "Notice harvest cobalt share willow weigh basil atlas",
+    "lead": "Nimbus grove cedar trace sketch field shape meadow"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.steps",
+   "variant": "tiers",
+   "content": {
+    "heading": "Notice harvest cobalt",
+    "items": [
+     {
+      "title": "Tidal",
+      "text": "Fjord signal basil rowan pebble tidy thread compass"
+     },
+     {
+      "title": "Marble",
+      "text": "Plan orbit gather summit steer sort tidal willow"
+     },
+     {
+      "title": "Weigh",
+      "text": "Basil atlas pebble canvas map compass sketch field"
+     },
+     {
+      "title": "Shape",
+      "text": "Gather notice harvest cobalt tidal lantern weigh refine"
+     },
+     {
+      "title": "Atlas",
+      "text": "Pebble tidy thread delta sketch plan prism meadow"
+     },
+     {
+      "title": "Notice",
+      "text": "Harvest sort tidal willow signal basil rowan pebble"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Tidy",
+      "href": "https://larchway.example/cedar",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Delta",
+      "href": "https://larchway.example/marble",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "pulse.loop",
+    "reducedMotionFallback": "static-no-pulse"
+   }
+  },
+  {
+   "section": "faq.accordion",
+   "variant": "flush-top",
+   "content": {
+    "heading": "Plan prism meadow sprout",
+    "items": [
+     {
+      "title": "Harvest cobalt share willow falcon basil rowan",
+      "text": "Pebble canvas cedar compass quarry plan shape cinder"
+     },
+     {
+      "title": "Sprout juniper ledger harbor fjord falcon refine",
+      "text": "Rowan pebble grove thread compass quarry field prism"
+     },
+     {
+      "title": "Cinder notice juniper sort share lantern weigh",
+      "text": "Refine rowan pebble canvas map trace sketch ember"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Orbit meadow",
+      "href": "https://larchway.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest cobalt",
+      "href": "https://larchway.example/share",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.expand",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "black-plain",
+   "content": {
+    "heading": "Willow falcon beacon measure bundle grove",
+    "lead": "Cedar compass quarry plan prism gather summit steer",
+    "actions": [
+     {
+      "label": "Ledger tidal fjord",
+      "href": "https://larchway.example/weigh",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil measure pebble",
+      "href": "https://larchway.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Cedar",
+      "text": "Delta sketch plan shape cinder sprout juniper sort"
+     },
+     {
+      "title": "Tidal",
+      "text": "Lantern falcon basil measure nimbus tidy thread trace"
+     },
+     {
+      "title": "Sketch",
+      "text": "Plan prism meadow summit juniper ledger share fjord"
+     },
+     {
+      "title": "Signal",
+      "text": "Beacon measure pebble canvas thread trace marble plan"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Shape gather",
+      "href": "https://larchway.example/notice",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://larchway.example/share",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Willow signal",
+      "href": "https://larchway.example/beacon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas bundle",
+      "href": "https://larchway.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cedar compass",
+      "href": "https://larchway.example/sketch",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan prism",
+      "href": "https://larchway.example/gather",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Summit steer",
+      "href": "https://larchway.example/cobalt",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor willow",
+      "href": "https://larchway.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil rowan",
+      "href": "https://larchway.example/nimbus",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas thread",
+      "href": "https://larchway.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sketch field",
+      "href": "https://larchway.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather summit",
+      "href": "https://larchway.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger harbor",
+      "href": "https://larchway.example/willow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Weigh refine",
+      "href": "https://larchway.example/measure",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus tidy",
+      "href": "https://larchway.example/cedar",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace sketch",
+      "href": "https://larchway.example/ember",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Prism meadow",
+      "href": "https://larchway.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Juniper sort",
+      "href": "https://larchway.example/share",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:lantern-signal-beacon"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:atlas-nimbus-canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

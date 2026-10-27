@@ -1,0 +1,167 @@
+{
+ "id": "features.steps",
+ "title": "Numbered steps / tiers",
+ "semantic": {
+  "id": "features.steps",
+  "category": "FEATURES"
+ },
+ "source": {
+  "id": "Steps:Steps:section@37",
+  "file": "src/components/sections/Steps.jsx",
+  "tag": "section",
+  "lines": "34-66",
+  "tagLine": 37,
+  "tagLineSha1": "df673d2eac1b7f4c",
+  "anchor": "export default function Steps",
+  "anchorLine": 34
+ },
+ "additionalSources": [],
+ "purpose": "Three cards describing sequential steps or program tiers, with a pulsing background highlight.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "steps": {
+   "description": "numbered steps, 4s pulse",
+   "requiredFields": [
+    "heading",
+    "items",
+    "lead"
+   ],
+   "forbiddenFields": [
+    "actions"
+   ],
+   "observedOn": [
+    "/coaching"
+   ]
+  },
+  "tiers": {
+   "description": "tier cards with badge, bullets, note and button, 6s pulse",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items"
+   ],
+   "forbiddenFields": [
+    "lead"
+   ],
+   "observedOn": [
+    "/customer-journey"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "heading",
+   "items"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 6,
+    "maxChars": 36,
+    "observedIn": 2,
+    "maxLines1440": 1,
+    "maxLines390": 2
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 27,
+    "maxChars": 144,
+    "observedIn": 1,
+    "maxLines1440": 2,
+    "maxLines390": 4
+   },
+   "items[].title": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 16,
+    "observedIn": 2
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 32,
+    "maxChars": 173,
+    "observedIn": 2
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 14,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    6,
+    18
+   ],
+   "actions": [
+    2,
+    2
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "pulse.loop"
+  ],
+  "requiredPatterns": [
+   "pulse.loop"
+  ],
+  "reducedMotionFallback": {
+   "pulse.loop": "static-no-pulse"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "three columns"
+  },
+  {
+   "range": "<=767",
+   "behavior": "stacked"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 2,
+   "minPx": 748.9,
+   "maxPx": 944.3,
+   "medianPx": 846.6,
+   "sample": {
+    "/coaching": 748.9,
+    "/customer-journey": 944.3
+   }
+  },
+  "390": {
+   "nodes": 2,
+   "minPx": 1070.8,
+   "maxPx": 1852.1,
+   "medianPx": 1461.4,
+   "sample": {
+    "/coaching": 1070.8,
+    "/customer-journey": 1852.1
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/Steps.jsx:34-66",
+  "src/pages/Coaching.jsx:36",
+  "src/pages/CustomerJourney.jsx:48"
+ ]
+}

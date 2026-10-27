@@ -1,0 +1,18 @@
+{
+ "id": "primitive.text-link-arrow",
+ "kind": "primitive",
+ "title": "Text link with arrow",
+ "purpose": "Uppercase text link with a small rotated arrow (READ MORE / DOWNLOAD NOW).",
+ "source": {
+  "file": "src/components/shared/ButtonSimple.jsx",
+  "lines": "10-22",
+  "anchor": "export default function ButtonSimple",
+  "anchorLine": 10
+ },
+ "props": {
+  "label": "uppercase text",
+  "href": "link",
+  "hoverArrow": "boolean"
+ },
+ "tokens": []
+}

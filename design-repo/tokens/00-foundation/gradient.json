@@ -1,0 +1,113 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "gradient.demo-hero": {
+   "value": "linear-gradient(rgba(255,255,255,.7),#fff),linear-gradient(150deg,#e0ff00,#f6f2ee 55%,#fff)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:152",
+   "match": "'linear-gradient(rgba(255,255,255,.7),#fff),linear-gradient(150deg,#e0ff00,#f6f2ee 55%,#fff)'"
+  },
+  "gradient.enterprise-hero": {
+   "value": "linear-gradient(#1c2600,#465f01)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:148",
+   "match": "'linear-gradient(#1c2600,#465f01)'"
+  },
+  "gradient.enterprise-quote": {
+   "value": "linear-gradient(158deg,#f8ffc6,#f0f0f0)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:151",
+   "match": "'linear-gradient(158deg,#f8ffc6,#f0f0f0)'"
+  },
+  "gradient.fade-l": {
+   "value": "linear-gradient(90deg,#fff 38%,#fff0)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:146",
+   "match": "'linear-gradient(90deg,#fff 38%,#fff0)'"
+  },
+  "gradient.fade-r": {
+   "value": "linear-gradient(-90deg,#fff 38%,#fff0)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:147",
+   "match": "'linear-gradient(-90deg,#fff 38%,#fff0)'"
+  },
+  "gradient.halloween": {
+   "value": "radial-gradient(circle at 4% 18%,#e6ff3280 0 1px,#0000 2px),radial-gradient(circle at 33% 12%,#e6ff3266 0 1px,#0000 2px),radial-gradient(circle at 58% 22%,#e6ff3280 0 1px,#0000 2px),radial-gradient(circle at 47% 78%,#e6ff324d 0 1px,#0000 2px),radial-gradient(circle at 79% 15%,#e6ff3266 0 1px,#0000 2px),radial-gradient(circle at 92% 80%,#e6ff3259 0 1px,#0000 2px),linear-gradient(135deg,#0b0910,#1c1530 55%,#2a1f45)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:154",
+   "match": "radial-gradient(circle at 4% 18%,#e6ff3280 0 1px,#0000 2px),"
+  },
+  "gradient.hero-frame": {
+   "value": "linear-gradient(0deg,#f0f0f0 40%,#ffffff)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:140",
+   "match": "'linear-gradient(0deg,#f0f0f0 40%,#ffffff)'"
+  },
+  "gradient.hero-pane-mob": {
+   "value": "linear-gradient(180deg,#ffffff,#bfbfbf)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:141",
+   "match": "'linear-gradient(180deg,#ffffff,#bfbfbf)'"
+  },
+  "gradient.marquee": {
+   "value": "linear-gradient(90deg,#e6ff32 45%,#edf0e0)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:136",
+   "match": "'linear-gradient(90deg,#e6ff32 45%,#edf0e0)'"
+  },
+  "gradient.migrate-cta": {
+   "value": "linear-gradient(#1c4774,#7791ac)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:145",
+   "match": "'linear-gradient(#1c4774,#7791ac)'"
+  },
+  "gradient.nav-promo": {
+   "value": "linear-gradient(140deg,#e6ff32,#f8ffc6)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:138",
+   "match": "'linear-gradient(140deg,#e6ff32,#f8ffc6)'"
+  },
+  "gradient.payments-cta": {
+   "value": "linear-gradient(135deg,#f8ffc6,#e6ff32)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:137",
+   "match": "'linear-gradient(135deg,#f8ffc6,#e6ff32)'"
+  },
+  "gradient.placeholder": {
+   "value": "linear-gradient(180deg,#f0f0f0,#bebebe)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:139",
+   "match": "'linear-gradient(180deg,#f0f0f0,#bebebe)'"
+  },
+  "gradient.plan-label": {
+   "value": "linear-gradient(135deg,#000 10%,#4e4e4e)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:150",
+   "match": "'linear-gradient(135deg,#000 10%,#4e4e4e)'"
+  },
+  "gradient.platform-card": {
+   "value": "linear-gradient(180deg,#f0f0f0,#bfbfbf)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:149",
+   "match": "'linear-gradient(180deg,#f0f0f0,#bfbfbf)'"
+  },
+  "gradient.pricing-card": {
+   "value": "linear-gradient(180deg,#1c4774,#6f92b6)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:142",
+   "match": "'linear-gradient(180deg,#1c4774,#6f92b6)'"
+  },
+  "gradient.stats-chip": {
+   "value": "linear-gradient(0deg,#fff 30%,#f0f0f0)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:143",
+   "match": "'linear-gradient(0deg,#fff 30%,#f0f0f0)'"
+  },
+  "gradient.stats-rule": {
+   "value": "linear-gradient(90deg,#fff 5%,#000 50%,#fff 95%)",
+   "category": "gradient",
+   "cite": "tailwind.config.cjs:144",
+   "match": "'linear-gradient(90deg,#fff 5%,#000 50%,#fff 95%)'"
+  }
+ }
+}

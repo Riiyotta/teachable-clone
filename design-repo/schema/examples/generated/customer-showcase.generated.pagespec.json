@@ -1,0 +1,387 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T9",
+ "route": "/showcase-field",
+ "theme": "light",
+ "brand": {
+  "name": "Sablecrest Courses"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Ember shape",
+      "href": "https://sablecrest.example/meadow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Summit harvest",
+      "href": "https://sablecrest.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidal lantern",
+      "href": "https://sablecrest.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Refine measure",
+      "href": "https://sablecrest.example/pebble",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:canvas-cedar-trace",
+      "alt": "Sketch"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.simple",
+   "variant": "default",
+   "content": {
+    "heading": "Ember prism cinder sprout juniper"
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.example-showcase",
+   "variant": "default",
+   "content": {
+    "heading": "Sort",
+    "lead": "Share willow weigh basil measure pebble grove cedar",
+    "items": [
+     {
+      "title": "Compass quarry",
+      "text": "Ember shape cinder notice harvest cobalt tidal fjord"
+     },
+     {
+      "title": "Weigh beacon",
+      "text": "Atlas nimbus canvas thread compass marble ember shape"
+     },
+     {
+      "title": "Cinder notice",
+      "text": "Steer cobalt harbor fjord weigh basil measure bundle"
+     },
+     {
+      "title": "Canvas thread",
+      "text": "Compass sketch ember orbit gather sprout juniper sort"
+     },
+     {
+      "title": "Tidal willow",
+      "text": "Signal beacon atlas bundle tidy cedar delta quarry"
+     },
+     {
+      "title": "Plan prism",
+      "text": "Meadow sprout harvest ledger harbor willow signal beacon"
+     },
+     {
+      "title": "Atlas pebble",
+      "text": "Tidy cedar trace marble field prism cinder sprout"
+     },
+     {
+      "title": "Harvest sort",
+      "text": "Harbor lantern weigh beacon rowan nimbus canvas cedar"
+     },
+     {
+      "title": "Compass quarry",
+      "text": "Field prism gather sprout steer sort tidal willow"
+     },
+     {
+      "title": "Falcon basil",
+      "text": "Rowan bundle tidy thread compass sketch plan prism"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Cinder",
+      "href": "https://sablecrest.example/summit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Juniper",
+      "href": "https://sablecrest.example/sort",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Share",
+      "href": "https://sablecrest.example/fjord",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Signal",
+      "href": "https://sablecrest.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas",
+      "href": "https://sablecrest.example/nimbus",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove",
+      "href": "https://sablecrest.example/thread",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:delta-sketch-plan"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:orbit-gather-notice"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:steer-sort-harbor"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:lantern-weigh-basil"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:measure-pebble-canvas"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:map-compass-marble"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:field-orbit-gather"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:sprout-juniper-ledger"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:harbor-willow-weigh"
+     },
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:beacon-atlas-nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "tabs.fade",
+    "reducedMotionFallback": "instant-swap"
+   }
+  },
+  {
+   "section": "social-proof.logo-row",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "text": "Tidy thread trace sketch plan"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:prism-meadow-notice",
+      "alt": "Juniper ledger"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:tidal-lantern-weigh",
+      "alt": "Refine measure"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:pebble-canvas-cedar",
+      "alt": "Trace sketch"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:ember-prism-cinder",
+      "alt": "Summit juniper"
+     },
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:sort-tidal-fjord",
+      "alt": "Falcon basil"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "blue-plain",
+   "content": {
+    "heading": "Rowan nimbus canvas cedar trace marble",
+    "lead": "Ember shape cinder summit harvest cobalt share fjord",
+    "actions": [
+     {
+      "label": "Weigh basil atlas",
+      "href": "https://sablecrest.example/nimbus",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Grove map trace",
+      "href": "https://sablecrest.example/sketch",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Field",
+      "text": "Prism gather sprout steer cobalt harbor fjord falcon"
+     },
+     {
+      "title": "Basil",
+      "text": "Measure bundle grove map compass sketch plan orbit"
+     },
+     {
+      "title": "Gather",
+      "text": "Sprout harvest ledger tidal fjord weigh beacon measure"
+     },
+     {
+      "title": "Pebble",
+      "text": "Canvas cedar compass quarry plan shape meadow notice"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Juniper ledger",
+      "href": "https://sablecrest.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord signal",
+      "href": "https://sablecrest.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan bundle",
+      "href": "https://sablecrest.example/grove",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Thread compass",
+      "href": "https://sablecrest.example/marble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan orbit",
+      "href": "https://sablecrest.example/meadow",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice juniper",
+      "href": "https://sablecrest.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor lantern",
+      "href": "https://sablecrest.example/falcon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Refine atlas",
+      "href": "https://sablecrest.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidy thread",
+      "href": "https://sablecrest.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry field",
+      "href": "https://sablecrest.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Meadow notice",
+      "href": "https://sablecrest.example/harvest",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger tidal",
+      "href": "https://sablecrest.example/fjord",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Falcon refine",
+      "href": "https://sablecrest.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Pebble canvas",
+      "href": "https://sablecrest.example/cedar",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Compass marble",
+      "href": "https://sablecrest.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Orbit cinder",
+      "href": "https://sablecrest.example/summit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://sablecrest.example/harbor",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Willow weigh",
+      "href": "https://sablecrest.example/basil",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:atlas-bundle-grove"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:map-trace-marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

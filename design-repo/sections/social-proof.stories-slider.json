@@ -1,0 +1,226 @@
+{
+ "id": "social-proof.stories-slider",
+ "title": "Creator stories slider",
+ "semantic": {
+  "id": "social-proof.stories-slider",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "Stories:Stories:section@79",
+  "file": "src/components/Stories.jsx",
+  "tag": "section",
+  "lines": "52-114",
+  "tagLine": 79,
+  "tagLineSha1": "ca685a35b470314a",
+  "anchor": "export default function Stories",
+  "anchorLine": 52
+ },
+ "additionalSources": [],
+ "purpose": "Autoplaying slider of creator testimonial cards (photo, quote, name, business) under a heading and paragraph.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "centered": {
+   "description": "site-builder: centred active slide, auto height",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/site-builder"
+   ]
+  },
+  "default": {
+   "description": "left-aligned track",
+   "requiredFields": [
+    "actions",
+    "heading",
+    "items",
+    "lead",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/",
+    "/ai-hub",
+    "/analytics-and-reporting",
+    "/coaching",
+    "/digital-downloads",
+    "/memberships",
+    "/mobile-app",
+    "/online-courses",
+    "/pricing",
+    "/sales-and-marketing",
+    "/student-experience"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "actions",
+   "heading",
+   "items",
+   "lead",
+   "media"
+  ],
+  "fields": {
+   "heading": {
+    "type": "text",
+    "maxWords": 5,
+    "maxChars": 42,
+    "observedIn": 12,
+    "maxLines1440": 1,
+    "maxLines390": 3
+   },
+   "lead": {
+    "type": "text",
+    "maxWords": 29,
+    "maxChars": 212,
+    "observedIn": 12,
+    "maxLines1440": 3,
+    "maxLines390": 5
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 51,
+    "maxChars": 299,
+    "observedIn": 12
+   },
+   "actions[].label": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 14,
+    "observedIn": 12
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 20,
+    "maxChars": 108,
+    "observedIn": 12
+   }
+  },
+  "listSizes": {
+   "items": [
+    19,
+    19
+   ],
+   "actions": [
+    1,
+    1
+   ],
+   "media": [
+    6,
+    6
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "person.photo"
+    ],
+    "generatedRoles": [
+     "person.fictional-avatar"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "person.fictional-avatar"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "carousel.autoplay"
+  ],
+  "requiredPatterns": [
+   "carousel.autoplay"
+  ],
+  "reducedMotionFallback": {
+   "carousel.autoplay": "paused-manual-controls"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=992",
+   "behavior": "cards 304x462 at 1440 in a 110%-wide track"
+  },
+  {
+   "range": "<=479",
+   "behavior": "one card per view; 903.6px at 390"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 12,
+   "minPx": 968.5,
+   "maxPx": 990.9,
+   "medianPx": 990.9,
+   "sample": {
+    "/": 990.9,
+    "/pricing": 990.9,
+    "/online-courses": 990.9,
+    "/coaching": 990.9,
+    "/digital-downloads": 990.9,
+    "/memberships": 990.9,
+    "/ai-hub": 990.9,
+    "/analytics-and-reporting": 990.9,
+    "/mobile-app": 990.9,
+    "/sales-and-marketing": 990.9,
+    "/site-builder": 968.5,
+    "/student-experience": 990.9
+   }
+  },
+  "390": {
+   "nodes": 12,
+   "minPx": 903.7,
+   "maxPx": 903.7,
+   "medianPx": 903.7,
+   "sample": {
+    "/": 903.7,
+    "/pricing": 903.7,
+    "/online-courses": 903.7,
+    "/coaching": 903.7,
+    "/digital-downloads": 903.7,
+    "/memberships": 903.7,
+    "/ai-hub": 903.7,
+    "/analytics-and-reporting": 903.7,
+    "/mobile-app": 903.7,
+    "/sales-and-marketing": 903.7,
+    "/site-builder": 903.7,
+    "/student-experience": 903.7
+   }
+  }
+ },
+ "evidence": [
+  "src/components/Stories.jsx:52-114",
+  "src/pages/Home.jsx:32",
+  "src/pages/Pricing.jsx:29",
+  "src/pages/OnlineCourses.jsx:70",
+  "src/pages/Coaching.jsx:91",
+  "src/pages/DigitalDownloads.jsx:67",
+  "src/pages/Memberships.jsx:56",
+  "src/pages/AIHub.jsx:62",
+  "src/pages/AnalyticsAndReporting.jsx:52",
+  "src/pages/MobileApp.jsx:52",
+  "src/pages/SalesAndMarketing.jsx:59",
+  "src/pages/SiteBuilder.jsx:49",
+  "src/pages/StudentExperience.jsx:55"
+ ]
+}

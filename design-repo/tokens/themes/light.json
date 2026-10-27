@@ -1,0 +1,25 @@
+{
+ "note": "The only theme the clone renders (white page, dark/colour bands are section surfaces, not a theme). Resolves every semantic role to a foundation token.",
+ "tokens": {
+  "color.text.primary": "color.black",
+  "color.text.inverse": "color.white",
+  "color.text.muted": "color.grey.muted",
+  "color.text.label": "color.grey.title",
+  "color.text.accent-on-dark": "color.yellow.default",
+  "color.surface.page": "color.white",
+  "color.surface.subtle": "color.grey.light",
+  "color.surface.brand": "color.yellow.default",
+  "color.surface.inverse": "color.black",
+  "color.surface.cta-blue": "color.blue.dark",
+  "color.surface.cta-red": "color.red.dark",
+  "color.surface.gold": "color.gold",
+  "color.surface.warm": "color.warm",
+  "color.surface.navy": "color.navy",
+  "color.border.default": "color.black",
+  "color.focus.ring": "color.focus",
+  "font.family.display": "font.family.heading",
+  "font.family.text": "font.family.body",
+  "radius.card": "radius.md",
+  "radius.pill": "radius.full"
+ }
+}

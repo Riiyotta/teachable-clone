@@ -1,0 +1,400 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T2",
+ "route": "/feature-beacon",
+ "theme": "light",
+ "brand": {
+  "name": "Tidewell School"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Prism gather",
+      "href": "https://tidewell.example/summit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Steer ledger",
+      "href": "https://tidewell.example/harbor",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Lantern falcon",
+      "href": "https://tidewell.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Atlas nimbus",
+      "href": "https://tidewell.example/tidy",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:thread-delta-marble",
+      "alt": "Field"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.feature",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Prism gather notice",
+    "heading": "Juniper cobalt tidal lantern weigh beacon measure",
+    "lead": "Nimbus grove cedar delta sketch ember prism meadow",
+    "actions": [
+     {
+      "label": "Sprout juniper ledger",
+      "href": "https://tidewell.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord signal refine",
+      "href": "https://tidewell.example/rowan",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:nimbus-grove-map"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.explainer-rows",
+   "variant": "headed",
+   "content": {
+    "heading": "Compass marble field prism gather",
+    "lead": "Summit juniper sort tidal lantern falcon basil atlas",
+    "items": [
+     {
+      "title": "Bundle tidy cedar",
+      "text": "Delta quarry field prism meadow notice steer ledger"
+     },
+     {
+      "title": "Tidal willow signal",
+      "text": "Basil measure nimbus tidy cedar trace marble field"
+     },
+     {
+      "title": "Orbit meadow sprout",
+      "text": "Steer sort tidal fjord signal refine rowan nimbus"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Grove thread",
+      "href": "https://tidewell.example/delta",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble field",
+      "href": "https://tidewell.example/prism",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:gather-summit-juniper"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:sort-share-lantern"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.stories-slider",
+   "variant": "centered",
+   "content": {
+    "heading": "Signal refine measure",
+    "lead": "Nimbus grove map trace quarry field prism meadow",
+    "items": [
+     {
+      "text": "Summit juniper sort tidal willow weigh refine atlas"
+     },
+     {
+      "text": "Nimbus grove map trace marble field prism cinder"
+     },
+     {
+      "text": "Sprout harvest sort share willow signal refine rowan"
+     },
+     {
+      "text": "Bundle canvas cedar trace marble field orbit cinder"
+     },
+     {
+      "text": "Sprout steer ledger share fjord falcon beacon measure"
+     },
+     {
+      "text": "Nimbus canvas thread trace quarry plan shape gather"
+     },
+     {
+      "text": "Sprout juniper sort share fjord weigh basil rowan"
+     },
+     {
+      "text": "Bundle canvas cedar compass quarry field shape gather"
+     },
+     {
+      "text": "Summit juniper ledger harbor fjord weigh refine measure"
+     },
+     {
+      "text": "Pebble tidy map delta quarry ember prism meadow"
+     },
+     {
+      "text": "Sprout juniper ledger tidal fjord signal basil measure"
+     },
+     {
+      "text": "Pebble grove map delta marble field orbit meadow"
+     },
+     {
+      "text": "Sprout juniper cobalt harbor fjord falcon beacon rowan"
+     },
+     {
+      "text": "Nimbus grove cedar trace sketch field prism gather"
+     },
+     {
+      "text": "Notice juniper ledger harbor fjord signal refine atlas"
+     },
+     {
+      "text": "Bundle tidy cedar delta marble field orbit gather"
+     },
+     {
+      "text": "Sprout harvest cobalt share lantern weigh refine atlas"
+     },
+     {
+      "text": "Pebble tidy map compass quarry ember orbit meadow"
+     },
+     {
+      "text": "Summit juniper sort harbor willow signal refine atlas"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Bundle",
+      "href": "https://tidewell.example/tidy",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:cedar-compass-marble",
+      "alt": "Plan orbit cinder sprout juniper sort harbor lantern"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:falcon-basil-rowan",
+      "alt": "Bundle tidy map trace marble plan shape meadow"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:summit-harvest-sort",
+      "alt": "Tidal willow falcon basil rowan pebble tidy thread"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:compass-quarry-ember",
+      "alt": "Orbit gather summit juniper sort share lantern weigh"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:beacon-atlas-pebble",
+      "alt": "Canvas thread trace quarry plan orbit gather notice"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:harvest-cobalt-share",
+      "alt": "Lantern weigh refine measure bundle grove map compass"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.autoplay",
+    "reducedMotionFallback": "paused-manual-controls"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "red-feature",
+   "content": {
+    "heading": "Marble ember shape cinder notice juniper",
+    "lead": "Sort harbor fjord signal basil measure pebble grove",
+    "items": [
+     {
+      "text": "Cedar delta marble field"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Orbit meadow summit",
+      "href": "https://tidewell.example/juniper",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cobalt harbor willow",
+      "href": "https://tidewell.example/falcon",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Beacon",
+      "text": "Measure pebble grove map delta marble ember prism"
+     },
+     {
+      "title": "Meadow",
+      "text": "Summit steer cobalt harbor lantern signal beacon rowan"
+     },
+     {
+      "title": "Bundle",
+      "text": "Canvas map delta marble field shape gather summit"
+     },
+     {
+      "title": "Juniper",
+      "text": "Ledger share fjord weigh beacon rowan pebble canvas"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Thread trace",
+      "href": "https://tidewell.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan prism",
+      "href": "https://tidewell.example/gather",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sprout steer",
+      "href": "https://tidewell.example/ledger",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidal fjord",
+      "href": "https://tidewell.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon atlas",
+      "href": "https://tidewell.example/bundle",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Canvas map",
+      "href": "https://tidewell.example/delta",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Marble plan",
+      "href": "https://tidewell.example/orbit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather summit",
+      "href": "https://tidewell.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Sort tidal",
+      "href": "https://tidewell.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Falcon beacon",
+      "href": "https://tidewell.example/rowan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus grove",
+      "href": "https://tidewell.example/thread",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Delta marble",
+      "href": "https://tidewell.example/ember",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Orbit gather",
+      "href": "https://tidewell.example/summit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Juniper cobalt",
+      "href": "https://tidewell.example/tidal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord falcon",
+      "href": "https://tidewell.example/refine",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Measure nimbus",
+      "href": "https://tidewell.example/tidy",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Map delta",
+      "href": "https://tidewell.example/marble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field shape",
+      "href": "https://tidewell.example/gather",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:notice-juniper-ledger"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:tidal-lantern-signal"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

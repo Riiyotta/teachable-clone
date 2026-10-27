@@ -1,0 +1,682 @@
+{
+ "pageSpecVersion": "1.0.0",
+ "mode": "generated",
+ "template": "T7",
+ "route": "/payments-canvas",
+ "theme": "light",
+ "brand": {
+  "name": "Pellmoor Learning"
+ },
+ "copyRole": "copy.original",
+ "nodes": [
+  {
+   "section": "shell.navbar",
+   "variant": "fixed",
+   "content": {
+    "actions": [
+     {
+      "label": "Meadow summit",
+      "href": "https://pellmoor.example/steer",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger share",
+      "href": "https://pellmoor.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Falcon basil",
+      "href": "https://pellmoor.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus grove",
+      "href": "https://pellmoor.example/map",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:compass-quarry-field",
+      "alt": "Prism"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "nav.dropdown",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "hero.split",
+   "variant": "light-image",
+   "content": {
+    "heading": "Meadow notice harvest",
+    "lead": "Cobalt harbor fjord weigh refine measure bundle canvas",
+    "actions": [
+     {
+      "label": "Map compass",
+      "href": "https://pellmoor.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Field prism",
+      "href": "https://pellmoor.example/meadow",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "customer.placeholder-logo",
+      "ref": "generate:notice-juniper-sort",
+      "alt": "Tidal lantern"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:signal-basil-atlas",
+      "alt": "Bundle canvas"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "social-proof.testimonial-slider",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Cedar",
+    "items": [
+     {
+      "title": "Compass quarry ember",
+      "text": "Shape cinder summit steer ledger harbor lantern signal"
+     },
+     {
+      "title": "Beacon rowan bundle",
+      "text": "Canvas thread compass sketch field prism meadow summit"
+     },
+     {
+      "title": "Steer sort tidal",
+      "text": "Willow weigh beacon rowan nimbus tidy map trace"
+     },
+     {
+      "title": "Quarry ember shape",
+      "text": "Cinder notice juniper sort harbor willow weigh beacon"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:atlas-bundle-tidy"
+     },
+     {
+      "assetRole": "person.fictional-avatar",
+      "ref": "generate:map-delta-sketch"
+     },
+     {
+      "assetRole": "icon.generic",
+      "ref": "generate:field-orbit-cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "carousel.manual",
+    "reducedMotionFallback": "instant-slide"
+   }
+  },
+  {
+   "section": "features.video-feature",
+   "variant": "default",
+   "content": {
+    "eyebrow": "Summit steer",
+    "actions": [
+     {
+      "label": "Sort share",
+      "href": "https://pellmoor.example/fjord",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "video.placeholder-poster",
+      "ref": "generate:weigh-basil-measure"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.compare-table",
+   "variant": "default",
+   "content": {
+    "heading": "Nimbus tidy map",
+    "lead": "Compass",
+    "items": [
+     {
+      "text": "Quarry plan shape"
+     },
+     {
+      "text": "Meadow sprout juniper"
+     },
+     {
+      "text": "Ledger tidal lantern"
+     },
+     {
+      "text": "Signal basil atlas"
+     },
+     {
+      "text": "Pebble tidy thread"
+     },
+     {
+      "text": "Delta sketch field"
+     },
+     {
+      "text": "Orbit meadow notice"
+     },
+     {
+      "text": "Steer ledger harbor"
+     },
+     {
+      "text": "Willow falcon basil"
+     },
+     {
+      "text": "Rowan bundle grove"
+     },
+     {
+      "text": "Thread compass quarry"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Plan shape",
+      "href": "https://pellmoor.example/cinder",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.image-rows",
+   "variant": "plain",
+   "content": {
+    "heading": "Sprout steer ledger harbor",
+    "lead": "Lantern falcon beacon measure nimbus canvas map delta",
+    "items": [
+     {
+      "title": "Quarry plan prism",
+      "text": "Cinder sprout steer ledger tidal lantern weigh beacon"
+     },
+     {
+      "title": "Rowan pebble canvas",
+      "text": "Map compass quarry ember orbit meadow summit harvest"
+     },
+     {
+      "title": "Sort share willow",
+      "text": "Falcon basil measure pebble tidy thread delta quarry"
+     },
+     {
+      "title": "Field orbit cinder",
+      "text": "Sprout steer sort tidal lantern weigh refine rowan"
+     },
+     {
+      "title": "Bundle tidy cedar",
+      "text": "Trace sketch field prism cinder summit steer ledger"
+     },
+     {
+      "title": "Harbor willow signal",
+      "text": "Beacon atlas nimbus grove map delta sketch field"
+     },
+     {
+      "title": "Orbit gather sprout",
+      "text": "Steer cobalt share willow falcon refine measure pebble"
+     },
+     {
+      "title": "Grove map compass",
+      "text": "Marble plan orbit cinder notice juniper ledger share"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Lantern weigh",
+      "href": "https://pellmoor.example/basil",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:measure-pebble-tidy",
+      "alt": "Thread trace sketch field prism cinder notice juniper"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:cobalt-share-lantern",
+      "alt": "Falcon basil rowan pebble grove cedar compass marble"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "cta.product-band",
+   "variant": "split-migrate",
+   "content": {
+    "heading": "Field orbit meadow notice steer cobalt",
+    "lead": "Share willow falcon basil rowan pebble canvas cedar",
+    "actions": [
+     {
+      "label": "Delta marble field",
+      "href": "https://pellmoor.example/orbit",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather notice juniper",
+      "href": "https://pellmoor.example/ledger",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.image-rows",
+   "variant": "plain",
+   "content": {
+    "heading": "Tidal lantern falcon refine",
+    "lead": "Measure pebble tidy thread delta quarry field prism",
+    "items": [
+     {
+      "title": "Meadow notice steer",
+      "text": "Cobalt tidal lantern falcon beacon atlas bundle grove"
+     },
+     {
+      "title": "Thread compass quarry",
+      "text": "Ember shape gather notice steer cobalt tidal fjord"
+     },
+     {
+      "title": "Weigh refine atlas",
+      "text": "Nimbus canvas cedar compass sketch ember orbit gather"
+     },
+     {
+      "title": "Summit juniper sort",
+      "text": "Harbor lantern signal refine measure nimbus grove map"
+     },
+     {
+      "title": "Delta marble field",
+      "text": "Prism meadow sprout steer sort share lantern weigh"
+     },
+     {
+      "title": "Refine measure bundle",
+      "text": "Canvas cedar trace sketch field prism meadow summit"
+     },
+     {
+      "title": "Steer sort tidal",
+      "text": "Willow signal refine atlas bundle tidy thread trace"
+     },
+     {
+      "title": "Marble field shape",
+      "text": "Gather summit harvest ledger tidal willow falcon beacon"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Rowan pebble",
+      "href": "https://pellmoor.example/grove",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "photo.generated-scene",
+      "ref": "generate:cedar-delta-quarry",
+      "alt": "Field orbit meadow summit steer cobalt share fjord"
+     },
+     {
+      "assetRole": "product.generated-visual",
+      "ref": "generate:weigh-beacon-measure",
+      "alt": "Bundle tidy thread delta marble ember orbit cinder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "features.logo-tiles",
+   "variant": "default",
+   "content": {
+    "heading": "Notice juniper ledger",
+    "lead": "Harbor willow weigh refine",
+    "actions": [
+     {
+      "label": "Measure pebble",
+      "href": "https://pellmoor.example/canvas",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cedar-delta-sketch",
+      "alt": "Ember"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:shape-gather-sprout",
+      "alt": "Harvest"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cobalt-harbor-fjord",
+      "alt": "Weigh"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:refine-rowan-nimbus",
+      "alt": "Grove"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:map-compass-quarry",
+      "alt": "Plan"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:orbit-cinder-sprout",
+      "alt": "Harvest"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:sort-share-fjord",
+      "alt": "Signal"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:basil-measure-pebble",
+      "alt": "Tidy"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cedar-trace-quarry",
+      "alt": "Field"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:shape-cinder-sprout",
+      "alt": "Juniper"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cobalt-harbor-fjord",
+      "alt": "Falcon"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:beacon-rowan-pebble",
+      "alt": "Tidy"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cedar-trace-marble",
+      "alt": "Ember"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:orbit-meadow-notice",
+      "alt": "Steer"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:cobalt-tidal-fjord",
+      "alt": "Falcon"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:basil-measure-bundle",
+      "alt": "Grove"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:map-compass-sketch",
+      "alt": "Plan"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:prism-meadow-notice",
+      "alt": "Harvest"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:sort-share-lantern",
+      "alt": "Signal"
+     },
+     {
+      "assetRole": "partner.placeholder-icon",
+      "ref": "generate:beacon-rowan-bundle",
+      "alt": "Grove"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "marquee.loop",
+    "reducedMotionFallback": "paused-static-row"
+   }
+  },
+  {
+   "section": "conversion.sales-form",
+   "variant": "payments",
+   "content": {
+    "heading": "Cedar delta quarry field prism",
+    "lead": "Meadow summit steer cobalt tidal fjord signal beacon",
+    "items": [
+     {
+      "text": "Atlas bundle tidy thread compass"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Quarry",
+      "href": "https://pellmoor.example/field",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:orbit-meadow-sprout",
+      "alt": "Juniper"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "static",
+    "reducedMotionFallback": "none-needed"
+   }
+  },
+  {
+   "section": "faq.accordion",
+   "variant": "default",
+   "content": {
+    "heading": "Ledger share lantern signal",
+    "items": [
+     {
+      "title": "Refine rowan bundle tidy cedar compass quarry",
+      "text": "Field orbit meadow notice steer sort harbor willow"
+     },
+     {
+      "title": "Weigh refine atlas pebble tidy map trace",
+      "text": "Marble plan prism gather summit harvest sort harbor"
+     },
+     {
+      "title": "Fjord falcon refine measure pebble canvas cedar",
+      "text": "Delta marble ember prism cinder sprout harvest cobalt"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Tidal fjord",
+      "href": "https://pellmoor.example/weigh",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Basil atlas",
+      "href": "https://pellmoor.example/nimbus",
+      "linkRole": "link.placeholder"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "accordion.expand",
+    "reducedMotionFallback": "instant-toggle"
+   }
+  },
+  {
+   "section": "shell.footer",
+   "variant": "default",
+   "content": {
+    "items": [
+     {
+      "title": "Canvas",
+      "text": "Thread compass quarry plan shape gather summit harvest"
+     },
+     {
+      "title": "Cobalt",
+      "text": "Tidal lantern signal beacon rowan pebble canvas cedar"
+     },
+     {
+      "title": "Compass",
+      "text": "Sketch field shape meadow notice harvest cobalt tidal"
+     },
+     {
+      "title": "Willow",
+      "text": "Falcon beacon rowan pebble tidy cedar delta sketch"
+     }
+    ],
+    "actions": [
+     {
+      "label": "Ember shape",
+      "href": "https://pellmoor.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice juniper",
+      "href": "https://pellmoor.example/cobalt",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harbor willow",
+      "href": "https://pellmoor.example/signal",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Beacon measure",
+      "href": "https://pellmoor.example/pebble",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Tidy cedar",
+      "href": "https://pellmoor.example/compass",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Quarry field",
+      "href": "https://pellmoor.example/shape",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Gather sprout",
+      "href": "https://pellmoor.example/harvest",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Ledger share",
+      "href": "https://pellmoor.example/lantern",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Signal basil",
+      "href": "https://pellmoor.example/atlas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Nimbus grove",
+      "href": "https://pellmoor.example/map",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Trace marble",
+      "href": "https://pellmoor.example/plan",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Shape gather",
+      "href": "https://pellmoor.example/sprout",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Harvest ledger",
+      "href": "https://pellmoor.example/share",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Fjord falcon",
+      "href": "https://pellmoor.example/beacon",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Rowan pebble",
+      "href": "https://pellmoor.example/canvas",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Cedar delta",
+      "href": "https://pellmoor.example/quarry",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Plan orbit",
+      "href": "https://pellmoor.example/cinder",
+      "linkRole": "link.placeholder"
+     },
+     {
+      "label": "Notice juniper",
+      "href": "https://pellmoor.example/cobalt",
+      "linkRole": "link.placeholder"
+     }
+    ],
+    "media": [
+     {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "generate:share-willow-weigh"
+     },
+     {
+      "assetRole": "brand.user-supplied-mark",
+      "ref": "generate:basil-atlas-nimbus"
+     }
+    ]
+   },
+   "motion": {
+    "pattern": "parallax.pointer",
+    "reducedMotionFallback": "static-offsets"
+   }
+  }
+ ]
+}

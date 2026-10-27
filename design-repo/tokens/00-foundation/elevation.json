@@ -1,0 +1,41 @@
+{
+ "note": "Foundation tokens. value + category; `cite` is path:line in the clone source and `match` is text that must appear on that line (verify_all CITATIONS).",
+ "tokens": {
+  "elevation.chip": {
+   "value": "0 10px 30px rgba(0,0,0,.14)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:76",
+   "match": "'0 10px 30px rgba(0,0,0,.14)'"
+  },
+  "elevation.embed": {
+   "value": "0 0 18px rgba(26,19,72,.15)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:74",
+   "match": "'0 0 18px rgba(26,19,72,.15)'"
+  },
+  "elevation.frame": {
+   "value": "0 24px 60px rgba(17,43,70,.16)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:75",
+   "match": "'0 24px 60px rgba(17,43,70,.16)'"
+  },
+  "elevation.modal": {
+   "value": "0 24px 64px rgba(0,0,0,.22)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:78",
+   "match": "'0 24px 64px rgba(0,0,0,.22)'"
+  },
+  "elevation.submit": {
+   "value": "0 1px 4px rgba(30,48,39,.08)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:77",
+   "match": "'0 1px 4px rgba(30,48,39,.08)'"
+  },
+  "elevation.tile": {
+   "value": "0 2px 5px rgba(0,0,0,.08)",
+   "category": "elevation",
+   "cite": "tailwind.config.cjs:73",
+   "match": "'0 2px 5px rgba(0,0,0,.08)'"
+  }
+ }
+}

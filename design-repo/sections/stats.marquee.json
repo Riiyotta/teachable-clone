@@ -1,0 +1,143 @@
+{
+ "id": "stats.marquee",
+ "title": "Stats marquee",
+ "semantic": {
+  "id": "stats.marquee",
+  "category": "STATS"
+ },
+ "source": {
+  "id": "StatsMarquee:StatsMarquee:div@74",
+  "file": "src/components/sections/StatsMarquee.jsx",
+  "tag": "div",
+  "lines": "72-86",
+  "tagLine": 74,
+  "tagLineSha1": "d0d5392cf2a7d553",
+  "anchor": "export default function StatsMarquee",
+  "anchorLine": 72
+ },
+ "additionalSources": [
+  {
+   "id": "StatsMarquee:Stats:section@47#stack",
+   "file": "src/components/Stats.jsx",
+   "tag": "section",
+   "lines": "44-77",
+   "tagLine": 47,
+   "tagLineSha1": "17a4b2360cc9ab64",
+   "anchor": "export default function Stats",
+   "anchorLine": 44
+  }
+ ],
+ "purpose": "Looping row of three stats with icons; replaced at <=479px by a stacked stat list.",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "items"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/ai-hub",
+    "/coaching",
+    "/digital-downloads",
+    "/online-courses"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "items"
+  ],
+  "fields": {
+   "items[].title": {
+    "type": "text",
+    "maxWords": 2,
+    "maxChars": 14,
+    "observedIn": 4
+   },
+   "items[].text": {
+    "type": "text",
+    "maxWords": 28,
+    "maxChars": 164,
+    "observedIn": 4
+   }
+  },
+  "listSizes": {
+   "items": [
+    3,
+    4
+   ]
+  }
+ },
+ "assets": {
+  "fields": {},
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "marquee.loop"
+  ],
+  "requiredPatterns": [
+   "marquee.loop"
+  ],
+  "reducedMotionFallback": {
+   "marquee.loop": "paused-static-row"
+  }
+ },
+ "responsive": [
+  {
+   "range": ">=480",
+   "behavior": "60s linear loop, 72px tall at 1440"
+  },
+  {
+   "range": "<=479",
+   "behavior": "stacked stat chips instead of the loop"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 4,
+   "minPx": 72,
+   "maxPx": 72,
+   "medianPx": 72.0,
+   "sample": {
+    "/online-courses": 72,
+    "/coaching": 72,
+    "/digital-downloads": 72,
+    "/ai-hub": 72
+   }
+  },
+  "390": {
+   "nodes": 4,
+   "minPx": 522.6,
+   "maxPx": 756.7,
+   "medianPx": 522.6,
+   "sample": {
+    "/online-courses": 522.6,
+    "/coaching": 522.6,
+    "/digital-downloads": 522.6,
+    "/ai-hub": 756.7
+   }
+  }
+ },
+ "evidence": [
+  "src/components/sections/StatsMarquee.jsx:72-86",
+  "src/components/Stats.jsx:44-77",
+  "src/pages/OnlineCourses.jsx:33",
+  "src/pages/Coaching.jsx:34",
+  "src/pages/DigitalDownloads.jsx:30",
+  "src/pages/AIHub.jsx:55"
+ ]
+}

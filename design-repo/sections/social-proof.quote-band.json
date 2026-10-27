@@ -1,0 +1,131 @@
+{
+ "id": "social-proof.quote-band",
+ "title": "Customer quote band",
+ "semantic": {
+  "id": "social-proof.quote-band",
+  "category": "SOCIAL_PROOF"
+ },
+ "source": {
+  "id": "QuoteBanner:QuoteBanner:section@22",
+  "file": "src/components/pages/enterprise/QuoteBanner.jsx",
+  "tag": "section",
+  "lines": "20-42",
+  "tagLine": 22,
+  "tagLineSha1": "90459129a877ef84",
+  "anchor": "export default function QuoteBanner",
+  "anchorLine": 20
+ },
+ "additionalSources": [],
+ "purpose": "Pale gradient band with a company logo, a pull quote and attribution (the clone uses a placeholder logo and a fictional quote).",
+ "retrievalEligible": true,
+ "placement": "main",
+ "variants": {
+  "default": {
+   "description": "single observed variant",
+   "requiredFields": [
+    "items",
+    "media"
+   ],
+   "forbiddenFields": [],
+   "observedOn": [
+    "/enterprise"
+   ]
+  }
+ },
+ "content": {
+  "budgetRule": "Budgets are COUNTS measured from the rendered clone at 1440 and 390 (extraction/measured-values.json copyBudgetExtractor); copy itself is never stored. maxWords/maxChars = the maximum observed across every route that renders this section; list sizes = observed min/max. Shorter is allowed; longer is rejected.",
+  "requiredFields": [
+   "items",
+   "media"
+  ],
+  "fields": {
+   "items[].text": {
+    "type": "text",
+    "maxWords": 27,
+    "maxChars": 161,
+    "observedIn": 1
+   },
+   "media[].alt": {
+    "type": "text",
+    "maxWords": 3,
+    "maxChars": 24,
+    "observedIn": 1
+   }
+  },
+  "listSizes": {
+   "items": [
+    2,
+    2
+   ],
+   "media": [
+    1,
+    1
+   ]
+  }
+ },
+ "assets": {
+  "fields": {
+   "media[]": {
+    "type": "asset",
+    "referenceRoles": [
+     "customer.placeholder-logo"
+    ],
+    "generatedRoles": [
+     "customer.placeholder-logo"
+    ]
+   }
+  },
+  "note": "reference mode may use referenceRoles (evidence); generated mode must use generatedRoles (generation-safe only, pinned in code). See assets/asset-roles.json."
+ },
+ "generatedAssetRoles": [
+  "customer.placeholder-logo"
+ ],
+ "style": {
+  "props": {},
+  "note": "token props take token-catalog names only (tokens/llm/token-catalog.json); allowed values per section are listed in tokens/llm/token-policy.json styleProps."
+ },
+ "constraints": {
+  "maxPerPage": 1,
+  "consecutiveVariants": []
+ },
+ "motion": {
+  "allowedPatterns": [
+   "static"
+  ],
+  "requiredPatterns": [],
+  "reducedMotionFallback": {
+   "static": "none-needed"
+  }
+ },
+ "responsive": [
+  {
+   "range": "all",
+   "behavior": "logo above the quote"
+  }
+ ],
+ "runtimeUi": [],
+ "measuredHeightsPx": {
+  "1440": {
+   "nodes": 1,
+   "minPx": 358.8,
+   "maxPx": 358.8,
+   "medianPx": 358.8,
+   "sample": {
+    "/enterprise": 358.8
+   }
+  },
+  "390": {
+   "nodes": 1,
+   "minPx": 527.8,
+   "maxPx": 527.8,
+   "medianPx": 527.8,
+   "sample": {
+    "/enterprise": 527.8
+   }
+  }
+ },
+ "evidence": [
+  "src/components/pages/enterprise/QuoteBanner.jsx:20-42",
+  "src/pages/Enterprise.jsx:36"
+ ]
+}
